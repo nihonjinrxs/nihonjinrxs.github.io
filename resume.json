@@ -17,7 +17,7 @@
             "username": "nihonjinrxs",
             "url": "https://github.com/nihonjinrxs"
         }, {
-            "network": "github",
+            "network": "github2",
             "username": "ryanbharvey",
             "url": "https://github.com/ryanbharvey"
         }, {
@@ -79,7 +79,7 @@
         "position": "IT Project Manager",
         "company": "Executive Office of the President",
         "website": "http://www.whitehouse.gov/omb",
-        "summary": "In the Budget Systems Branch of the Office of Management and Budget, I'm responsible for the development of our next generation data collection platform and its associated Java EE-based microservices that facilitates government-wide data collections and enable development of the President's Budget.  I make sure our 130,000+ users are happy and ensure that all the must-have features are complete within the impossible timelines allocated.  I'm also responsible for our UX design team, delivering style guidance, prototypes and coded front-end solutions across many of our 50+ web applications.  In addition, I manage a few other web apps, write lots of SQL, and improve our development and project management tools and processes.",
+        "summary": "In the Budget Systems Branch of the Office of Management and Budget, I'm responsible for the development of our data collection platforms, including a next generation data collection platform composed of Java EE-based micro-services, that facilitate government-wide data collections and enable the development and publication of the President's Budget.  I make sure our 150,000+ users are happy and ensure that all the must-have features are complete within the impossible timelines allocated.  I'm also responsible for our UX design team, delivering style guidance, prototypes and coded front-end solutions across many of our 50+ web applications.  In addition, I manage a few other web apps, write lots of SQL, and improve our development and project management tools and processes.",
         "highlights": []
     }, {
         "startDate": "2013-06-02",
@@ -96,6 +96,14 @@
         "company": "University of Maryland",
         "website": "http://norbertwiener.umd.edu",
         "summary": "I'm a research affiliate in the Norbert Wiener Center for Harmonic Analysis and Applications, housed in the Department of Mathematics. I occasionally collaborate with NWC staff on research in applications of harmonic analysis, mostly in the areas of machine learning, signal processing, and dimensionality reduction.",
+        "highlights": []
+    }, {
+        "startDate": "2016-01-06",
+        "endDate": null,
+        "position": "Member of the Board and Co-Organizer of Data Wranglers DC",
+        "company": "Data Community DC",
+        "website": "http://www.datacommunitydc.org",
+        "summary": "I co-organize the Data Wranglers DC meetup, a group offering monthly talks and discussions on various topics related to data wrangling, munging, preprocessing, reformatting, cleaning, pivoting, and more.  I also serve on the Board of the organization, participating in a variety of Data Community DC-wide projects.",
         "highlights": []
     }, {
         "startDate": "2009-03-02",
@@ -372,6 +380,12 @@
     }],
     "interests": ["reading", "mystery literature", "coding", "music", "cello", "bass guitar", "judo", "Japan", "Japanese literature", "Japanese animation", "fantasy literature"],
     "references": [{
+        "name": "Alexandra Screven",
+        "reference": "Ryan is the best mentor I could ever ask for, not only in programming through Data Wranglers, but also in general time management and prioritizing.\n\nBasically, he's the Beyonce of the data science world. Always remind yourself that you have the same amount of hours in a day as Ryan Harvey... Stop complaining and make stuff happen.",
+        "profile": "https://www.linkedin.com/profile/view?id=241589621",
+        "date": "2015-08-14",
+        "relationship": "mentored by Ryan at Data Wranglers DC"
+    },{
         "name": "Alen Kirkorian",
         "reference": "Ryan focuses on the bigger picture -- not just the bandaid. He's a great developer and manager and would be my first choise for implementing a solution that can scale from a small size to supporting an enterprise wide solution.",
         "profile": "https://www.linkedin.com/in/akirkorian",
