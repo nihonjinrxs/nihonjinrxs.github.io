@@ -179,6 +179,10 @@
                   <a class="fa fa-github fa-2x social-link link-github"
                        href="{{github_url}}" target="_blank"></a>
                 {{/if}}
+                {{#if github2_url}}
+                  <a class="fa fa-github fa-2x social-link link-github2"
+                       href="{{github2_url}}" target="_blank"></a>
+                {{/if}}
                 {{#if bitbucket_url}}
                   <a class="fa fa-bitbucket fa-2x social-link link-bitbucket" href="{{bitbucket_url}}" target="_blank"></a>
                 {{/if}}

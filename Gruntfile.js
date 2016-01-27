@@ -74,7 +74,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-copy');
 
     // Default tasks
-    grunt.registerTask('default', [ 'exec' ]);
+    grunt.registerTask('default', [ 'build' ]);
     grunt.registerTask('build', [ 
         'copy:resumejson', 
         'clean', 

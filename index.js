@@ -5,7 +5,7 @@ var _ = require('underscore');
 var _s = require('underscore.string');
 var moment = require('moment');
 
-// Utity Methods ( need be moved to a separate file)
+// Utility Methods ( need be moved to a separate file)
 
 function hasEmail(resume) {
     return !!resume.basics && !! resume.basics.email;
@@ -48,6 +48,7 @@ function humanizeDuration ( moment_obj, did_leave_company ) {
 function getUrlFromUsername( site, username ) {
     var url_map = {
         github: 'github.com',
+        github2: 'github.com',
         twitter: 'twitter.com',
         soundcloud: 'soundcloud.com',
         pinterest: 'pinterest.com',
@@ -96,7 +97,7 @@ function render(resume) {
     var css = fs.readFileSync(__dirname + '/assets/css/theme.css', 'utf-8'),
         template = fs.readFileSync(__dirname + '/resume.template', 'utf-8'),
         profiles = resume.basics.profiles,
-        social_sites = ["github", "linkedin", "stackoverflow", "twitter",
+        social_sites = ["github", "github2", "linkedin", "stackoverflow", "twitter",
                         "soundcloud", "pinterest", "vimeo", "behance",
                         "codepen", "foursquare", "reddit", "spotify",
                         "dribble", "dribbble", "facebook", "angellist",
