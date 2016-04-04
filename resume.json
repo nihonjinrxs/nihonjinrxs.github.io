@@ -131,6 +131,19 @@
         "highlights": []
     }],
     "education": [{
+        "institution": "Johns Hopkins University on Coursera",
+        "studyType": "Executive Data Science Specialization",
+        "area": "Data Science Management",
+        "startDate": "2015-10-01",
+        "endDate": "2016-03-27",
+        "courses": [
+            "A Crash Course in Data Science",
+            "Building a Data Science Team",
+            "Managing Data Analysis",
+            "Data Science in Real Life",
+            "Executive Data Science Capstone"
+        ]
+    },{
         "institution": "University of Maryland at College Park",
         "studyType": "Doctor of Philosophy (candidate, all but dissertation)",
         "area": "Applied Mathematics, Applied Statistics and Scientific Computing",
@@ -368,15 +381,15 @@
     }, {
         "name": "Back-end Software Development",
         "level": "master",
-        "keywords": ["Python", "Java", "SQL", "Ruby", "Databases", "Software Architecture", "Software Design", "C++", "C", "Mac OS X", "Linux", "Windows", "Data Integration"]
+        "keywords": ["Python", "Java", "SQL", "Ruby", "Databases", "Software Architecture", "Software Design", "Microservices", "Web APIs", "C++", "C", "Mac OS X", "Linux", "Windows", "Data Integration", "ETL"]
     }, {
         "name": "Design",
-        "level": "intermediate",
+        "level": "advanced",
         "keywords": ["Iterative Design", "User-centered Design", "Information Design", "Information Architecture", "Prototyping", "Web Design", "Information Visualization", "Accessible Design"]
     }, {
         "name": "Business, Government and Project Management",
-        "level": "advanced",
-        "keywords": ["Agile Project Management", "Agile Methodologies", "Information Technology Management", "Public Speaking", "Strategic Planning", "Visioning", "Writing", "Technical Writing", "Presentation Development", "Public Sector", "Federal Government", "Federal Budget", "Open Government Initiative", "Open Data", "Federal Records Management", "Microsoft Office", "Adobe Creative Suite"]
+        "level": "master",
+        "keywords": ["Agile Project Management", "Agile Methodologies", "Information Technology Management", "Data Analysis Management", "Public Speaking", "Strategic Planning", "Visioning", "Writing", "Technical Writing", "Presentation Development", "Public Sector", "Federal Government", "Federal Budget", "Open Government Initiative", "Open Data", "Federal Records Management", "Microsoft Office", "Adobe Creative Suite"]
     }],
     "interests": ["reading", "mystery literature", "coding", "music", "cello", "bass guitar", "judo", "Japan", "Japanese literature", "Japanese animation", "fantasy literature"],
     "references": [{
