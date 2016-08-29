@@ -74,12 +74,20 @@
         }]
     },
     "work": [{
-        "startDate": "2012-04-02",
+        "startDate": "2016-08-22",
         "endDate": null,
+        "position": "Data Engineer",
+        "company": "TED",
+        "website": "http://www.ted.com",
+        "summary": "In this position in the Analytics vertical of the Technology Team, I build data processing pipelines and data products for TED's web presences and for the organization's internal tools and reporting.",
+        "highlights": []
+    }, {
+        "startDate": "2012-04-02",
+        "endDate": "2016-08-06",
         "position": "IT Project Manager",
         "company": "Executive Office of the President",
         "website": "http://www.whitehouse.gov/omb",
-        "summary": "In the Budget Systems Branch of the Office of Management and Budget, I'm responsible for the development of our data collection platforms, including a next generation data collection platform composed of Java EE-based micro-services, that facilitate government-wide data collections and enable the development and publication of the President's Budget.  I make sure our 150,000+ users are happy and ensure that all the must-have features are complete within the impossible timelines allocated.  I'm also responsible for our UX design team, delivering style guidance, prototypes and coded front-end solutions across many of our 50+ web applications.  In addition, I manage a few other web apps, write lots of SQL, and improve our development and project management tools and processes.",
+        "summary": "In the Budget Systems Branch of the Office of Management and Budget, I was responsible for the development of our data collection platforms, including a next generation data collection platform composed of Java EE-based micro-services, that facilitate government-wide data collections and enable the development and publication of the President's Budget.  I made sure our 180,000+ users were happy and ensured that all the must-have features were complete within the impossible timelines allocated.  I was also responsible for our UX design team, delivering style guidance, prototypes and coded front-end solutions across many of our 50+ web applications.  In addition, I managed a few other web apps, wrote lots of SQL, and improved our development and project management tools and processes.",
         "highlights": []
     }, {
         "startDate": "2013-06-02",
@@ -91,11 +99,11 @@
         "highlights": []
     }, {
         "startDate": "2014-09-02",
-        "endDate": null,
+        "endDate": "2016-06-31",
         "position": "Research Affiliate",
         "company": "University of Maryland",
         "website": "http://norbertwiener.umd.edu",
-        "summary": "I'm a research affiliate in the Norbert Wiener Center for Harmonic Analysis and Applications, housed in the Department of Mathematics. I occasionally collaborate with NWC staff on research in applications of harmonic analysis, mostly in the areas of machine learning, signal processing, and dimensionality reduction.",
+        "summary": "I was a research affiliate in the Norbert Wiener Center for Harmonic Analysis and Applications, housed in the Department of Mathematics. I occasionally collaborated with NWC staff on research in applications of harmonic analysis, mostly in the areas of machine learning, signal processing, and dimensionality reduction.",
         "highlights": []
     }, {
         "startDate": "2016-01-06",
