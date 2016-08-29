@@ -8,8 +8,8 @@
         "phone": "301-375-0678",
         "website": "http://about.me/ryan.b.harvey",
         "location": {
-            "city": "Lanham",
-            "region": "MD",
+            "city": "Greater New Orleans Area",
+            "region": "LA",
             "countryCode": "USA"
         },
         "profiles": [{
@@ -103,7 +103,7 @@
         "position": "Research Affiliate",
         "company": "University of Maryland",
         "website": "http://norbertwiener.umd.edu",
-        "summary": "I'm a research affiliate in the Norbert Wiener Center for Harmonic Analysis and Applications, housed in the Department of Mathematics. I occasionally collaborate with NWC staff on research in applications of harmonic analysis, mostly in the areas of machine learning, signal processing, and dimensionality reduction.",
+        "summary": "I was a research affiliate in the Norbert Wiener Center for Harmonic Analysis and Applications, housed in the Department of Mathematics. I occasionally collaborated with NWC staff on research in applications of harmonic analysis, mostly in the areas of machine learning, signal processing, and dimensionality reduction.",
         "highlights": []
     }, {
         "startDate": "2016-01-06",
