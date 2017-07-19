@@ -79,15 +79,31 @@
         "position": "Data Engineer",
         "company": "TED",
         "website": "http://www.ted.com",
-        "summary": "In this position in the Analytics vertical of the Technology Team, I build data processing pipelines and data products for TED's web presences and for the organization's internal tools and reporting.",
+        "summary": "In this position in the Analytics vertical of the Technology Team, I build data processing pipelines and data products for TED's web presences and for the organization's internal tools and reporting. I spend most of my time in R, Shiny, SQL, Ruby or Docker, and occasionally work with bash, Go or Groovy. Recently, I've been working on a user-personalized recommendations API.",
         "highlights": []
     }, {
-        "startDate": "2012-04-02",
-        "endDate": "2016-08-06",
-        "position": "IT Project Manager",
-        "company": "Executive Office of the President",
-        "website": "http://www.whitehouse.gov/omb",
-        "summary": "In the Budget Systems Branch of the Office of Management and Budget, I was responsible for the development of our data collection platforms, including a next generation data collection platform composed of Java EE-based micro-services, that facilitate government-wide data collections and enable the development and publication of the President's Budget.  I made sure our 180,000+ users were happy and ensured that all the must-have features were complete within the impossible timelines allocated.  I was also responsible for our UX design team, delivering style guidance, prototypes and coded front-end solutions across many of our 50+ web applications.  In addition, I managed a few other web apps, wrote lots of SQL, and improved our development and project management tools and processes.",
+        "startDate": "2016-12-15",
+        "endDate": null,
+        "position": "Research Associate (Pro Bono)",
+        "company": "Loyola University New Orleans",
+        "website": "http://cas.loyno.edu/mathematics",
+        "summary": "In this volunteer position in the Department of Mathematical Sciences, I assist with computer science curriculum development, project ideas, community partnerships, and research.",
+        "highlights": []
+    }, {
+        "startDate": "2016-10-13",
+        "endDate": null,
+        "position": "Co-Organizer & Chief Data Wrangler",
+        "company": "Code for New Orleans",
+        "website": "http://codeforneworleans.org",
+        "summary": "I help organize the New Orleans brigade of Code for America, where we try to create solutions to the problems we see in the city and make life better for New Orleanians.",
+        "highlights": []
+    }, {
+        "startDate": "2014-09-02",
+        "endDate": null,
+        "position": "Research Affiliate",
+        "company": "University of Maryland",
+        "website": "http://norbertwiener.umd.edu",
+        "summary": "I am a research affiliate in the Norbert Wiener Center for Harmonic Analysis and Applications, housed in the Department of Mathematics. I occasionally collaborated with NWC staff on research in applications of harmonic analysis, mostly in the areas of machine learning, signal processing, and dimensionality reduction.",
         "highlights": []
     }, {
         "startDate": "2013-06-02",
@@ -98,16 +114,16 @@
         "summary": "As part of the tech team at this small startup, I develop machine learning and data analysis algorithms for food and recipe science. I also wear any other hat needed, from server and database management to launch planning to business process and software architecture.",
         "highlights": []
     }, {
-        "startDate": "2014-09-02",
-        "endDate": "2016-06-31",
-        "position": "Research Affiliate",
-        "company": "University of Maryland",
-        "website": "http://norbertwiener.umd.edu",
-        "summary": "I was a research affiliate in the Norbert Wiener Center for Harmonic Analysis and Applications, housed in the Department of Mathematics. I occasionally collaborated with NWC staff on research in applications of harmonic analysis, mostly in the areas of machine learning, signal processing, and dimensionality reduction.",
+        "startDate": "2012-04-02",
+        "endDate": "2016-08-06",
+        "position": "IT Project Manager",
+        "company": "Executive Office of the President",
+        "website": "http://www.whitehouse.gov/omb",
+        "summary": "In the Budget Systems Branch of the Office of Management and Budget, I was responsible for the development of our data collection platforms, including a next generation data collection platform composed of Java EE-based micro-services, that facilitate government-wide data collections and enable the development and publication of the President's Budget.  I made sure our 180,000+ users were happy and ensured that all the must-have features were complete within the impossible timelines allocated.  I was also responsible for our UX design team, delivering style guidance, prototypes and coded front-end solutions across many of our 50+ web applications.  In addition, I managed a few other web apps, wrote lots of SQL, and improved our development and project management tools and processes.",
         "highlights": []
     }, {
         "startDate": "2016-01-06",
-        "endDate": null,
+        "endDate": "2016-09-08",
         "position": "Board Member & Co-Organizer of Data Wranglers DC",
         "company": "Data Community DC",
         "website": "http://www.datacommunitydc.org",
@@ -140,10 +156,25 @@
     }],
     "education": [{
         "institution": "Johns Hopkins University on Coursera",
+        "studyType": "Mastering Software Development in R Specialization",
+        "area": "Data Engineering",
+        "startDate": "2016-10-08",
+        "endDate": null,
+        "completed": false,
+        "courses": [
+            "The R Programming Environment",
+            "Advanced R Programming",
+            "Building R Packages",
+            "Building Data Visualization Tools",
+            "Mastering Software Development in R Capstone"
+        ]
+    },{
+        "institution": "Johns Hopkins University on Coursera",
         "studyType": "Executive Data Science Specialization",
         "area": "Data Science Management",
         "startDate": "2015-10-01",
         "endDate": "2016-03-27",
+        "completed": true,
         "courses": [
             "A Crash Course in Data Science",
             "Building a Data Science Team",
@@ -157,6 +188,7 @@
         "area": "Applied Mathematics, Applied Statistics and Scientific Computing",
         "startDate": "2007-09-01",
         "endDate": "2014-06-02",
+        "completed": false,
         "courses": [
             "AMSC898 Pre-dissertation Research",
             "AMSC899 Dissertation Research"
@@ -167,6 +199,7 @@
         "area": "Applied Mathematics and Scientific Computing",
         "startDate": "2003-09-01",
         "endDate": "2007-12-31",
+        "completed": true,
         "courses": [
             "AMSC663 Advanced Scientific Computing I",
             "AMSC664 Advanced Scientific Computing II",
@@ -187,6 +220,7 @@
         "area": "Scientific Computing",
         "startDate": "2003-09-01",
         "endDate": "2007-07-31",
+        "completed": true,
         "courses": [
             "AMSC660 Scientific Computing I",
             "AMSC661 Scientific Computing II",
@@ -199,6 +233,7 @@
         "area": "Computational Harmonic Analysis",
         "startDate": "2003-09-01",
         "endDate": "2007-07-31",
+        "completed": true,
         "courses": [
             "MAIT623 Mathematical Methods for Signal Processing I",
             "MAIT624 Mathematical Methods for Signal Processing II",
@@ -211,6 +246,7 @@
         "area": "Innovation Management",
         "startDate": "2010-01-02",
         "endDate": "2010-05-31",
+        "completed": true,
         "courses": [
             "Strategies for Managing Innovation",
             "Negotiation Techniques",
@@ -224,6 +260,7 @@
         "area": "Mathematics and Computer Science, minor in Japanese Studies",
         "startDate": "1997-09-01",
         "endDate": "2001-05-22",
+        "completed": true,
         "courses": [
             "MATH-A200 Intro to Linear Algebra",
             "MATH-A204 Discrete Math Structures",
@@ -278,18 +315,38 @@
         ]
     }],
     "publications": [{
+        "name": "Sets, Bags, and Relational Theory: Real-World Interactions with Data",
+        "publicationType": "talk",
+        "publisher": "Loyola University New Orleans, ΠΜΕ LAΘ Chapter",
+        "releaseDate": "2017-01-26 12:30:00-0400",
+        "website": "http://loyno.edu/~pme/",
+        "summary": "I gave a talk on sets and their extension to relational theory of databases to the Pi Mu Epsilon mathematics honor society chapter at Loyola University New Orleans.",
+        "links": {
+          "slides": "https://slides.com/ryanbharvey/sets-bags-relational-theory/live#/"
+        }
+      }, {
+        "name": "A Brief Introduction to Web Components and Polymer",
+        "publicationType": "talk",
+        "publisher": "#FrontEndParty",
+        "releaseDate": "2016-10-27 19:00:00-0400",
+        "website": "https://www.meetup.com/FrontEndParty/events/234276694/",
+        "summary": "In this talk to the New Orleans #FrontEndParty meetup, I gave an introduction to web components and their standards, as well as an introduction to Google's Polymer Project, which makes it possible to build web component based sites and apps today. I also briefly reviewed the changes between Polymer 1.x and the 2.0 Preview, and the upgrade path provided by the Polymer team.",
+        "links": {
+          "slides": "https://github.com/nihonjinrxs/frontendparty-oct2016/blob/master/slides/webcomponents.pdf",
+          "materials": "https://github.com/nihonjinrxs/frontendparty-oct2016"
+        }
+      }, {
         "name": "Agile - Where is the Greatest Value",
         "publicationType": "talk",
         "publisher": "ACT-IAC Management of Change 2015",
-        "releaseDate": "2015-04-18T11:25:00-0500",
+        "releaseDate": "2015-04-18 11:25:00-0500",
         "website": "https://actiac.org/events/MOC2015",
         "summary": "At this conference, organized by the American Council for Technology and Industry Advisory Council (ACT-IAC), I was one of three participants in a \"Learning Lounge\" panel discussion on agile project management methodologies and their fit and value for government technology projects."
-
      }, {
         "name": "JSON Processing in the Database using PostgreSQL 9.4",
         "publicationType": "talk",
         "publisher": "Data Wranglers DC",
-        "releaseDate": "2015-01-06T18:30:00-0500",
+        "releaseDate": "2015-01-06 18:30:00-0500",
         "website": "http://www.meetup.com/Data-Wranglers-DC/events/219112410/",
         "links": {
             "slides": "http://nihonjinrxs.github.io/dwdc-january2015/DWDC-January2015-RyanHarvey.pdf",
@@ -300,7 +357,7 @@
         "name": "Manipulating Data in Style with SQL",
         "publicationType": "talk",
         "publisher": "Polyglot Programming DC",
-        "releaseDate": "2014-10-14T18:30:00-0500",
+        "releaseDate": "2014-10-14 18:30:00-0500",
         "website": "http://www.meetup.com/Polyglot-Programming-DC/events/208670052/",
         "links": {
             "slides": "http://nihonjinrxs.github.io/polyglot-october2014/Polyglot-October2014-RyanHarvey.pdf",
@@ -311,7 +368,7 @@
         "name": "SQL, the Sequel",
         "publicationType": "talk",
         "publisher": "Data Wranglers DC",
-        "releaseDate": "2014-08-06T18:30:00-0500",
+        "releaseDate": "2014-08-06 18:30:00-0500",
         "website": "http://www.meetup.com/Data-Wranglers-DC/events/177269432/",
         "links": {
             "slides": "http://nihonjinrxs.github.io/dwdc-august2014/DWDC-August2014-RyanHarvey.pdf",
@@ -322,7 +379,7 @@
         "name": "Data Wrangling in SQL and Other Tools",
         "publicationType": "talk",
         "publisher": "Data Wranglers DC",
-        "releaseDate": "2014-06-04T18:30:00-0500",
+        "releaseDate": "2014-06-04 18:30:00-0500",
         "website": "http://www.meetup.com/Data-Wranglers-DC/events/171768162/",
         "links": {
             "slides": "https://nihonjinrxs.github.io/dwdc-june2014/DWDC-June2014-RyanHarvey.pdf",
@@ -333,7 +390,7 @@
         "name": "Creating an API using the OMB's Public Budget Database",
         "publicationType": "talk",
         "publisher": "Open Analytics Summit DC",
-        "releaseDate": "2013-03-25T13:30:00-0500",
+        "releaseDate": "2013-03-25 13:30:00-0500",
         "website": "http://www.openanalyticssummit.com/dc-schedule/",
         "links": {
             "slides": "http://www2.math.umd.edu/~rharvey/oadc-budget-api-slides/"
@@ -343,7 +400,7 @@
         "name": "Methods of Manifold Learning for Dimension Reduction of Large Data Sets",
         "publicationType": "talk",
         "publisher": "University of Maryland",
-        "releaseDate": "2010-05-17T10:00:00-0500",
+        "releaseDate": "2010-05-17 10:00:00-0500",
         "links": {
             "slides": "https://sites.google.com/site/ryanbharvey/CandidacyTalk_RBHarvey_20100517_final.pdf"
         },
@@ -352,7 +409,7 @@
         "name": "A Survey of Research on the Use and Development of Physical Models and Nonlinear Dynamics for Music and Sound Synthesis",
         "publicationType": "paper",
         "publisher": "University of Maryland",
-        "releaseDate": "2004-05-20T12:00:00-0500",
+        "releaseDate": "2004-05-20 12:00:00-0500",
         "links": {
             "paper": "https://drive.google.com/file/d/1CzzZ4YDmxaYRshbAKUVwbRBZftq9mXFA05mRFfqbw_Kdy-JAiRIauDGiXrzm"
         },
@@ -361,7 +418,7 @@
         "name": "Simulation of a Multiprogramming System Using a Multiple Processor Model",
         "publicationType": "paper",
         "publisher": "First Southern Symposium on Computing, University of Southern Mississippi",
-        "releaseDate": "1996-12-04T12:00:00-0500",
+        "releaseDate": "1996-12-04 12:00:00-0500",
         "links": {
             "paper": "https://drive.google.com/file/d/0B4O3Qws0_CejM0xQcmNlTHpkcUU"
         },
@@ -385,7 +442,7 @@
     }, {
         "name": "Web Development",
         "level": "master",
-        "keywords": ["HTML", "CSS", "JavaScript", "Ruby on Rails", "PHP", "Web Design", "Web Analytics", "Web Content Management", "Web 2.0", "Web Accessibility"]
+        "keywords": ["HTML", "CSS", "JavaScript", "Ruby on Rails", "PHP", "Web Components", "Polymer", "Web Design", "Web Analytics", "Web Content Management", "Web 2.0", "Web Accessibility"]
     }, {
         "name": "Back-end Software Development",
         "level": "master",
@@ -401,6 +458,18 @@
     }],
     "interests": ["reading", "mystery literature", "coding", "music", "cello", "bass guitar", "judo", "Japan", "Japanese literature", "Japanese animation", "fantasy literature"],
     "references": [{
+      "name": "Ryan Rusnak",
+      "reference": "Ryan Harvey is one of the smartest guys I have ever worked with. We have white boarded and collaborated on machine learning problems, monte carlo simulations and even the application that assembles the federal budget. Just never be on the other end of an interview from him and claim you are an expert at SQL!",
+      "profile": "https://www.linkedin.com/in/ryan-rusnak-b936989/",
+      "date": "2017-04-07",
+      "relationship": "reported to Ryan at Executive Office of the President"
+    }, {
+        "name": "Dan Chandler",
+        "reference": "Ryan is without reservation the best IT Architect I have ever known. His vast knowledge of the IT industry is unparalleled and he is able to effectively apply this knowledge to effectively address the business needs of an organization. Ryan's skill, talent, and dedication make him an invaluable asset to any team lucky enough to have him.",
+        "profile": "https://www.linkedin.com/in/dan-chandler-03ab45",
+        "date": "2016-10-08",
+        "relationship": "worked with Ryan at Executive Office of the President"
+    },{
         "name": "Alexandra Screven",
         "reference": "Ryan is the best mentor I could ever ask for, not only in programming through Data Wranglers, but also in general time management and prioritizing.\n\nBasically, he's the Beyonce of the data science world. Always remind yourself that you have the same amount of hours in a day as Ryan Harvey... Stop complaining and make stuff happen.",
         "profile": "https://www.linkedin.com/profile/view?id=241589621",
@@ -516,19 +585,3 @@
         "relationship": "taught Ryan at Loyola University New Orleans"
     }]
 }
-
-
-
-
-
-
- 
- 
- 
- 
- 
- 
- 
-
-
-
