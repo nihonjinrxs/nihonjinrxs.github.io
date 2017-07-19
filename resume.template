@@ -7,8 +7,9 @@
     <title>{{#resume.basics}}{{name}}{{/resume.basics}}</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/theme.css">
+    {{! <link rel="stylesheet" href="assets/css/theme.css"/> }}
     <link rel="shortcut icon" href="favicon.ico" />
+    <style>{{css}}</style>
   </head>
 
   <body itemscope itemtype="http://schema.org/Person">
@@ -63,7 +64,7 @@
                 </a>
               </li>
             {{/if}}
-            {{#if resume.public}}
+            {{#if resume.publications}}
               <li>
                 <a href="#publications">
                   <i class="fa fa-book"></i>Talks &amp; Papers
@@ -670,7 +671,7 @@
                         {{#each resume.references}}
                           <li class="card card-nested">
                             <p>
-                              <a href="{{profile}}" target="_blank"><strong>{{name}}</strong></a>, 
+                              <a href="{{profile}}" target="_blank"><strong>{{name}}</strong></a>,
                               {{{date}}} <span class="reference-relationship">({{relationship}})</span>
                             </p>
                             <blockquote class="quote">
