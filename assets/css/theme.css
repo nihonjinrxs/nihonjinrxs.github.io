@@ -37,7 +37,7 @@
   }
 }
 body {
-  font-family: 'Lato';
+  font-family: 'Lato', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, sans-serif;
   background: #f0f0f0;
   color: #333333;
 }
@@ -52,7 +52,7 @@ a:hover {
 }
 .card {
   background: #ffffff;
-  border: 1px solid #e6e6e6;
+  border: 1px solid #f6f6f6;
   border-radius: 3px;
   min-height: 300px;
   padding: 10px;
@@ -69,6 +69,9 @@ a:hover {
 }
 .card-nested:after {
   clear: both;
+}
+.card-nested .content {
+  margin-top: 15px;
 }
 @media (max-width: 480px) {
   .card-nested {
@@ -158,7 +161,7 @@ a:hover {
   box-sizing: border-box;
   float: left;
   padding: 0 10px;
-  border-right: 1px solid #cdcdcd;
+  border-right: 1px solid #dddddd;
 }
 @media (max-width: 992px) {
   .info .content.has-sidebar {
@@ -349,6 +352,8 @@ a:hover {
     padding-left: 15px;
     padding-right: 15px;
     padding: 10px;
+    display: block;
+    width: 100%;
   }
   .contact-details .detail .icon,
   .contact-details .detail .info {
@@ -577,7 +582,7 @@ a:hover {
   bottom: 10px;
   left: 0;
   width: 10px;
-  box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.7);
 }
 .skill-level .skill-progress {
   position: absolute;

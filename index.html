@@ -7,8 +7,689 @@
     <title>Ryan Bensussan Harvey</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/theme.css">
     <link rel="shortcut icon" href="favicon.ico" />
+    <style>.clear-margin {
+  margin: 0;
+}
+.space-top {
+  margin-top: 10px;
+}
+.space-right {
+  margin-right: 10px;
+}
+.icon-left {
+  margin-right: 5px;
+}
+.icon-right {
+  margin-left: 5px;
+}
+.labels {
+  word-spacing: 5px;
+  line-height: 2;
+}
+.label-keyword {
+  display: inline-block;
+  background: #3d8b3d;
+  color: white;
+  font-size: 0.9em;
+  padding: 5px;
+  border: 1px solid #1e441e;
+}
+.link-disguise {
+  color: inherit;
+}
+.link-disguise:hover {
+  color: inherit;
+}
+@media (max-width: 992px) {
+  .clear-margin-sm {
+    margin-bottom: 0;
+  }
+}
+body {
+  font-family: &#x27;Lato&#x27;, &#x27;Helvetica Neue Light&#x27;, &#x27;Helvetica Neue&#x27;, Helvetica, sans-serif;
+  background: #f0f0f0;
+  color: #333333;
+}
+a {
+  color: #3d8b3d;
+}
+a:hover {
+  color: #1e441e;
+}
+.main {
+  padding: 5px;
+}
+.card {
+  background: #ffffff;
+  border: 1px solid #f6f6f6;
+  border-radius: 3px;
+  min-height: 300px;
+  padding: 10px;
+}
+.card-nested {
+  min-height: 0;
+  margin-bottom: 10px;
+  border-width: 1px 0 0 0;
+}
+.card-nested:before,
+.card-nested:after {
+  content: &quot; &quot;;
+  display: table;
+}
+.card-nested:after {
+  clear: both;
+}
+.card-nested .content {
+  margin-top: 15px;
+}
+@media (max-width: 480px) {
+  .card-nested {
+    padding: 5px 0;
+  }
+}
+.link-separator {
+  color: #808080;
+  font-size: 0.8em;
+  padding: 0 10px;
+}
+.background-card {
+  padding: 10px 20px;
+}
+.card-wrapper {
+  padding: 5px;
+}
+@media (max-width: 992px) {
+  .card-wrapper {
+    float: none !important;
+  }
+}
+.text-bolder {
+  font-weight: bold;
+}
+.background-details .detail {
+  display: table;
+  padding: 10px 0;
+}
+.background-details .detail .icon {
+  min-width: 45px;
+  max-width: 45px;
+  text-align: center;
+}
+.background-details .detail .info {
+  width: 100%;
+}
+.background-details .detail .title,
+.background-details .detail .icon {
+  color: #3d8b3d;
+}
+.background-details .detail .title .grey {
+  color: #333333;
+  font-size: 0.8em;
+  padding-left: 20px;
+}
+.background-details .detail .mobile-title {
+  display: none;
+}
+@media (max-width: 480px) {
+  .background-details .detail .mobile-title {
+    display: inline-block;
+    margin-left: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    vertical-align: middle;
+  }
+  .background-details .detail .mobile-title .grey {
+    color: #333333;
+  }
+}
+.background-details .detail .icon,
+.background-details .detail .info {
+  display: table-cell;
+  padding: 0 10px;
+}
+@media (max-width: 480px) {
+  .background-details .detail {
+    display: block;
+  }
+  .background-details .detail .icon {
+    max-width: inherit;
+    min-width: inherit;
+    text-align: left;
+  }
+  .background-details .detail .icon,
+  .background-details .detail .info {
+    display: block;
+    padding: 10px 0;
+  }
+  .background-details .detail .title {
+    display: none;
+  }
+}
+.info .content.has-sidebar {
+  width: 80%;
+  box-sizing: border-box;
+  float: left;
+  padding: 0 10px;
+  border-right: 1px solid #dddddd;
+}
+@media (max-width: 992px) {
+  .info .content.has-sidebar {
+    width: 100%;
+    border-right: 0;
+  }
+}
+@media (max-width: 480px) {
+  .info .content.has-sidebar {
+    padding: 0 2px;
+  }
+}
+.info .sidebar {
+  margin-left: 80%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+@media (max-width: 480px) {
+  ul {
+    padding-left: 25px;
+  }
+}
+/*
+    Credits: http://codyhouse.co/demo/smart-fixed-navigation/index.html
+*/
+.floating-nav-trigger {
+  width: 50px;
+  height: 50px;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24);
+  -webkit-transition: background-color 0.5s ease;
+  -o-transition: background-color 0.5s ease;
+  transition: background-color 0.5s ease;
+  display: block;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 10px;
+  background-color: white;
+  font-size: 1.5em;
+  color: #3d8b3d;
+  z-index: 100;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+}
+.floating-nav-trigger .close-icon {
+  display: none;
+}
+.floating-nav-trigger:hover {
+  color: #1e441e;
+  background-color: #e6e6e6;
+  text-decoration: none;
+}
+.floating-nav-trigger.is-open {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.floating-nav-trigger.is-open .close-icon {
+  display: inherit;
+}
+.floating-nav-trigger.is-open .fa-bars {
+  display: none;
+}
+.floating-nav-trigger.is-open:hover {
+  background-color: white;
+}
+.floating-nav {
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  -o-transform: scale(0);
+  transform: scale(0);
+  -webkit-transform-origin: 100% 0%;
+  -moz-transform-origin: 100% 0%;
+  -ms-transform-origin: 100% 0%;
+  transform-origin: 100% 0%;
+  -webkit-transition: transform 0.3s, visibility 0s 0.3s;
+  -o-transition: transform 0.3s, visibility 0s 0.3s;
+  transition: transform 0.3s, visibility 0s 0.3s;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24);
+  position: fixed;
+  z-index: 50;
+  right: 10px;
+  top: 10px;
+  background-color: white;
+  width: 90%;
+  max-width: 400px;
+  visibility: hidden;
+  overflow: hidden;
+}
+.floating-nav ul {
+  font-size: 1.2em;
+  margin: 0;
+}
+.floating-nav ul li {
+  border-bottom: 1px solid #eff2f6;
+}
+.floating-nav ul li a {
+  padding: 20px;
+  text-decoration: none;
+  color: #3d8b3d;
+  display: block;
+}
+.floating-nav ul li a:hover {
+  color: #1e441e;
+}
+.floating-nav ul li i.fa {
+  margin-right: 10px;
+}
+.floating-nav ul li:last-child {
+  border-bottom: 0;
+}
+.floating-nav.is-visible {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: transform 0.3s, visibility 0s 0s;
+  -o-transition: transform 0.3s, visibility 0s 0s;
+  transition: transform 0.3s, visibility 0s 0s;
+  visibility: visible;
+}
+@media (max-width: 992px) {
+  .profile-card-wrapper {
+    position: relative;
+  }
+}
+.profile-pic {
+  padding: 20px 0;
+}
+@media (max-width: 992px) {
+  .profile-pic {
+    padding: 10px 0;
+  }
+}
+.profile-pic img {
+  width: 150px;
+  height: 150px;
+}
+.name {
+  color: #3d8b3d;
+}
+@media (max-width: 992px) {
+  .name {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .contact-details {
+    text-align: center;
+  }
+}
+.contact-details .detail {
+  display: table;
+  padding: 10px 0;
+}
+.contact-details .detail .icon {
+  padding: 0 10px;
+  color: #3d8b3d;
+}
+@media (max-width: 992px) {
+  .contact-details .detail .icon {
+    padding: 0 5px 0 0;
+  }
+}
+.contact-details .detail .info {
+  font-size: 0.8em;
+}
+.contact-details .detail .icon,
+.contact-details .detail .info {
+  display: table-cell;
+  vertical-align: middle;
+}
+@media (max-width: 768px) {
+  .contact-details .detail {
+    position: relative;
+    float: left;
+    width: 100%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+@media (max-width: 992px) {
+  .contact-details .detail {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding: 10px;
+    display: block;
+    width: 100%;
+  }
+  .contact-details .detail .icon,
+  .contact-details .detail .info {
+    display: inline-block;
+  }
+}
+@media (max-width: 992px) and (min-width: 768px) {
+  .contact-details .detail {
+    float: left;
+    width: 25%;
+  }
+}
+.social-links {
+  line-height: 2.5;
+}
+.social-link {
+  margin-left: 5px;
+  min-width: 35px;
+  display: inline-block;
+}
+.social-link:first-child {
+  margin-left: 0;
+}
+.social-link:hover {
+  text-decoration: none;
+}
+.link-github {
+  color: #454545;
+}
+.link-github:hover,
+.link-github:focus {
+  text-decoration: none;
+  color: #2b2b2b;
+}
+.link-github2 {
+  color: #454545;
+}
+.link-github2:hover,
+.link-github2:focus {
+  text-decoration: none;
+  color: #2b2b2b;
+}
+.link-twitter {
+  color: #33ccff;
+}
+.link-twitter:hover,
+.link-twitter:focus {
+  text-decoration: none;
+  color: #00bfff;
+}
+.link-blog {
+  color: #f36f24;
+}
+.link-blog:hover,
+.link-blog:focus {
+  text-decoration: none;
+  color: #d8560c;
+}
+.link-website {
+  color: #0052a3;
+}
+.link-website:hover,
+.link-website:focus {
+  text-decoration: none;
+  color: #003870;
+}
+.link-linkedin {
+  color: #007bb6;
+}
+.link-linkedin:hover,
+.link-linkedin:focus {
+  text-decoration: none;
+  color: #005983;
+}
+.link-skype {
+  color: #12a5f4;
+}
+.link-skype:hover,
+.link-skype:focus {
+  text-decoration: none;
+  color: #0986ca;
+}
+.link-stackoverflow {
+  color: #8e8e92;
+}
+.link-stackoverflow:hover,
+.link-stackoverflow:focus {
+  text-decoration: none;
+  color: #747479;
+}
+.link-soundcloud {
+  color: #e8822d;
+}
+.link-soundcloud:hover,
+.link-soundcloud:focus {
+  text-decoration: none;
+  color: #cc6916;
+}
+.link-googleplus {
+  color: #dd4b39;
+}
+.link-googleplus:hover,
+.link-googleplus:focus {
+  text-decoration: none;
+  color: #c23321;
+}
+.link-youtube {
+  color: #dd4b39;
+}
+.link-youtube:hover,
+.link-youtube:focus {
+  text-decoration: none;
+  color: #c23321;
+}
+.link-pinterest {
+  color: #bd091f;
+}
+.link-pinterest:hover,
+.link-pinterest:focus {
+  text-decoration: none;
+  color: #8c0717;
+}
+.link-gratipay {
+  color: #663300;
+}
+.link-gratipay:hover,
+.link-gratipay:focus {
+  text-decoration: none;
+  color: #331a00;
+}
+.link-vimeo {
+  color: #17b3e8;
+}
+.link-vimeo:hover,
+.link-vimeo:focus {
+  text-decoration: none;
+  color: #128fba;
+}
+.link-behance {
+  color: #2c98cf;
+}
+.link-behance:hover,
+.link-behance:focus {
+  text-decoration: none;
+  color: #2379a5;
+}
+.link-codepen {
+  color: #1c1c1c;
+}
+.link-codepen:hover,
+.link-codepen:focus {
+  text-decoration: none;
+  color: #020202;
+}
+.link-foursquare {
+  color: #fa4778;
+}
+.link-foursquare:hover,
+.link-foursquare:focus {
+  text-decoration: none;
+  color: #f91554;
+}
+.link-reddit {
+  color: #545454;
+}
+.link-reddit:hover,
+.link-reddit:focus {
+  text-decoration: none;
+  color: #3b3b3b;
+}
+.link-spotify {
+  color: #acd200;
+}
+.link-spotify:hover,
+.link-spotify:focus {
+  text-decoration: none;
+  color: #829f00;
+}
+.link-tumblr {
+  color: #2d4661;
+}
+.link-tumblr:hover,
+.link-tumblr:focus {
+  text-decoration: none;
+  color: #1d2d3e;
+}
+.link-dribbble {
+  color: #ce366f;
+}
+.link-dribbble:hover,
+.link-dribbble:focus {
+  text-decoration: none;
+  color: #a82959;
+}
+.link-facebook {
+  color: #4b6daa;
+}
+.link-facebook:hover,
+.link-facebook:focus {
+  text-decoration: none;
+  color: #3b5687;
+}
+.link-angellist {
+  color: #000000;
+}
+.link-angellist:hover,
+.link-angellist:focus {
+  text-decoration: none;
+  color: #000000;
+}
+.link-bitbucket {
+  color: #205081;
+}
+.link-bitbucket:hover,
+.link-bitbucket:focus {
+  text-decoration: none;
+  color: #163758;
+}
+.card-skills {
+  position: relative;
+}
+.skill-level {
+  border-radius: 3px;
+  position: absolute;
+  top: 10px;
+  bottom: 10px;
+  left: 0;
+  width: 10px;
+  box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.7);
+}
+.skill-level .skill-progress {
+  position: absolute;
+  border-radius: 3px;
+  bottom: 0;
+  width: 100%;
+  -webkit-transition: height 1s ease;
+}
+.skill-level .skill-progress.beginner {
+  height: 50%;
+  background: #e74c3c;
+}
+.skill-level .skill-progress.intermediate {
+  height: 70%;
+  background: #f1c40f;
+}
+.skill-level .skill-progress.advanced {
+  height: 80%;
+  background: #428bca;
+}
+.skill-level .skill-progress.master {
+  height: 95%;
+  background: #5cb85c;
+}
+.skill-info {
+  margin-left: 10px;
+}
+@media (max-width: 480px) {
+  .skill-info {
+    margin-left: 20px;
+  }
+}
+p.institution {
+  font-variant: small-caps;
+}
+p.study-type {
+  font-weight: 900;
+}
+p.study-area {
+  font-size: 1.2em;
+}
+#publications .content i.fa {
+  color: #3d8b3d;
+  padding-right: 10px;
+}
+@media (max-width: 768px) {
+  .quote {
+    font-size: inherit;
+  }
+}
+.reference-relationship {
+  font-size: 0.7em;
+  text-transform: uppercase;
+  margin-left: 15px;
+}
+@media print {
+  a[href]:after {
+    content: none !important;
+  }
+  .profile-card {
+    text-align: center;
+  }
+  .profile-pic {
+    display: inline-block;
+    vertical-align: middle;
+    /*
+        img {
+            border-radius: 0;
+        }
+        */
+  }
+  .name-and-profession {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 15px;
+  }
+  .contact-details .detail {
+    position: relative;
+    float: left;
+    width: 25%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding: 0;
+  }
+  .floating-nav,
+  .floating-nav-trigger {
+    display: none;
+  }
+  .pagebreak {
+    page-break-before: always;
+  }
+  .label {
+    border: none;
+  }
+}
+</style>
   </head>
 
   <body itemscope itemtype="http://schema.org/Person">
@@ -56,6 +737,11 @@
                 <i class="fa fa-mortar-board"></i>Education
               </a>
             </li>
+              <li>
+                <a href="#publications">
+                  <i class="fa fa-book"></i>Talks &amp; Papers
+                </a>
+              </li>
               <li>
                 <a href="#interests">
                   <i class="fa fa-heart"></i>Interests
@@ -201,11 +887,11 @@
 
                                 <span>
                                   <i class="fa fa-clock-o icon-left"></i>
-                                  Recently joined
+                                  10 months
                                 </span>
                             </small>
                           </p>
-                          <p>In this position in the Analytics vertical of the Technology Team, I build data processing pipelines and data products for TED&#x27;s web presences and for the organization&#x27;s internal tools and reporting.</p>
+                          <p>In this position in the Analytics vertical of the Technology Team, I build data processing pipelines and data products for TED&#x27;s web presences and for the organization&#x27;s internal tools and reporting. I spend most of my time in R, Shiny, SQL, Ruby or Docker, and occasionally work with bash, Go or Groovy. Recently, I&#x27;ve been working on a user-personalized recommendations API.</p>
                         </div>
 
                         <div class="sidebar text-muted text-center hidden-xs hidden-sm">
@@ -221,7 +907,163 @@
                             </p>
                             <p>
                               <i class="fa fa-clock-o icon-left"></i>
-                              Recently joined
+                              10 months
+                            </p>
+                        </div>
+                      </li>
+                      <li class="card card-nested clearfix">
+                        <div class="content has-sidebar">
+                          <p class="clear-margin-sm">
+                            <strong>Research Associate (Pro Bono)</strong>,&nbsp;
+                              <a href="http://cas.loyno.edu/mathematics"  target="_blank">Loyola University New Orleans</a>
+                          </p>
+                          <p class="text-muted visible-xs visible-sm">
+                            <small>
+                              <span class="space-right">
+                                Dec&nbsp;2016 -
+                                  Present
+                              </span>
+
+                                <span>
+                                  <i class="fa fa-clock-o icon-left"></i>
+                                  7 months
+                                </span>
+                            </small>
+                          </p>
+                          <p>In this volunteer position in the Department of Mathematical Sciences, I assist with computer science curriculum development, project ideas, community partnerships, and research.</p>
+                        </div>
+
+                        <div class="sidebar text-muted text-center hidden-xs hidden-sm">
+                            <p>
+                              <strong>Joined:</strong>
+                              Dec&nbsp;2016
+                            </p>
+
+                            <p>
+                                <span class="label label-success">
+                                  Currently Working
+                                </span>
+                            </p>
+                            <p>
+                              <i class="fa fa-clock-o icon-left"></i>
+                              7 months
+                            </p>
+                        </div>
+                      </li>
+                      <li class="card card-nested clearfix">
+                        <div class="content has-sidebar">
+                          <p class="clear-margin-sm">
+                            <strong>Co-Organizer &amp; Chief Data Wrangler</strong>,&nbsp;
+                              <a href="http://codeforneworleans.org"  target="_blank">Code for New Orleans</a>
+                          </p>
+                          <p class="text-muted visible-xs visible-sm">
+                            <small>
+                              <span class="space-right">
+                                Oct&nbsp;2016 -
+                                  Present
+                              </span>
+
+                                <span>
+                                  <i class="fa fa-clock-o icon-left"></i>
+                                  9 months
+                                </span>
+                            </small>
+                          </p>
+                          <p>I help organize the New Orleans brigade of Code for America, where we try to create solutions to the problems we see in the city and make life better for New Orleanians.</p>
+                        </div>
+
+                        <div class="sidebar text-muted text-center hidden-xs hidden-sm">
+                            <p>
+                              <strong>Joined:</strong>
+                              Oct&nbsp;2016
+                            </p>
+
+                            <p>
+                                <span class="label label-success">
+                                  Currently Working
+                                </span>
+                            </p>
+                            <p>
+                              <i class="fa fa-clock-o icon-left"></i>
+                              9 months
+                            </p>
+                        </div>
+                      </li>
+                      <li class="card card-nested clearfix">
+                        <div class="content has-sidebar">
+                          <p class="clear-margin-sm">
+                            <strong>Research Affiliate</strong>,&nbsp;
+                              <a href="http://norbertwiener.umd.edu"  target="_blank">University of Maryland</a>
+                          </p>
+                          <p class="text-muted visible-xs visible-sm">
+                            <small>
+                              <span class="space-right">
+                                Sep&nbsp;2014 -
+                                  Present
+                              </span>
+
+                                <span>
+                                  <i class="fa fa-clock-o icon-left"></i>
+                                  2 years 10 months
+                                </span>
+                            </small>
+                          </p>
+                          <p>I am a research affiliate in the Norbert Wiener Center for Harmonic Analysis and Applications, housed in the Department of Mathematics. I occasionally collaborated with NWC staff on research in applications of harmonic analysis, mostly in the areas of machine learning, signal processing, and dimensionality reduction.</p>
+                        </div>
+
+                        <div class="sidebar text-muted text-center hidden-xs hidden-sm">
+                            <p>
+                              <strong>Joined:</strong>
+                              Sep&nbsp;2014
+                            </p>
+
+                            <p>
+                                <span class="label label-success">
+                                  Currently Working
+                                </span>
+                            </p>
+                            <p>
+                              <i class="fa fa-clock-o icon-left"></i>
+                              2 years 10 months
+                            </p>
+                        </div>
+                      </li>
+                      <li class="card card-nested clearfix">
+                        <div class="content has-sidebar">
+                          <p class="clear-margin-sm">
+                            <strong>Data Scientist &amp; Software Architect</strong>,&nbsp;
+                              <a href="http://www.kitchology.com"  target="_blank">Kitchology Inc.</a>
+                          </p>
+                          <p class="text-muted visible-xs visible-sm">
+                            <small>
+                              <span class="space-right">
+                                Jun&nbsp;2013 -
+                                  Present
+                              </span>
+
+                                <span>
+                                  <i class="fa fa-clock-o icon-left"></i>
+                                  4 years 1 month
+                                </span>
+                            </small>
+                          </p>
+                          <p>As part of the tech team at this small startup, I develop machine learning and data analysis algorithms for food and recipe science. I also wear any other hat needed, from server and database management to launch planning to business process and software architecture.</p>
+                        </div>
+
+                        <div class="sidebar text-muted text-center hidden-xs hidden-sm">
+                            <p>
+                              <strong>Joined:</strong>
+                              Jun&nbsp;2013
+                            </p>
+
+                            <p>
+                                <span class="label label-success">
+                                  Currently Working
+                                </span>
+                            </p>
+                            <p>
+                              <i class="fa fa-clock-o icon-left"></i>
+                              4 years 1 month
                             </p>
                         </div>
                       </li>
@@ -266,83 +1108,6 @@
                       <li class="card card-nested clearfix">
                         <div class="content has-sidebar">
                           <p class="clear-margin-sm">
-                            <strong>Data Scientist &amp; Software Architect</strong>,&nbsp;
-                              <a href="http://www.kitchology.com"  target="_blank">Kitchology Inc.</a>
-                          </p>
-                          <p class="text-muted visible-xs visible-sm">
-                            <small>
-                              <span class="space-right">
-                                Jun&nbsp;2013 -
-                                  Present
-                              </span>
-
-                                <span>
-                                  <i class="fa fa-clock-o icon-left"></i>
-                                  3 years 2 months
-                                </span>
-                            </small>
-                          </p>
-                          <p>As part of the tech team at this small startup, I develop machine learning and data analysis algorithms for food and recipe science. I also wear any other hat needed, from server and database management to launch planning to business process and software architecture.</p>
-                        </div>
-
-                        <div class="sidebar text-muted text-center hidden-xs hidden-sm">
-                            <p>
-                              <strong>Joined:</strong>
-                              Jun&nbsp;2013
-                            </p>
-
-                            <p>
-                                <span class="label label-success">
-                                  Currently Working
-                                </span>
-                            </p>
-                            <p>
-                              <i class="fa fa-clock-o icon-left"></i>
-                              3 years 2 months
-                            </p>
-                        </div>
-                      </li>
-                      <li class="card card-nested clearfix">
-                        <div class="content has-sidebar">
-                          <p class="clear-margin-sm">
-                            <strong>Research Affiliate</strong>,&nbsp;
-                              <a href="http://norbertwiener.umd.edu"  target="_blank">University of Maryland</a>
-                          </p>
-                          <p class="text-muted visible-xs visible-sm">
-                            <small>
-                              <span class="space-right">
-                                Sep&nbsp;2014 -
-                                  Jun&nbsp;2016
-                              </span>
-
-                                <span>
-                                  <i class="fa fa-clock-o icon-left"></i>
-                                  1 year 9 months
-                                </span>
-                            </small>
-                          </p>
-                          <p>I was a research affiliate in the Norbert Wiener Center for Harmonic Analysis and Applications, housed in the Department of Mathematics. I occasionally collaborated with NWC staff on research in applications of harmonic analysis, mostly in the areas of machine learning, signal processing, and dimensionality reduction.</p>
-                        </div>
-
-                        <div class="sidebar text-muted text-center hidden-xs hidden-sm">
-                            <p>
-                              <strong>Joined:</strong>
-                              Sep&nbsp;2014
-                            </p>
-
-                            <p>
-                                <strong>Left:</strong>
-                                Jun&nbsp;2016
-                            </p>
-                            <p>
-                              <i class="fa fa-clock-o icon-left"></i>
-                              1 year 9 months
-                            </p>
-                        </div>
-                      </li>
-                      <li class="card card-nested clearfix">
-                        <div class="content has-sidebar">
-                          <p class="clear-margin-sm">
                             <strong>Board Member &amp; Co-Organizer of Data Wranglers DC</strong>,&nbsp;
                               <a href="http://www.datacommunitydc.org"  target="_blank">Data Community DC</a>
                           </p>
@@ -350,12 +1115,12 @@
                             <small>
                               <span class="space-right">
                                 Jan&nbsp;2016 -
-                                  Present
+                                  Sep&nbsp;2016
                               </span>
 
                                 <span>
                                   <i class="fa fa-clock-o icon-left"></i>
-                                  7 months
+                                  8 months
                                 </span>
                             </small>
                           </p>
@@ -369,13 +1134,12 @@
                             </p>
 
                             <p>
-                                <span class="label label-success">
-                                  Currently Working
-                                </span>
+                                <strong>Left:</strong>
+                                Sep&nbsp;2016
                             </p>
                             <p>
                               <i class="fa fa-clock-o icon-left"></i>
-                              7 months
+                              8 months
                             </p>
                         </div>
                       </li>
@@ -567,6 +1331,8 @@
                                 <span class="label label-keyword">JavaScript</span>
                                 <span class="label label-keyword">Ruby on Rails</span>
                                 <span class="label label-keyword">PHP</span>
+                                <span class="label label-keyword">Web Components</span>
+                                <span class="label label-keyword">Polymer</span>
                                 <span class="label label-keyword">Web Design</span>
                                 <span class="label label-keyword">Web Analytics</span>
                                 <span class="label label-keyword">Web Content Management</span>
@@ -670,6 +1436,44 @@
 
                   <div class="content">
                     <ul class="list-unstyled">
+                        <li class="card card-nested">
+                          <div class="content has-sidebar">
+                            <p class="clear-margin-sm study-type">
+                              <strong>Mastering Software Development in R Specialization</strong>
+                            </p>
+                            <p class="clear-margin-sm study-area">
+                              <strong>Data Engineering</strong>
+                            </p>
+                            <p class="clear-margin-sm institution">
+                              Johns Hopkins University on Coursera
+                            </p>
+                            <p class="visible-xs visible-sm text-muted">
+                              <small>
+                                Oct&nbsp;2016 -
+                                  Present
+                              </small>
+                            </p>
+                            <i></i>
+                            <div class="space-top labels">
+                                <span class="label label-keyword">The R Programming Environment</span>
+                                <span class="label label-keyword">Advanced R Programming</span>
+                                <span class="label label-keyword">Building R Packages</span>
+                                <span class="label label-keyword">Building Data Visualization Tools</span>
+                                <span class="label label-keyword">Mastering Software Development in R Capstone</span>
+                            </div>
+                          </div>
+                          <div class="sidebar text-muted text-center hidden-xs hidden-sm">
+                            <p>
+                              <strong>Started:</strong>
+                              Oct&nbsp;2016
+                            </p>
+                            <p>
+                                <span class="label label-success">
+                                  Currently Pursuing
+                                </span>
+                            </p>
+                          </div>
+                        </li>
                         <li class="card card-nested">
                           <div class="content has-sidebar">
                             <p class="clear-margin-sm study-type">
@@ -998,6 +1802,64 @@
                             <div class="content has-sidebar">
                               <p class="clear-margin-sm">
                                 <strong>
+                                    <a href="http://loyno.edu/~pme/"  target="_blank">Sets, Bags, and Relational Theory: Real-World Interactions with Data</a>
+                                </strong>,&nbsp;
+                                Loyola University New Orleans, ΠΜΕ LAΘ Chapter
+                              </p>
+                              <p class="clear-margin-sm">
+                                <a href="https://slides.com/ryanbharvey/sets-bags-relational-theory/live#/" target="_blank">
+                                <i class="fa fa-lg fa-desktop"></i>
+                                View slides online</a>
+                              </p>
+                              <p class="visible-xs visible-sm text-muted">
+                                <small>
+                                  Given: Jan&nbsp;26,&nbsp;2017
+                                </small>
+                              </p>
+                              <p class="clear-margin">I gave a talk on sets and their extension to relational theory of databases to the Pi Mu Epsilon mathematics honor society chapter at Loyola University New Orleans.</p>
+                            </div>
+                            <div class="sidebar text-muted text-center hidden-sm hidden-xs">
+                              <p>
+                                Given:
+                                Jan&nbsp;26,&nbsp;2017
+                              </p>
+                            </div>
+                          </li>
+                          <li class="card card-nested">
+                            <div class="content has-sidebar">
+                              <p class="clear-margin-sm">
+                                <strong>
+                                    <a href="https://www.meetup.com/FrontEndParty/events/234276694/"  target="_blank">A Brief Introduction to Web Components and Polymer</a>
+                                </strong>,&nbsp;
+                                #FrontEndParty
+                              </p>
+                              <p class="clear-margin-sm">
+                                <a href="https://github.com/nihonjinrxs/frontendparty-oct2016/blob/master/slides/webcomponents.pdf" target="_blank">
+                                <i class="fa fa-lg fa-desktop"></i>
+                                View slides online</a>
+                                <span class="link-separator">&bullet;</span>
+                                <a href="https://github.com/nihonjinrxs/frontendparty-oct2016" target="_blank">
+                                <i class="fa fa-lg fa-file-code-o"></i>
+                                View materials online</a>
+                              </p>
+                              <p class="visible-xs visible-sm text-muted">
+                                <small>
+                                  Given: Oct&nbsp;27,&nbsp;2016
+                                </small>
+                              </p>
+                              <p class="clear-margin">In this talk to the New Orleans #FrontEndParty meetup, I gave an introduction to web components and their standards, as well as an introduction to Google&#x27;s Polymer Project, which makes it possible to build web component based sites and apps today. I also briefly reviewed the changes between Polymer 1.x and the 2.0 Preview, and the upgrade path provided by the Polymer team.</p>
+                            </div>
+                            <div class="sidebar text-muted text-center hidden-sm hidden-xs">
+                              <p>
+                                Given:
+                                Oct&nbsp;27,&nbsp;2016
+                              </p>
+                            </div>
+                          </li>
+                          <li class="card card-nested">
+                            <div class="content has-sidebar">
+                              <p class="clear-margin-sm">
+                                <strong>
                                     <a href="https://actiac.org/events/MOC2015"  target="_blank">Agile - Where is the Greatest Value</a>
                                 </strong>,&nbsp;
                                 ACT-IAC Management of Change 2015
@@ -1298,7 +2160,25 @@
                       <ul class="list-unstyled">
                           <li class="card card-nested">
                             <p>
-                              <a href="https://www.linkedin.com/profile/view?id=241589621" target="_blank"><strong>Alexandra Screven</strong></a>, 
+                              <a href="https://www.linkedin.com/in/ryan-rusnak-b936989/" target="_blank"><strong>Ryan Rusnak</strong></a>,
+                              Apr&nbsp;2017 <span class="reference-relationship">(reported to Ryan at Executive Office of the President)</span>
+                            </p>
+                            <blockquote class="quote">
+                              <p class="clear-margin">Ryan Harvey is one of the smartest guys I have ever worked with. We have white boarded and collaborated on machine learning problems, monte carlo simulations and even the application that assembles the federal budget. Just never be on the other end of an interview from him and claim you are an expert at SQL!</p>
+                            </blockquote>
+                          </li>
+                          <li class="card card-nested">
+                            <p>
+                              <a href="https://www.linkedin.com/in/dan-chandler-03ab45" target="_blank"><strong>Dan Chandler</strong></a>,
+                              Oct&nbsp;2016 <span class="reference-relationship">(worked with Ryan at Executive Office of the President)</span>
+                            </p>
+                            <blockquote class="quote">
+                              <p class="clear-margin">Ryan is without reservation the best IT Architect I have ever known. His vast knowledge of the IT industry is unparalleled and he is able to effectively apply this knowledge to effectively address the business needs of an organization. Ryan&#x27;s skill, talent, and dedication make him an invaluable asset to any team lucky enough to have him.</p>
+                            </blockquote>
+                          </li>
+                          <li class="card card-nested">
+                            <p>
+                              <a href="https://www.linkedin.com/profile/view?id=241589621" target="_blank"><strong>Alexandra Screven</strong></a>,
                               Aug&nbsp;2015 <span class="reference-relationship">(mentored by Ryan at Data Wranglers DC)</span>
                             </p>
                             <blockquote class="quote">
@@ -1309,7 +2189,7 @@ Basically, he&#x27;s the Beyonce of the data science world. Always remind yourse
                           </li>
                           <li class="card card-nested">
                             <p>
-                              <a href="https://www.linkedin.com/in/akirkorian" target="_blank"><strong>Alen Kirkorian</strong></a>, 
+                              <a href="https://www.linkedin.com/in/akirkorian" target="_blank"><strong>Alen Kirkorian</strong></a>,
                               Nov&nbsp;2014 <span class="reference-relationship">(worked with Ryan at Kitchology Inc.)</span>
                             </p>
                             <blockquote class="quote">
@@ -1318,7 +2198,7 @@ Basically, he&#x27;s the Beyonce of the data science world. Always remind yourse
                           </li>
                           <li class="card card-nested">
                             <p>
-                              <a href="https://www.linkedin.com/in/paulsdonohue" target="_blank"><strong>Paul Donohue</strong></a>, 
+                              <a href="https://www.linkedin.com/in/paulsdonohue" target="_blank"><strong>Paul Donohue</strong></a>,
                               Nov&nbsp;2013 <span class="reference-relationship">(worked with Ryan at Executive Office of the President)</span>
                             </p>
                             <blockquote class="quote">
@@ -1327,7 +2207,7 @@ Basically, he&#x27;s the Beyonce of the data science world. Always remind yourse
                           </li>
                           <li class="card card-nested">
                             <p>
-                              <a href="https://www.linkedin.com/pub/alain-briancon/0/15a/701" target="_blank"><strong>Alain Briancon</strong></a>, 
+                              <a href="https://www.linkedin.com/pub/alain-briancon/0/15a/701" target="_blank"><strong>Alain Briancon</strong></a>,
                               Nov&nbsp;2013 <span class="reference-relationship">(managed Ryan at Kitchology Inc.)</span>
                             </p>
                             <blockquote class="quote">
@@ -1346,7 +2226,7 @@ Ryan has tremendous work ethics, putting long hours to help move design and rede
                           </li>
                           <li class="card card-nested">
                             <p>
-                              <a href="https://www.linkedin.com/pub/matthew-dantas-mccutcheon/44/315/641" target="_blank"><strong>Matthew Dantas-McCutcheon</strong></a>, 
+                              <a href="https://www.linkedin.com/pub/matthew-dantas-mccutcheon/44/315/641" target="_blank"><strong>Matthew Dantas-McCutcheon</strong></a>,
                               Nov&nbsp;2013 <span class="reference-relationship">(reported to Ryan at Executive Office of the President)</span>
                             </p>
                             <blockquote class="quote">
@@ -1359,7 +2239,7 @@ I recommend Ryan strongly for the IT manager position of his choosing at the fro
                           </li>
                           <li class="card card-nested">
                             <p>
-                              <a href="https://www.linkedin.com/pub/janisa-lasalle/80/a90/84b" target="_blank"><strong>Janisa LaSalle</strong></a>, 
+                              <a href="https://www.linkedin.com/pub/janisa-lasalle/80/a90/84b" target="_blank"><strong>Janisa LaSalle</strong></a>,
                               May&nbsp;2014 <span class="reference-relationship">(reported to Ryan at Executive Office of the President)</span>
                             </p>
                             <blockquote class="quote">
@@ -1370,7 +2250,7 @@ It is no surprise that Ryan has a passion for education. He is always researchin
                           </li>
                           <li class="card card-nested">
                             <p>
-                              <a href="https://www.linkedin.com/pub/robert-mann/29/469/624" target="_blank"><strong>Robert Mann</strong></a>, 
+                              <a href="https://www.linkedin.com/pub/robert-mann/29/469/624" target="_blank"><strong>Robert Mann</strong></a>,
                               Nov&nbsp;2013 <span class="reference-relationship">(reported to Ryan at Executive Office of the President)</span>
                             </p>
                             <blockquote class="quote">
@@ -1379,7 +2259,7 @@ It is no surprise that Ryan has a passion for education. He is always researchin
                           </li>
                           <li class="card card-nested">
                             <p>
-                              <a href="https://www.linkedin.com/in/ephraim" target="_blank"><strong>Ephraim Feig</strong></a>, 
+                              <a href="https://www.linkedin.com/in/ephraim" target="_blank"><strong>Ephraim Feig</strong></a>,
                               Oct&nbsp;2013 <span class="reference-relationship">(managed Ryan at Social Security Administration)</span>
                             </p>
                             <blockquote class="quote">
@@ -1388,7 +2268,7 @@ It is no surprise that Ryan has a passion for education. He is always researchin
                           </li>
                           <li class="card card-nested">
                             <p>
-                              <a href="https://www.linkedin.com/pub/haffiz-momodu-mba-pmp-cissp-ocp/8/192/710" target="_blank"><strong>Haffiz Momodu</strong></a>, 
+                              <a href="https://www.linkedin.com/pub/haffiz-momodu-mba-pmp-cissp-ocp/8/192/710" target="_blank"><strong>Haffiz Momodu</strong></a>,
                               Mar&nbsp;2011 <span class="reference-relationship">(worked with Ryan at Social Security Administration)</span>
                             </p>
                             <blockquote class="quote">
@@ -1401,7 +2281,7 @@ Above all, he has a very pleasant disposition and energetic personality. I highl
                           </li>
                           <li class="card card-nested">
                             <p>
-                              <a href="https://www.linkedin.com/pub/john-wan/4/79a/a65" target="_blank"><strong>John Wan</strong></a>, 
+                              <a href="https://www.linkedin.com/pub/john-wan/4/79a/a65" target="_blank"><strong>John Wan</strong></a>,
                               Mar&nbsp;2011 <span class="reference-relationship">(worked with Ryan at Social Security Administration)</span>
                             </p>
                             <blockquote class="quote">
@@ -1410,7 +2290,7 @@ Above all, he has a very pleasant disposition and energetic personality. I highl
                           </li>
                           <li class="card card-nested">
                             <p>
-                              <a href="https://www.linkedin.com/pub/karen-palm/29/7a3/b6" target="_blank"><strong>Karen Palm</strong></a>, 
+                              <a href="https://www.linkedin.com/pub/karen-palm/29/7a3/b6" target="_blank"><strong>Karen Palm</strong></a>,
                               Mar&nbsp;2011 <span class="reference-relationship">(mentored Ryan at Social Security Administration)</span>
                             </p>
                             <blockquote class="quote">
@@ -1419,7 +2299,7 @@ Above all, he has a very pleasant disposition and energetic personality. I highl
                           </li>
                           <li class="card card-nested">
                             <p>
-                              <a href="https://www.linkedin.com/pub/sivasankar-kande/0/446/6b1" target="_blank"><strong>Sivasankar Kande</strong></a>, 
+                              <a href="https://www.linkedin.com/pub/sivasankar-kande/0/446/6b1" target="_blank"><strong>Sivasankar Kande</strong></a>,
                               Mar&nbsp;2011 <span class="reference-relationship">(worked with Ryan at Social Security Administration)</span>
                             </p>
                             <blockquote class="quote">
@@ -1430,7 +2310,7 @@ Ryan is an independent, self directed person who is able to communicate effectiv
                           </li>
                           <li class="card card-nested">
                             <p>
-                              <a href="https://www.linkedin.com/in/shashmi" target="_blank"><strong>Sonny Hashmi</strong></a>, 
+                              <a href="https://www.linkedin.com/in/shashmi" target="_blank"><strong>Sonny Hashmi</strong></a>,
                               Feb&nbsp;2011 <span class="reference-relationship">(attended the University of Maryland Innovation Management program with Ryan)</span>
                             </p>
                             <blockquote class="quote">
@@ -1439,7 +2319,7 @@ Ryan is an independent, self directed person who is able to communicate effectiv
                           </li>
                           <li class="card card-nested">
                             <p>
-                              <a href="https://www.linkedin.com/pub/carlson-t/18/768/753" target="_blank"><strong>Carlson T</strong></a>, 
+                              <a href="https://www.linkedin.com/pub/carlson-t/18/768/753" target="_blank"><strong>Carlson T</strong></a>,
                               Feb&nbsp;2011 <span class="reference-relationship">(worked with Ryan at Social Security Administration)</span>
                             </p>
                             <blockquote class="quote">
@@ -1448,7 +2328,7 @@ Ryan is an independent, self directed person who is able to communicate effectiv
                           </li>
                           <li class="card card-nested">
                             <p>
-                              <a href="https://www.linkedin.com/in/stevendyoung" target="_blank"><strong>Steven Young</strong></a>, 
+                              <a href="https://www.linkedin.com/in/stevendyoung" target="_blank"><strong>Steven Young</strong></a>,
                               Feb&nbsp;2011 <span class="reference-relationship">(worked with Ryan at Social Security Administration)</span>
                             </p>
                             <blockquote class="quote">
@@ -1461,7 +2341,7 @@ He carefully engineered a nurturing academic environment that encouraged the exp
                           </li>
                           <li class="card card-nested">
                             <p>
-                              <a href="https://www.linkedin.com/in/jasonfichtner" target="_blank"><strong>Jason Fichtner</strong></a>, 
+                              <a href="https://www.linkedin.com/in/jasonfichtner" target="_blank"><strong>Jason Fichtner</strong></a>,
                               Feb&nbsp;2011 <span class="reference-relationship">(managed Ryan at Social Security Administration)</span>
                             </p>
                             <blockquote class="quote">
@@ -1474,7 +2354,7 @@ Acting as the #2 official for the Agency, I was on the selection committee that 
                           </li>
                           <li class="card card-nested">
                             <p>
-                              <a href="https://www.linkedin.com/in/sharonroushdy" target="_blank"><strong>Sharon Roushdy</strong></a>, 
+                              <a href="https://www.linkedin.com/in/sharonroushdy" target="_blank"><strong>Sharon Roushdy</strong></a>,
                               Nov&nbsp;2008 <span class="reference-relationship">(worked with Ryan at University of Maryland)</span>
                             </p>
                             <blockquote class="quote">
@@ -1483,7 +2363,7 @@ Acting as the #2 official for the Agency, I was on the selection committee that 
                           </li>
                           <li class="card card-nested">
                             <p>
-                              <a href="https://www.linkedin.com/pub/james-tanis/10/28b/34b" target="_blank"><strong>James Tanis</strong></a>, 
+                              <a href="https://www.linkedin.com/pub/james-tanis/10/28b/34b" target="_blank"><strong>James Tanis</strong></a>,
                               Dec&nbsp;2008 <span class="reference-relationship">(attended University of Maryland PhD program with Ryan)</span>
                             </p>
                             <blockquote class="quote">
@@ -1492,7 +2372,7 @@ Acting as the #2 official for the Agency, I was on the selection committee that 
                           </li>
                           <li class="card card-nested">
                             <p>
-                              <a href="https://www.linkedin.com/pub/maria-calzada/b/984/667" target="_blank"><strong>Maria Calzada</strong></a>, 
+                              <a href="https://www.linkedin.com/pub/maria-calzada/b/984/667" target="_blank"><strong>Maria Calzada</strong></a>,
                               Nov&nbsp;2008 <span class="reference-relationship">(taught Ryan at Loyola University New Orleans)</span>
                             </p>
                             <blockquote class="quote">
