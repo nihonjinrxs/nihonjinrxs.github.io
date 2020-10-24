@@ -96,9 +96,6 @@ a:hover {
   font-size: 0.8em;
   padding: 0 10px;
 }
-.background-card {
-  padding: 10px 20px;
-}
 .card-wrapper {
   padding: 5px;
 }
@@ -109,65 +106,6 @@ a:hover {
 }
 .text-bolder {
   font-weight: bold;
-}
-.background-details .detail {
-  display: table;
-  padding: 10px 0;
-}
-.background-details .detail .icon {
-  min-width: 45px;
-  max-width: 45px;
-  text-align: center;
-}
-.background-details .detail .info {
-  width: 100%;
-}
-.background-details .detail .title,
-.background-details .detail .icon {
-  color: #3d8b3d;
-}
-.background-details .detail .title .grey {
-  color: #333333;
-  font-size: 0.8em;
-  padding-left: 20px;
-}
-.background-details .detail .mobile-title {
-  display: none;
-}
-@media (max-width: 480px) {
-  .background-details .detail .mobile-title {
-    display: inline-block;
-    margin-left: 5px;
-    font-weight: bold;
-    text-transform: uppercase;
-    vertical-align: middle;
-  }
-  .background-details .detail .mobile-title .grey {
-    color: #333333;
-  }
-}
-.background-details .detail .icon,
-.background-details .detail .info {
-  display: table-cell;
-  padding: 0 10px;
-}
-@media (max-width: 480px) {
-  .background-details .detail {
-    display: block;
-  }
-  .background-details .detail .icon {
-    max-width: inherit;
-    min-width: inherit;
-    text-align: left;
-  }
-  .background-details .detail .icon,
-  .background-details .detail .info {
-    display: block;
-    padding: 10px 0;
-  }
-  .background-details .detail .title {
-    display: none;
-  }
 }
 .info .content.has-sidebar {
   width: 80%;

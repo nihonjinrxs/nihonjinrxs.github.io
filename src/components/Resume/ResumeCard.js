@@ -18,8 +18,8 @@ export default function ResumeCard({
   const skillsMeta = sections.skills || {}
   return (
     <section className="card-wrapper resume-card-wrapper">
-      <div className="card background-card">
-        <div className="background-details">
+      <div className="card resume-card">
+        <div className="resume-details">
           <ResumeAboutSummary
             title={aboutMeta.title ? aboutMeta.title : 'Who Are You?'}
             subtitle={aboutMeta.subtitle ? aboutMeta.subtitle : 'Summary'}
