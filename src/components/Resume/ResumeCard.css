@@ -1,0 +1,4 @@
+.resume-card-wrapper {
+  overflow-y: scroll;
+  scrollbar-width: 5;
+}

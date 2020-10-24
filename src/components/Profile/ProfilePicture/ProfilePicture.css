@@ -1,0 +1,32 @@
+.profile-pic {
+  padding: 20px 0;
+}
+@media (max-width: 992px) {
+  .profile-pic {
+    padding: 10px 0;
+  }
+}
+.profile-pic img {
+  width: 150px;
+  height: 150px;
+}
+.img-circle {
+  border-radius: 50%;
+}
+.center-block {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media print {
+  .profile-pic {
+    display: inline-block;
+    vertical-align: middle;
+    /*
+        img {
+            border-radius: 0;
+        }
+        */
+  }
+}
