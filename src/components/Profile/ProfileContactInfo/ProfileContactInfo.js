@@ -7,7 +7,7 @@ import './ProfileContactInfo.css'
 
 export default function ProfileContactInfo ({ location, phone, email, languages }) {
   return (
-    <div className="contact-details clearfix">
+    <div className="contact-details clearfix clear-right">
       <ProfileLocation location={location}/>    
       <ProfileDetail value={phone} type="phone" icon="phone"/>
       <ProfileDetail value={email} type="email" icon="envelope" />

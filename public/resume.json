@@ -63,7 +63,7 @@
     },
     "work": [{
         "name": "TED Conferences",
-        "location": "New York, NY / Work-from-home",
+        "location": "New York, NY / Remote",
         "position": "Senior Backend & Data Engineer",
         "url": "http://www.ted.com",
         "startDate": "2016-08-22",
@@ -86,7 +86,7 @@
         ]
     }, {
         "name": "Kitchology Inc.",
-        "location": "Germantown, MD / Work-from-home",
+        "location": "Germantown, MD / Remote",
         "position": "Data Scientist & Software Architect",
         "url": "http://www.kitchology.com",
         "startDate": "2013-06-02",

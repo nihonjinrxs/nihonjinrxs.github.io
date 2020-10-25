@@ -1,6 +1,6 @@
 .resume-card-wrapper {
   overflow-y: scroll;
-  scrollbar-width: 5;
+/*   scrollbar-width: 5; */
 }
 .resume-card {
   padding: 10px 20px;
@@ -63,4 +63,14 @@
   .resume-details .detail .title {
     display: none;
   }
+}
+
+ul.list-unstyled {
+  padding-inline-start: 0;
+}
+ul.list-unstyled>li {
+  list-style-type: none;
+}
+ul.list-unstyled>li.card-nested {
+  padding-left: 0;
 }

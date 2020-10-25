@@ -2,7 +2,7 @@ import React from 'react';
 
 import {
   Dates, Duration, SidebarDuration
-} from '../../lib/date_utils'
+} from '../../../lib/date_utils'
 
 export default function ResumeVolunteer({
   volunteer, title, subtitle, icon

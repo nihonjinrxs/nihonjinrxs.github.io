@@ -4,7 +4,7 @@ import './ProfileLanguages.css'
 
 export default function ProfileLanguages ({ languages }) {
   return languages ? (
-    <div className="detail">
+    <div className="detail clear-right">
       <span className="icon" title="Languages I speak">
         <i className="fad fa-lg fa-language"></i>
       </span>

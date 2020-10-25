@@ -1,10 +1,10 @@
 import React from 'react';
 
-import ResumeAboutSummary from "./ResumeAboutSummary";
+import ResumeAboutSummary from "./ResumeAboutSummary/ResumeAboutSummary";
 import ResumeWorkExperience from "./ResumeWorkExperience/ResumeWorkExperience";
-import ResumeEducation from "./ResumeEducation";
-import ResumeSkills from './ResumeSkills';
-import ResumeVolunteer from './ResumeVolunteer';
+import ResumeEducation from "./ResumeEducation/ResumeEducation";
+import ResumeSkills from './ResumeSkills/ResumeSkills';
+import ResumeVolunteer from './ResumeVolunteer/ResumeVolunteer';
 
 import './ResumeCard.css';
 

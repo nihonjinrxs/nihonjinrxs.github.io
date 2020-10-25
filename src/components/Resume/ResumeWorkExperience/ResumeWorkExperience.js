@@ -48,21 +48,26 @@ export function WorkPosition({
   position, name, location, url, summary,
   startDate, endDate, highlights
 }) {
-  const companyDisplay = Company(name, location, url)
+  const companyDisplay = Company(name, url)
+  const positionLocationDisplay = PositionLocation(location)
   const datesDisplay = Dates(startDate, endDate)
   const durationDisplay = Duration(startDate, endDate)
   const highlightsDisplay = Highlights(highlights)
-  const sidebarContent = SidebarContent(startDate, endDate)
+  const sidebarContent = SidebarContent(location, startDate, endDate)
   return (
     <>
       <div className="content has-sidebar">
         <p className="clear-margin-sm">
           <strong>{position}</strong>,&nbsp;{companyDisplay}
         </p>
-        <p className="text-muted visible-xs visible-sm">
+        <p className="text-muted visible-xs visible-sm hide-when-sidebar">
           <small>
             <span className="space-right">
-              {datesDisplay}
+              {positionLocationDisplay} &bull;
+            </span>
+            
+            <span className="space-right">
+              {datesDisplay} &bull;
             </span>
 
             {durationDisplay}
@@ -79,7 +84,7 @@ export function WorkPosition({
   )
 }
 
-export function Company(name, location, url) {
+export function Company(name, url) {
   return url ? (
     <>
       <a
@@ -87,12 +92,8 @@ export function Company(name, location, url) {
         target="_blank"
         rel="noopener noreferrer"
       >{name}</a>
-      <p className="work-location">{location}</p>
     </>
-  ) : <>
-      {name}
-      <p className="work-location">{location}</p>
-    </>
+  ) : <>{name}</>
 }
 
 export function Highlights(highlights) {
@@ -108,9 +109,14 @@ export function Highlights(highlights) {
   ) : <></>
 }
 
-export function SidebarContent(startDate, endDate) {
+export function PositionLocation(location) {
+  return <span className="work-location">{location}</span>
+}
+
+export function SidebarContent(location, startDate, endDate) {
   return (
     <>
+      <p>{PositionLocation(location)}</p>
       <p>{SidebarStartDate(startDate)}</p>
       <p>{SidebarEndDate(endDate)}</p>
       {SidebarDuration(startDate, endDate)}
