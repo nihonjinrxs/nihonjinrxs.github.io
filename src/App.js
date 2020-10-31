@@ -38,7 +38,7 @@ function App() {
       title: 'What have you learned?',
       subtitle: 'Education',
       slug: 'education',
-      icon: 'mortar-board'
+      icon: 'graduation-cap'
     },
     skills: {
       title: 'What can you do?',
