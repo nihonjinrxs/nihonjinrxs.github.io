@@ -1,6 +1,8 @@
-.resume-card-wrapper {
-  overflow-y: scroll;
-/*   scrollbar-width: 5; */
+@media (min-width: 993px) {
+  .resume-card-wrapper {
+    overflow-y: scroll;
+  /*   scrollbar-width: 5; */
+  }
 }
 .resume-card {
   padding: 10px 20px;
