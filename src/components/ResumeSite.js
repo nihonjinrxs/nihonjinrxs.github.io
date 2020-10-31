@@ -2,10 +2,11 @@ import React from 'react';
 
 import ProfileCard from './Profile/ProfileCard'
 import ResumeCard from './Resume/ResumeCard'
+import ResumeNavigation from './ResumeNavigation/ResumeNavigation';
 import './ResumeSite.css'
 
-export default function ResumeSite({ resume, sections }) {
-  return (resume) ? (
+export default function ResumeSite ({ resume, sections }) {
+  return (resume) ? (<>
     <div id="resume-container">
       <ProfileCard
         name={resume.basics.name}
@@ -24,9 +25,15 @@ export default function ResumeSite({ resume, sections }) {
         education={resume.education}
         skills={resume.skills}
         volunteer={resume.volunteer}
+        publications={resume.publications}
+        interests={resume.interests}
+        references={resume.references}
       ></ResumeCard>
     </div>
-  ) : (
+    <ResumeNavigation
+      navItems={sections ? sections : {}}
+    />
+  </>) : (
     <div id="resume-container"></div>
   ) 
 }

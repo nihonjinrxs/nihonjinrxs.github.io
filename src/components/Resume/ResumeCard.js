@@ -5,17 +5,24 @@ import ResumeWorkExperience from "./ResumeWorkExperience/ResumeWorkExperience";
 import ResumeEducation from "./ResumeEducation/ResumeEducation";
 import ResumeSkills from './ResumeSkills/ResumeSkills';
 import ResumeVolunteer from './ResumeVolunteer/ResumeVolunteer';
+import ResumePublication from './ResumePublications/ResumePublications';
+import ResumeInterests from './ResumeInterests/ResumeInterests';
+import ResumeReferences from './ResumeReferences/ResumeReferences';
 
 import './ResumeCard.css';
 
 export default function ResumeCard({
-  sections, summary, work, education, skills, volunteer
+  sections, summary, work, education, skills,
+  volunteer, publications, interests, references
 }) {
-  const aboutMeta = sections.about || {}
-  const workMeta = sections.work || {}
-  const edMeta = sections.education || {}
-  const volMeta = sections.volunteer || {}
-  const skillsMeta = sections.skills || {}
+  const aboutMeta = sections.about || {};
+  const workMeta = sections.work || {};
+  const edMeta = sections.education || {};
+  const volMeta = sections.volunteer || {};
+  const skillsMeta = sections.skills || {};
+  const pubsMeta = sections.publications || {};
+  const intMeta = sections.interests || {};
+  const refsMeta = sections.references || {};
   return (
     <section className="card-wrapper resume-card-wrapper">
       <div className="card resume-card">
@@ -49,6 +56,24 @@ export default function ResumeCard({
             subtitle={volMeta.subtitle ? volMeta.subtitle : 'Volunteering'}
             icon={volMeta.icon ? volMeta.icon : 'hands-helping'}
             volunteer={volunteer}
+          />
+          <ResumePublication
+            title={pubsMeta.title ? pubsMeta.title : 'What have you published?'}
+            subtitle={pubsMeta.subtitle ? pubsMeta.subtitle : 'Talks &amp; Papers'}
+            icon={pubsMeta.icon ? pubsMeta.icon : 'book'}
+            publications={publications}
+          />
+          <ResumeInterests
+            title={intMeta.title ? intMeta.title : 'What do you enjoy?'}
+            subtitle={intMeta.subtitle ? intMeta.subtitle : 'Interests'}
+            icon={intMeta.icon ? intMeta.icon : 'heart'}
+            interests={interests}
+          />
+          <ResumeReferences
+            title={refsMeta.title ? refsMeta.title : 'Who can vouch for you?'}
+            subtitle={refsMeta.subtitle ? refsMeta.subtitle : 'Testimonials'}
+            icon={refsMeta.icon ? refsMeta.icon : 'thumbs-up'}
+            references={references}
           />
         </div>
       </div>

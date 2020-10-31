@@ -21,14 +21,63 @@ function App() {
     return () => { };
   }, [loaded, loading]);
 
+  const sections = {
+    summary: {
+      title: 'Who are you?',
+      subtitle: 'Summary',
+      slug: 'summary',
+      icon: 'user'
+    },
+    work: {
+      title: 'What have you done?',
+      subtitle: 'Experience',
+      slug: 'experience',
+      icon: 'building'
+    },
+    education: {
+      title: 'What have you learned?',
+      subtitle: 'Education',
+      slug: 'education',
+      icon: 'mortar-board'
+    },
+    skills: {
+      title: 'What can you do?',
+      subtitle: 'Skills',
+      slug: 'skills',
+      icon: 'code'
+    },
+    volunteer: {
+      title: 'What have you given?',
+      subtitle: 'Volunteering',
+      slug: 'volunteer',
+      icon: 'hands-helping'
+    },
+    publications: {
+      title: 'What have you published?',
+      subtitle: 'Talks &amp; Papers',
+      slug: 'publications',
+      icon: 'book'
+    },
+    interests: {
+      title: 'What do you enjoy?',
+      subtitle: 'Interests',
+      slug: 'interests',
+      icon: 'heart'
+    },
+    references: {
+      title: 'Who can vouch for you?',
+      subtitle: 'Testimonials',
+      slug: 'references',
+      icon: 'thumbs-up'
+    }
+  };
+
   return (
     <div className="App">
     {
       resume ?
-        <ResumeSite
-          resume={resume}
-        ></ResumeSite> :
-        <></>        
+        <ResumeSite resume={resume} sections={sections} /> :
+        <></>
     }
     </div>
   );

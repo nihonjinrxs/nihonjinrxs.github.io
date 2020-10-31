@@ -1,33 +1,28 @@
 import React from 'react';
 
 import {
-  Dates, Duration, SidebarDuration
+  Dates, SidebarDuration
 } from '../../../lib/date_utils';
+import ResumeSection from '../ResumeSection/ResumeSection';
 
 export default function ResumeEducation({
   education, title, subtitle, icon
 }) {
-  const edIcon = icon || 'mortar-board';
   return (
     <div className="detail" id="education">
-      <div className="icon">
-        <i className={`fa fa-lg fa-${edIcon}`}></i>
-        <span className="mobile-title">{title}</span>
-      </div>
-      <div className="info">
-        <h4 className="title text-uppercase">
-          {title} <span className="grey">{subtitle}</span>
-        </h4>
-
-        <div className="content">
-          {EducationExperiences(education)}
-        </div>
-      </div>
+      <ResumeSection
+        title={title}
+        subtitle={subtitle}
+        icon={icon}
+        defaultIcon="mortar-board"
+      >
+        <EducationExperiences education={education} />
+      </ResumeSection>
     </div>
   )
 }
 
-export function EducationExperiences(education) {
+export function EducationExperiences ({ education }) {
   return (
     <ul className="list-unstyled">
       {education.map(({
@@ -49,18 +44,21 @@ export function EducationExperiences(education) {
               </p>
               <p className="visible-xs visible-sm text-muted hide-when-sidebar">
                 <small>
-                <span>
-                  {startDate} &mdash; {EndDate(endDate)}
-                </span>
+                  <Dates startDate={startDate} endDate={endDate} />
                 </small>
               </p>
               <i>{gpa}</i>
               <div className="space-top labels">
-                {Courses(courses)}
+                <Courses courses={courses} />
               </div>
             </div>
             <div className="sidebar text-muted text-center hidden-xs hidden-sm">
-              {SidebarContent(location, startDate, endDate, completed)}
+              <SidebarContent
+                location={location}
+                startDate={startDate}
+                endDate={endDate}
+                completed={completed}
+              />
             </div>
           </li>
         )
@@ -69,8 +67,8 @@ export function EducationExperiences(education) {
   )
 }
 
-export function Courses(courses) {
-  return courses.map((course, index) => {
+export function Courses ({ courses }) {
+  return courses.map((course) => {
     return (
       <span className="label label-keyword" key={course}>
         {course}
@@ -79,22 +77,24 @@ export function Courses(courses) {
   })
 }
 
-export function InstitutionLocation(location) {
+export function InstitutionLocation ({ location }) {
   return <span className="location">{location}</span>
 }
 
-export function SidebarContent(location, startDate, endDate, completed) {
+export function SidebarContent ({
+  location, startDate, endDate, completed
+}) {
   return (
     <>
-      <p>{InstitutionLocation(location)}</p>
-      <p>{SidebarStartDate(startDate)}</p>
-      <p>{SidebarEndDate(endDate, completed)}</p>
-      {SidebarDuration(startDate, endDate)}
+      <p><InstitutionLocation location={location} /></p>
+      <p><SidebarStartDate startDate={startDate} /></p>
+      <p><SidebarEndDate endDate={endDate} completed={completed} /></p>
+      <SidebarDuration startDate={startDate} endDate={endDate} />
     </>
   )
 }
 
-export function SidebarStartDate(startDate) {
+export function SidebarStartDate ({ startDate }) {
   return startDate ? (
     <>
       <strong>Started:</strong> {startDate}
@@ -102,7 +102,7 @@ export function SidebarStartDate(startDate) {
   ) : <></>
 }
 
-export function SidebarEndDate(endDate, completed) {
+export function SidebarEndDate ({ endDate, completed }) {
   return endDate ? (
     completed ? (
       <>
@@ -115,14 +115,14 @@ export function SidebarEndDate(endDate, completed) {
     )
   ) : (
     <>
-      <span className="label label-success">
-        Currently Pursuing
+      <span className="label label-keyword">
+        <strong>Currently Pursuing</strong>
       </span>
     </>
   )
 }
 
-export function EndDate(endDate) {
+export function EndDate ({ endDate }) {
   return endDate ? (
     <>
       {endDate}

@@ -134,11 +134,12 @@
         "summary": "In the Sensor Systems division's Advanced Technologies group, I developed software and associated mathematics and algorithms for DARPA-funded research projects using such technologies as VLF controlled-source EM sensing, tomography, compressed sensing, GPS tracking, and noise reduction.",
         "highlights": []
     }, {
+        "name": "University of Maryland, Office of IT",
+        "location": "College Park, MD",
+        "position": "Graduate Assistant",
+        "url": "http://www.baesystems.com",
         "startDate": "2004-06-02",
         "endDate": "2006-05-19",
-        "position": "Graduate Assistant",
-        "company": "University of Maryland, Office of IT",
-        "website": "http://www.baesystems.com",
         "summary": "In the Office of Learning Technologies, I wrote and installed software and built platforms to enable the use of collaborative learning tools in courses. In addition, I taught classes on programming in MATLAB to undergraduate and graduate students from across the university.",
         "highlights": []
     }],
@@ -147,6 +148,7 @@
         "studyType": "Mastering Software Development in R Specialization",
         "area": "Data Engineering",
         "startDate": "2016-10-08",
+        "endDate": "2018-06-01",
         "completed": false,
         "courses": [
             "The R Programming Environment",
@@ -329,6 +331,18 @@
         }
     ],
     "publications": [{
+        "name": "Evolving Fessonia: An update on the Fessonia ffmpeg interface library for Node.js",
+        "publicationType": "talk",
+        "publisher": "Demuxed",
+        "releaseDate": "2020-10-29",
+        "website": "https://2020.demuxed.com/#schedule",
+        "summary": "In this 3-minute lightning talk, I gave a quick recap of a prior talk and provided some updates on the evolution of the library since its 2019 introduction.",
+        "links": {
+          "video": "http://bit.ly/evolving-fessonia-video",
+          "slides": "http://bit.ly/evolving-fessonia-slides",
+          "library": "https://www.npmjs.com/package/@tedconf/fessonia"
+        }
+      }, {
         "name": "Evolving an API to Match a Conceptual Model: Expressing ffmpeg in JavaScript",
         "publicationType": "talk",
         "publisher": "NoFUN: New Orleans Functional Programming",
@@ -336,12 +350,13 @@
         "website": "https://www.meetup.com/no-fun/events/268424936/",
         "summary": "In this talk, I walked through the evolution of the Fessonia open source library API and how it was driven by the conceptual model of ffmpeg created early on in its development.",
         "links": {
-          "slides": "https://bit.ly/fessonia-evolving-api"
+          "slides": "https://bit.ly/fessonia-evolving-api",
+          "library": "https://www.npmjs.com/package/@tedconf/fessonia"
         }
       }, {
         "name": "Modeling the Conceptual Structure of ffmpeg in JavaScript",
         "publicationType": "talk",
-        "publisher": "Demuxed ",
+        "publisher": "Demuxed",
         "releaseDate": "2019-10-23",
         "website": "https://2019.demuxed.com/#schedule",
         "summary": "In this talk, I introduced a new open source library I built for Node.js to make interfacing with ffmpeg from JavaScript server-side code easier and lessen the learning curve, covering both conceptual structure and motivation, as well as practical examples.",
@@ -479,28 +494,28 @@
     }],
     "skills": [{
         "name": "Software Engineering",
-        "level": "master",
+        "level": "mastery",
         "keywords": ["Web Applications", "Web Development", "Software Development", "Databases"]
     }, {
         "name": "Back-end Software Development",
-        "level": "master",
+        "level": "mastery",
         "keywords": ["JavaScript", "Node.js", "SQL", "Ruby", "Python", "Golang", "Bash Scripting", "Software Architecture", "Software Design", "Microservices", "Web APIs", "C++", "C", "Java", "Mac OS X", "Linux", "Windows", "Databases", "Data Integration", "ETL"]
     }, {
         "name": "Web Development",
-        "level": "master",
+        "level": "mastery",
         "keywords": ["JavaScript", "Express.js", "Ruby on Rails", "React", "HTML", "CSS", "Web Components", "Polymer", "PHP", "Web Design", "Web Analytics", "Web Content Management", "Web 2.0", "Web Accessibility"]
     }, {
         "name": "Data Science",
-        "level": "master",
+        "level": "mastery",
         "keywords": ["Data Analysis", "SQL", "R", "Python", "Databases", "Data Cleaning", "Data Transformation", "Applied Mathematics", "Machine Learning", "Statistical Signal Processing", "Numerical Computing", "Statistical Computing", "Data Visualization", "Information Visualization", "Signal Processing", "Matlab", "SAS"]
+    }, {
+        "name": "Business, Government and Project Management",
+        "level": "mastery",
+        "keywords": ["Agile Project Management", "Agile Methodologies", "Information Technology Management", "Data Analysis Management", "Public Speaking", "Strategic Planning", "Visioning", "Writing", "Technical Writing", "Presentation Development", "Public Sector", "Federal Government", "Federal Budget", "Open Government Initiative", "Open Data", "Federal Records Management", "Microsoft Office", "Adobe Creative Suite"]
     }, {
         "name": "Design",
         "level": "advanced",
         "keywords": ["Iterative Design", "User-centered Design", "Information Design", "Information Architecture", "Prototyping", "Web Design", "Information Visualization", "Accessible Design"]
-    }, {
-        "name": "Business, Government and Project Management",
-        "level": "master",
-        "keywords": ["Agile Project Management", "Agile Methodologies", "Information Technology Management", "Data Analysis Management", "Public Speaking", "Strategic Planning", "Visioning", "Writing", "Technical Writing", "Presentation Development", "Public Sector", "Federal Government", "Federal Budget", "Open Government Initiative", "Open Data", "Federal Records Management", "Microsoft Office", "Adobe Creative Suite"]
     }],
     "interests": [{
         "name": "reading"

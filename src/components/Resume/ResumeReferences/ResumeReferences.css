@@ -1,0 +1,12 @@
+.quote {
+  display: grid;
+  grid-template-columns: 3em 1fr;
+  grid-template-rows: auto;
+  margin-left: 0;
+  padding-left: 0;
+}
+.quote svg {
+  font-size: 2rem;
+  text-align: right;
+  color: #3d8b3d;
+}

@@ -3,36 +3,43 @@ import React from 'react';
 import {
   Dates, Duration, SidebarDuration
 } from '../../../lib/date_utils';
+import ResumeSection from '../ResumeSection/ResumeSection';
 
 import './ResumeWorkExperience.css';
 
 export default function ResumeWorkExperience({
   work, title, subtitle, icon
 }) {
-  const workIcon = icon || 'building';
   return (
     <div className="detail" id="work-experience">
-      <div className="icon">
-        <i className={`fa fa-lg fa-${workIcon}`}></i>
-        <span className="mobile-title">{title}</span>
-      </div>
-      <div className="info">
-        <h4 className="title text-uppercase">
-          {title} <span className="grey">{subtitle}</span>
-        </h4>
-        {Work(work)}
-      </div>
+      <ResumeSection
+        title={title}
+        subtitle={subtitle}
+        icon={icon}
+        defaultIcon="building"
+      >
+        <Work work={work} />
+      </ResumeSection>
     </div>
   )
 }
 
-export function Work(work) {
+export function Work ({ work }) {
   const positions = work.map(
     workPosition => {
       const positionId = workPosition.company + workPosition.startDate
       return (
         <li className="card card-nested clearfix" key={positionId}>
-          {WorkPosition(workPosition)}
+          <WorkPosition
+            position={workPosition.position}
+            name={workPosition.name}
+            location={workPosition.location}
+            url={workPosition.url}
+            summary={workPosition.summary}
+            startDate={workPosition.startDate}
+            endDate={workPosition.endDate}
+            highlights={workPosition.highlights}
+          />
         </li>
       )
     }
@@ -48,33 +55,28 @@ export function WorkPosition({
   position, name, location, url, summary,
   startDate, endDate, highlights
 }) {
-  const companyDisplay = Company(name, url)
-  const positionLocationDisplay = PositionLocation(location)
-  const datesDisplay = Dates(startDate, endDate)
-  const durationDisplay = Duration(startDate, endDate)
-  const highlightsDisplay = Highlights(highlights)
   const sidebarContent = SidebarContent(location, startDate, endDate)
   return (
     <>
       <div className="content has-sidebar">
         <p className="clear-margin-sm">
-          <strong>{position}</strong>,&nbsp;{companyDisplay}
+          <strong>{position}</strong>,&nbsp;<Company name={name} url={url} />
         </p>
         <p className="text-muted visible-xs visible-sm hide-when-sidebar">
           <small>
             <span className="space-right">
-              {positionLocationDisplay} &bull;
+              <PositionLocation location={location} /> &bull;
             </span>
             
             <span className="space-right">
-              {datesDisplay} &bull;
+              <Dates startDate={startDate} endDate={endDate} /> &bull;
             </span>
 
-            {durationDisplay}
+            <Duration startDate={startDate} endDate={endDate} />
           </small>
         </p>
         <p>{summary}</p>
-        {highlightsDisplay}
+        <PositionHighlights highlights={highlights} />
       </div>
 
       <div className="sidebar text-muted text-center hidden-xs hidden-sm">
@@ -84,7 +86,7 @@ export function WorkPosition({
   )
 }
 
-export function Company(name, url) {
+export function Company ({ name, url }) {
   return url ? (
     <>
       <a
@@ -96,7 +98,7 @@ export function Company(name, url) {
   ) : <>{name}</>
 }
 
-export function Highlights(highlights) {
+export function PositionHighlights ({ highlights }) {
   return highlights ? (
     <>
       <ul>
@@ -109,22 +111,22 @@ export function Highlights(highlights) {
   ) : <></>
 }
 
-export function PositionLocation(location) {
+export function PositionLocation ({ location }) {
   return <span className="work-location">{location}</span>
 }
 
 export function SidebarContent(location, startDate, endDate) {
   return (
     <>
-      <p>{PositionLocation(location)}</p>
-      <p>{SidebarStartDate(startDate)}</p>
-      <p>{SidebarEndDate(endDate)}</p>
-      {SidebarDuration(startDate, endDate)}
+      <p><PositionLocation location={location} /></p>
+      <p><SidebarStartDate startDate={startDate} /></p>
+      <p><SidebarEndDate endDate={endDate} /></p>
+      <SidebarDuration startDate={startDate} endDate={endDate} />
     </>
   )
 }
 
-export function SidebarStartDate(startDate) {
+export function SidebarStartDate ({ startDate }) {
   return startDate ? (
     <>
       <strong>Joined:</strong> {startDate}
@@ -132,15 +134,15 @@ export function SidebarStartDate(startDate) {
   ) : <></>
 }
 
-export function SidebarEndDate(endDate) {
+export function SidebarEndDate ({ endDate }) {
   return endDate ? (
     <>
       <strong>Left:</strong> {endDate}
     </>
   ) : (
     <>
-      <span className="label label-success">
-        Currently Working
+      <span className="label label-keyword">
+        <strong>Currently Working</strong>
       </span>
     </>
   )
