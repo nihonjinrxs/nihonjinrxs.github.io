@@ -106,13 +106,23 @@ a:hover {
   padding: 0 10px;
   border-right: 1px solid #dddddd;
 }
-.info .sidebar {
-  margin-left: 80%;
-  box-sizing: border-box;
-  padding: 10px;
-}
 .has-sidebar .hide-when-sidebar {
   display: none;
+}
+@media (max-width: 992px) {
+  .info .sidebar {
+    display: none;
+  }
+  .info .hide-when-sidebar {
+    display: block;
+  }
+}
+@media (min-width: 993px) {
+  .info .sidebar {
+    margin-left: 80%;
+    box-sizing: border-box;
+    padding: 10px;
+  }
 }
 .name {
   color: #3d8b3d;
@@ -143,11 +153,7 @@ p.study-area {
 }
 #resume-container {
   display: grid;
-  grid-template-columns: 1fr 3fr;
-  grid-template-rows: 1fr;
-  grid-gap: 5px;
-  width: 100vw;
-  height: 100vh;
+
 }
 @media (max-width: 480px) {
   .card-nested {
@@ -159,32 +165,26 @@ p.study-area {
   .skill-info {
     margin-left: 20px;
   }
-  #resume-container {
-    grid-template-columns: 1fr;
-    grid-template-rows: auto auto;
-    height: fit-content;
-    overflow-y: scroll;
-  }
   ul {
     padding-left: 25px;
   }
 }
 @media (max-width: 768px) {
-  #resume-container {
-    grid-template-columns: 1fr;
-    grid-template-rows: auto auto;
-    height: fit-content;
-    overflow-y: scroll;
-  }
   .profile-card-wrapper {
     height: auto;
-    overflow-y: auto;
+    /* overflow-y: auto; */
   }
   .quote {
     font-size: inherit;
   }
 }
 @media (max-width: 992px) {
+  #resume-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    height: 100vh;
+    overflow-y: scroll;
+  }
   .clear-margin-sm {
     margin-bottom: 0;
   }
@@ -200,6 +200,15 @@ p.study-area {
   }
   .name {
     margin-top: 10px;
+  }
+}
+@media (min-width: 993px) {
+  #resume-container {
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr;
+    grid-gap: 5px;
+    width: 100vw;
+    height: 100vh;
   }
 }
 @media print {
