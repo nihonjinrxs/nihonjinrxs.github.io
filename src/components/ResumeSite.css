@@ -106,13 +106,23 @@ a:hover {
   padding: 0 10px;
   border-right: 1px solid #dddddd;
 }
-.info .sidebar {
-  margin-left: 80%;
-  box-sizing: border-box;
-  padding: 10px;
-}
 .has-sidebar .hide-when-sidebar {
   display: none;
+}
+@media (max-width: 992px) {
+  .info .sidebar {
+    display: none;
+  }
+  .info .hide-when-sidebar {
+    display: block;
+  }
+}
+@media (min-width: 993px) {
+  .info .sidebar {
+    margin-left: 80%;
+    box-sizing: border-box;
+    padding: 10px;
+  }
 }
 .name {
   color: #3d8b3d;
