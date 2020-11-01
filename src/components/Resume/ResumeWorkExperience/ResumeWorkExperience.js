@@ -12,7 +12,7 @@ export default function ResumeWorkExperience({
   work, title, subtitle, icon
 }) {
   return (
-    <div className="detail" id="work-experience">
+    <div className="detail" id="experience">
       <ResumeSection
         title={title}
         subtitle={subtitle}

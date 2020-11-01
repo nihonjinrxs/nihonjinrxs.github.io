@@ -5,7 +5,7 @@ import ResumeSection from '../ResumeSection/ResumeSection';
 
 export default function ResumeAboutSummary ({ title, subtitle, description, icon }) {
   return (
-    <div className="detail" id="about">
+    <div className="detail" id="summary">
       <ResumeSection
         title={title}
         subtitle={subtitle}

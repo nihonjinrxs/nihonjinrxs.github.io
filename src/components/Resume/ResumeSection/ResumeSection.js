@@ -5,7 +5,6 @@ function ResumeSection ({
 }) {
   const sectionIcon = icon || defaultIcon;
   return (<>
-    <a name={slug}></a>
     <div className="icon">
       <i className={`fad fa-lg fa-${sectionIcon}`}></i>
       <span className="mobile-title">{title}</span>
