@@ -27,20 +27,34 @@ export function Dates ({ startDate, endDate }) {
   )
 }
 
-export function Duration ({ startDate, endDate }) {
+export function Duration ({ startDate, endDate, schedule }) {
   return (
     <span>
       <i className="fa fa-clock-o icon-left"></i>
-      {computeDuration(startDate, endDate)}
+      {computeDuration(startDate, endDate)}{
+        schedule ? (
+          <>
+            <span class="link-separator">•</span>
+            {schedule[0].toUpperCase() + schedule.substring(1)}
+          </>
+        ) : <></>
+      }
     </span>
   )
 }
 
-export function SidebarDuration ({ startDate, endDate }) {
+export function SidebarDuration ({ startDate, endDate, schedule }) {
   return (
     <p>
       <i className="fa fa-clock-o icon-left"></i>
-      {computeDuration(startDate, endDate)}
+      {computeDuration(startDate, endDate)}{
+        schedule ? (
+          <>
+            <span class="link-separator">•</span>
+            {schedule[0].toUpperCase() + schedule.substring(1)}
+          </>
+        ) : <></>
+      }
     </p>
   )
 }

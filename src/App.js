@@ -54,7 +54,7 @@ function App() {
     },
     publications: {
       title: 'What have you published?',
-      subtitle: 'Talks &amp; Papers',
+      subtitle: 'Talks & Papers',
       slug: 'publications',
       icon: 'book'
     },

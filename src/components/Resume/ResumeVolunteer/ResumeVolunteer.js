@@ -1,4 +1,5 @@
 import React from 'react';
+import marked from 'marked';
 
 import {
   Dates, Duration, SidebarDuration
@@ -67,7 +68,7 @@ export function VolunteerPosition({
             <Duration startDate={startDate} endDate={endDate} />
           </small>
         </p>
-        <p>{summary}</p>
+        <p dangerouslySetInnerHTML={{ __html: marked(summary, { sanitize: true }) }}></p>
         <PositionHighlights highlights={highlights} />
       </div>
 
@@ -94,7 +95,9 @@ export function PositionHighlights ({ highlights }) {
       <ul>
         {highlights.map((highlight, idx) => {
           const key = `highlight-${idx}`;
-          return <li key={key}>{highlight}</li>;
+          return <li key={key} dangerouslySetInnerHTML={{
+            __html: marked(highlight, { sanitize: true })
+          }}></li>;
         })}
       </ul>
     </>

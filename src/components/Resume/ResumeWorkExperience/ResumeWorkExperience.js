@@ -1,4 +1,5 @@
 import React from 'react';
+import marked from 'marked';
 
 import {
   Dates, Duration, SidebarDuration
@@ -33,11 +34,13 @@ export function Work ({ work }) {
           <WorkPosition
             position={workPosition.position}
             name={workPosition.name}
+            type={workPosition.type}
             location={workPosition.location}
             url={workPosition.url}
             summary={workPosition.summary}
             startDate={workPosition.startDate}
             endDate={workPosition.endDate}
+            schedule={workPosition.schedule}
             highlights={workPosition.highlights}
           />
         </li>
@@ -52,10 +55,9 @@ export function Work ({ work }) {
 }
 
 export function WorkPosition({
-  position, name, location, url, summary,
-  startDate, endDate, highlights
+  position, name, type, location, url, summary,
+  startDate, endDate, schedule, highlights
 }) {
-  const sidebarContent = SidebarContent(location, startDate, endDate)
   return (
     <>
       <div className="content has-sidebar">
@@ -75,12 +77,18 @@ export function WorkPosition({
             <Duration startDate={startDate} endDate={endDate} />
           </small>
         </p>
-        <p>{summary}</p>
+        <p dangerouslySetInnerHTML={{ __html: marked(summary, { sanitize: true }) }}></p>
         <PositionHighlights highlights={highlights} />
       </div>
 
       <div className="sidebar text-muted text-center hidden-xs hidden-sm">
-        {sidebarContent}
+        <SidebarContent
+          type={type}
+          location={location}
+          startDate={startDate}
+          endDate={endDate}
+          schedule={schedule}
+        />
       </div>
     </>
   )
@@ -104,7 +112,9 @@ export function PositionHighlights ({ highlights }) {
       <ul>
         {highlights.map((highlight, idx) => {
           const key = `highlight-${idx}`;
-          return <li key={key}>{highlight}</li>;
+          return <li key={key} dangerouslySetInnerHTML={{
+            __html: marked(highlight, { sanitize: true })
+          }}></li>;
         })}
       </ul>
     </>
@@ -112,18 +122,34 @@ export function PositionHighlights ({ highlights }) {
 }
 
 export function PositionLocation ({ location }) {
-  return <span className="work-location">{location}</span>
+  return <strong className="work-location">{location}</strong>
 }
 
-export function SidebarContent(location, startDate, endDate) {
+export function SidebarContent ({ type, location, startDate, endDate, schedule }) {
   return (
     <>
       <p><PositionLocation location={location} /></p>
       <p><SidebarStartDate startDate={startDate} /></p>
       <p><SidebarEndDate endDate={endDate} /></p>
-      <SidebarDuration startDate={startDate} endDate={endDate} />
+      <SidebarDuration startDate={startDate} endDate={endDate} schedule={schedule} />
+      <p><PositionType type={type} /></p>
     </>
   )
+}
+
+export function PositionType ({ type }) {
+  switch (type) {
+    case 'primary':
+      return (
+        <span>Primary Employment</span>
+      );
+    case 'secondary':
+      return (
+        <span>Secondary Employment</span>
+      );
+    default:
+      return '';
+  }
 }
 
 export function SidebarStartDate ({ startDate }) {

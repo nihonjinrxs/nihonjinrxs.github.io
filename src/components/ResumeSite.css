@@ -168,6 +168,10 @@ p.study-area {
   ul {
     padding-left: 25px;
   }
+  .hidden-xs,
+  .hidden-sm {
+    display: none;
+  }
 }
 @media (max-width: 768px) {
   .profile-card-wrapper {
@@ -176,6 +180,9 @@ p.study-area {
   }
   .quote {
     font-size: inherit;
+  }
+  .hidden-sm {
+    display: none;
   }
 }
 @media (max-width: 992px) {

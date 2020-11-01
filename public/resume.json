@@ -67,10 +67,12 @@
         "position": "Senior Backend & Data Engineer",
         "url": "http://www.ted.com",
         "startDate": "2016-08-22",
+        "type": "primary",
+        "schedule": "full-time",
         "summary": "In this position on TED's Technology Team, I build processing pipelines and products for TED's web presences and for the organization's internal tools and reporting. I spent about two years on the Analytics Squad, after which I've been working in the Video Squad.",
         "highlights": [
-            "Built a user recommendations API that serves recommendations for almost 10 million subscribed users",
-            "Built and maintain the open source @tedconf/fessonia Node.js library for integrating FFmpeg",
+            "Built a user recommendations API that serves recommendations for over 10 million subscribed users",
+            "Built and maintain the open source [@tedconf/fessonia Node.js library](https://www.npmjs.com/package/@tedconf/fessonia) for integrating FFmpeg",
             "Built an automated, dockerized encoding process that integrates with our media asset management software"
         ]
     }, {
@@ -79,10 +81,12 @@
         "position": "Adjunct Instructor & Research Associate (Pro Bono)",
         "url": "http://cas.loyno.edu/mathematics",
         "startDate": "2016-12-15",
+        "type": "secondary",
+        "schedule": "part-time",
         "summary": "As an Adjunct Instructor, I teach upper level undergraduate computer science courses. In my volunteer capacity, I assist the Department of Mathematics & Computer Sciences with computer science curriculum development, project ideas, community partnerships, and research.",
         "highlights": [
-            "Developed and taught COSC A451 Software Engineering program capstone course in a service learning mode, engaging students with real-world projects for government and non-profit partners",
-            "Developed and taught COSC A319 Internet Technologies elective course covering Internet fundamentals, protocols and Internet-based software development"
+            "Developed and taught [COSC A451 Software Engineering program capstone course](http://people.loyno.edu/~rharvey/teaching/cosc-a451/) in a service learning mode, engaging students with real-world projects for government and non-profit partners",
+            "Developed and taught [COSC A319 Internet Technologies elective course](http://people.loyno.edu/~rharvey/teaching/cosc-a319/) covering Internet fundamentals, protocols and Internet-based software development"
         ]
     }, {
         "name": "Kitchology Inc.",
@@ -90,6 +94,8 @@
         "position": "Data Scientist & Software Architect",
         "url": "http://www.kitchology.com",
         "startDate": "2013-06-02",
+        "type": "secondary",
+        "schedule": "part-time",
         "summary": "As part of the tech team at this small startup, I develop machine learning and data analysis algorithms for food and recipe science. I also wear any other hat needed, from server and database management to launch planning to business process and software architecture.",
         "highlights": [
             "Built out AWS deployment infrastructure for application services",
@@ -104,8 +110,13 @@
         "url": "http://norbertwiener.umd.edu",
         "startDate": "2014-09-02",
         "endDate": "2019-06-30",
-        "summary": "I am a research affiliate in the Norbert Wiener Center for Harmonic Analysis and Applications, housed in the Department of Mathematics. I occasionally collaborated with NWC staff on research in applications of harmonic analysis, mostly in the areas of machine learning, signal processing, and dimensionality reduction.",
-        "highlights": []
+        "type": "secondary",
+        "schedule": "part-time",
+        "summary": "I was a research affiliate in the Norbert Wiener Center for Harmonic Analysis and Applications, housed in the Department of Mathematics. I occasionally collaborated with NWC staff on research in applications of harmonic analysis, mostly in the areas of machine learning, signal processing, and dimensionality reduction of large data sets.",
+        "highlights": [
+            "Carried out self-directed research and collaborated with center faculty on research into manifold learning methods for dimensionality reduction of large data sets and applications to data compression and signal processing",
+            "Researched and created MATLAB- and C-based software for blind sound source separation using Kalman-based modulation filter banks modeling how the auditory cortex of the brain processes sound cues"
+        ]
     }, {
         "name": "Executive Office of the President",
         "location": "Washington, DC",
@@ -113,8 +124,14 @@
         "url": "http://www.whitehouse.gov/omb",
         "startDate": "2012-04-02",
         "endDate": "2016-08-06",
+        "type": "primary",
+        "schedule": "full-time",
         "summary": "In the Budget Systems Branch of the Office of Management and Budget, I was responsible for the development of our data collection platforms, including a next generation data collection platform composed of Java EE-based micro-services, that facilitate government-wide data collections and enable the development and publication of the President's Budget.  I made sure our 180,000+ users were happy and ensured that all the must-have features were complete within the impossible timelines allocated.  I was also responsible for our UX design team, delivering style guidance, prototypes and coded front-end solutions across many of our 50+ web applications.  In addition, I managed a few other web apps, wrote lots of SQL, and improved our development and project management tools and processes.",
-        "highlights": []
+        "highlights": [
+            "[Built and delivered](https://github.com/bfelob/map) a [map-based display of community programs information](http://web.archive.org/web/20150905080034/https://www.whitehouse.gov/blog/2015/08/25/heres-how-federal-government-working-local-communities-create-change-one-map) on the [White House website front page](http://web.archive.org/web/20150827120252/https://www.whitehouse.gov/) which was covered by Wired magazine",
+            "Managed development and improvement of a suite of collaboration applications, leading several cross-functional teams of contractors and in-house technical staff in work on over 50 applications",
+            "Developed, delivered and began implementation of a multi-year software architecture shift to cloud-capable services, including hardware and networking transition, application software architecture and interface specification, service transition and launch planning, CI/CD automation, and security, monitoring and maintenance planning"
+        ]
     }, {
         "name": "Social Security Administration",
         "location": "Baltimore, MD & Washington, DC",
@@ -122,6 +139,8 @@
         "url": "http://www.socialsecurity.gov",
         "startDate": "2009-03-02",
         "endDate": "2012-03-29",
+        "type": "primary",
+        "schedule": "full-time",
         "summary": "In this rotational leadership development program, I impacted each major program the agency runs.  I led a research effort on health IT to improve disability claims processing, facilitated the development of the agency's strategic plan, developed communications for the agency CIO, led several web-based communications and full-stack development efforts in the Office of Open Government, and architected and wrote software to model effects of retirement program policy for the Office of Policy Analysis.",
         "highlights": []
     }, {
@@ -131,6 +150,8 @@
         "url": "http://www.baesystems.com",
         "startDate": "2006-05-22",
         "endDate": "2009-02-28",
+        "type": "primary",
+        "schedule": "full-time",
         "summary": "In the Sensor Systems division's Advanced Technologies group, I developed software and associated mathematics and algorithms for DARPA-funded research projects using such technologies as VLF controlled-source EM sensing, tomography, compressed sensing, GPS tracking, and noise reduction.",
         "highlights": []
     }, {
@@ -140,6 +161,8 @@
         "url": "http://www.baesystems.com",
         "startDate": "2004-06-02",
         "endDate": "2006-05-19",
+        "type": "secondary",
+        "schedule": "part-time",
         "summary": "In the Office of Learning Technologies, I wrote and installed software and built platforms to enable the use of collaborative learning tools in courses. In addition, I taught classes on programming in MATLAB to undergraduate and graduate students from across the university.",
         "highlights": []
     }],
@@ -309,7 +332,10 @@
             "position": "Board Member",
             "url": "https://stcharles.center",
             "startDate": "2020-07-01",
-            "summary": "Serve on the non-profit's Board of Directors, as well as the Program Committee therein. Assist with technology asset management and product delivery."
+            "summary": "Serve on the non-profit's Board of Directors, as well as the Program Committee therein. Assist with technology asset management and product delivery.",
+            "highlights": [
+                "Created, edited and published [programs page](https://stcharlesave.center/programs) and [session videos](https://www.youtube.com/watch?list=PLXya5pDOly5QGxxUtZQiQUC7NtDvcgyuM&v=DYBLFsSZJJs&feature=emb_logo) for Center program _Policing New Orleans: Past, Present and Future_"
+            ]
         }, {
             "organization": "Code for New Orleans",
             "position": "Co-Organizer & Chief Data Wrangler",
@@ -317,8 +343,8 @@
             "startDate": "2016-10-13",
             "summary": "I help organize the New Orleans brigade of Code for America, where we try to create solutions to the problems we see in the city and make life better for New Orleanians.",
             "highlights": [
-                "Organized a team to assist New Orleans area 2-1-1 services operator VIA LINK with data dashboard delivery during COVID-19 pandemic",
-                "Led a project delivering shelter and distribution point information services during hurricane disaster response scenarios, including partnering with FEMA's Crowdsourcing Unit, American Red Cross, and others"
+                "Organized a team [to assist](https://github.com/codefornola/211-data-wrangling) New Orleans area 2-1-1 services operator VIA LINK with [data dashboard delivery during COVID-19 pandemic](https://app.powerbi.com/view?r=eyJrIjoiZTQ0OGYwYTEtYWFmNS00YjM2LWI2NTQtZGE3Nzg4YmEzYmVjIiwidCI6IjNlNDEwNjM1LWI1MmMtNGE4Zi1hOTlmLTM5YTViOGVjNzc5YiJ9)",
+                "Led a project [delivering shelter and distribution point information services](https://www.hurricane-response.org/about/) during hurricane disaster response scenarios, including partnering with FEMA's Crowdsourcing Unit, American Red Cross, and others"
             ]
         }, {
             "organization": "Data Community DC",
