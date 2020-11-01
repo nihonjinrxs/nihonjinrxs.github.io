@@ -15,7 +15,7 @@
     "build": "react-scripts build && rm -rf ./docs && mv ./build ./docs",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "npm run build && git commit -m 'Rebuild site' && git push origin main"
+    "deploy": "npm run build && git add . && git commit -m 'Rebuild site' && git push origin main"
   },
   "eslintConfig": {
     "extends": "react-app"
