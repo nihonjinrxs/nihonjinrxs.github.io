@@ -31,7 +31,7 @@ export default function ResumeSite ({ resume, sections }) {
       ></ResumeCard>
     </div>
     <ResumeNavigation
-      navItems={sections ? sections : {}}
+      sections={sections ? sections : {}}
     />
   </>) : (
     <div id="resume-container"></div>

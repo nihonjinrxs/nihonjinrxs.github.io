@@ -10,7 +10,7 @@ export default function ResumeVolunteer({
   volunteer, title, subtitle, icon
 }) {
   return (
-    <div className="detail" id="volunteer-experience">
+    <div className="detail" id="volunteer">
       <ResumeSection
         title={title}
         subtitle={subtitle}

@@ -6,7 +6,7 @@ function ResumeInterests ({
   interests, title, subtitle, icon
 }) {
   return (
-    <div className="detail" id="interests labels">
+    <div className="detail" id="interests">
       <ResumeSection
         title={title}
         subtitle={subtitle}

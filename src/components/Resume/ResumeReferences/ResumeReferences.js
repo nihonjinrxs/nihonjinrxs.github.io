@@ -9,7 +9,7 @@ function ResumeReferences ({
   references, title, subtitle, icon
 }) {
   return (
-    <div className="detail" id="publications">
+    <div className="detail" id="references">
       <ResumeSection
         title={title}
         subtitle={subtitle}
