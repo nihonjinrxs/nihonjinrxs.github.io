@@ -11,7 +11,11 @@ function ResumeNavigation ({
       ev.preventDefault();
       updateNavOpen(!navOpen);
     }} />
-    <NavigationMenu navItems={navItems} navOpen={navOpen} />
+    <NavigationMenu
+      navItems={navItems}
+      navOpen={navOpen}
+      updateNavOpen={updateNavOpen}
+    />
   </>);
 }
 
@@ -25,29 +29,42 @@ function NavigationTrigger ({
       }`}
       onClick={clickHandler}
     >
-      <i className="fas fa-bars"></i>
-      <span className="close-icon">×</span>
+      <i className="fas fa-bars open-icon"></i>
+      <i className="fal fa-times close-icon"></i>
     </button>
   );
 }
 
 function NavigationMenu ({
-  navItems, navOpen
+  navItems, navOpen, updateNavOpen
 }) {
   return (
-    <nav className={`floating-nav js-floating-nav${navOpen ? ' is-visible' : ''
-      }`}>
+    <nav className={
+      `floating-nav js-floating-nav${navOpen ? ' is-visible' : ''}`
+    }>
       <ul className="list-unstyled">
-        {navItems.map(item => NavigationLink(item))}
+        {navItems.map(item => {
+          return (
+            <NavigationLink
+              title={item.title}
+              icon={item.icon}
+              slug={item.slug}
+              navOpen={navOpen}
+              updateNavOpen={updateNavOpen}
+            ></NavigationLink>
+          );
+        })}
       </ul>
     </nav>
   )
 }
 
-function NavigationLink ({ title, icon, slug }) {
+function NavigationLink ({ title, icon, slug, navOpen, updateNavOpen }) {
   return (
     <li key={slug}>
-      <a href={`#${slug}`}>
+      <a href={`#${slug}`} onClick={(_ev) => {
+        updateNavOpen(!navOpen);
+      }}>
         <i className={`fa fa-${icon} navigation-icon`}></i>{title}
       </a>
     </li>

@@ -2,7 +2,7 @@ import React from 'react';
 
 import ProfileCard from './Profile/ProfileCard'
 import ResumeCard from './Resume/ResumeCard'
-import ResumeNavigation from './ResumeNavigation/ResumeNavigation';
+import ResumeNavigation from './Resume/ResumeNavigation/ResumeNavigation';
 import './ResumeSite.css'
 
 export default function ResumeSite ({ resume, sections }) {
