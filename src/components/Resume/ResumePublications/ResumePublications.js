@@ -41,7 +41,7 @@ function PublicationCard ({
         <p className="clear-margin-sm">
           {PublicationLinks(links)}
         </p>
-        <p className="visible-xs visible-sm text-muted">
+        <p className="visible-xs visible-sm text-muted hide-when-sidebar">
           <small>{getDeliveryName(publicationType)}: {displayDate(releaseDate)}</small>
         </p>
         <p className="clear-margin">
@@ -49,7 +49,17 @@ function PublicationCard ({
         </p>
       </div>
       <div className="sidebar text-muted text-center hidden-sm hidden-xs">
-        <p>{getDeliveryName(publicationType)}: {displayDate(releaseDate)}</p>
+        <p>
+          <i
+            className={`fas fa-xl fa-${getPublicationIcon(publicationType)} pub-icon`}
+          ></i>
+          
+          <strong>{publicationType[0].toUpperCase() + publicationType.substring(1).replace('-', ' ')}</strong>
+        </p>
+        <p>
+          <span className="sidebar-date-label">{getDeliveryName(publicationType)}:</span>
+          <span className="sidebar-date">{displayDate(releaseDate)}</span>
+        </p>
       </div>
     </li>
   );
@@ -66,7 +76,7 @@ function PublicationLinks (links) {
               href={linkUrl} target="_blank" rel="noopener noreferrer"
             >
               <i className={
-                `fa${getIconStyle(linkType)} fa-lg fa-${getPublicationIcon(linkType)} pub-link-icon`
+                `fa${getIconStyle(linkType)} fa-lg fa-${getLinkIcon(linkType)} pub-link-icon`
               }></i>
               View {linkType} online
             </a>
@@ -81,7 +91,7 @@ function PublicationLinks (links) {
   )
 }
 
-function getPublicationIcon (linkType) {
+function getLinkIcon (linkType) {
   return {
     paper: 'file-alt',
     slides: 'desktop',
@@ -101,12 +111,23 @@ function getIconStyle (linkType) {
   }[linkType];
 }
 
+function getPublicationIcon (publicationType) {
+  return {
+    paper: 'file-alt',
+    book: 'book-alt',
+    chapter: 'book-alt',
+    talk: 'podium',
+    'lightning-talk': 'bolt' 
+  }[publicationType]
+}
+
 function getDeliveryName (publicationType) {
   return {
     paper: 'Published',
     book: 'Published',
     chapter: 'Published',
-    talk: 'Given'
+    talk: 'Given',
+    'lightning-talk': 'Given' 
   }[publicationType]
 }
 

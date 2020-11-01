@@ -1,7 +1,7 @@
 import React from 'react';
 
 import {
-  Dates, SidebarDuration
+  Dates, SidebarDuration, displayDate
 } from '../../../lib/date_utils';
 import ResumeSection from '../ResumeSection/ResumeSection';
 
@@ -97,7 +97,8 @@ export function SidebarContent ({
 export function SidebarStartDate ({ startDate }) {
   return startDate ? (
     <>
-      <strong>Started:</strong> {startDate}
+      <span className="sidebar-date-label">Started:</span>
+      <span className="sidebar-date">{displayDate(startDate)}</span>
     </>
   ) : <></>
 }
@@ -106,11 +107,13 @@ export function SidebarEndDate ({ endDate, completed }) {
   return endDate ? (
     completed ? (
       <>
-        <strong>Completed:</strong> {endDate}
+        <span className="sidebar-date-label">Completed:</span>
+        <span className="sidebar-date">{displayDate(endDate)}</span>
       </>
     ) : (
       <>
-        <strong>Left:</strong> {endDate}
+        <span className="sidebar-date-label">Left:</span>
+        <span className="sidebar-date">{displayDate(endDate)}</span>
       </>
     )
   ) : (
@@ -125,7 +128,7 @@ export function SidebarEndDate ({ endDate, completed }) {
 export function EndDate ({ endDate }) {
   return endDate ? (
     <>
-      {endDate}
+      <span className="sidebar-date">{displayDate(endDate)}</span>
     </>
   ) : (
     <span className="label label-success">

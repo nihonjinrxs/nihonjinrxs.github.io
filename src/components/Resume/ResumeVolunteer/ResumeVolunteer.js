@@ -2,7 +2,7 @@ import React from 'react';
 import marked from 'marked';
 
 import {
-  Dates, Duration, SidebarDuration
+  Dates, Duration, SidebarDuration, displayDate
 } from '../../../lib/date_utils'
 import ResumeSection from '../ResumeSection/ResumeSection';
 
@@ -117,7 +117,8 @@ export function SidebarContent ({ startDate, endDate }) {
 export function SidebarStartDate ({ startDate }) {
   return startDate ? (
     <>
-      <strong>Joined:</strong> {startDate}
+      <span className="sidebar-date-label">Joined:</span>
+      <span className="sidebar-date">{displayDate(startDate)}</span>
     </>
   ) : <></>
 }
@@ -125,7 +126,8 @@ export function SidebarStartDate ({ startDate }) {
 export function SidebarEndDate ({ endDate }) {
   return endDate ? (
     <>
-      <strong>Left:</strong> {endDate}
+      <span className="sidebar-date-label">Left:</span>
+      <span className="sidebar-date">{displayDate(endDate)}</span>
     </>
   ) : (
     <>
