@@ -25,7 +25,7 @@ function NavigationTrigger ({
       }`}
       onClick={clickHandler}
     >
-      <i className="fad fa-bars"></i>
+      <i className="fas fa-bars"></i>
       <span className="close-icon">×</span>
     </button>
   );
@@ -46,7 +46,11 @@ function NavigationMenu ({
 
 function NavigationLink ({ title, icon, slug }) {
   return (
-    <li key={slug}><a href={`#${slug}`}><i className={`fa fa-${icon}`}></i>{title}</a></li>
+    <li key={slug}>
+      <a href={`#${slug}`}>
+        <i className={`fa fa-${icon} navigation-icon`}></i>{title}
+      </a>
+    </li>
   )
 }
 
