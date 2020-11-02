@@ -15,50 +15,62 @@
         },
         "profiles": [{
             "network": "website",
-            "url": "https://codeanddata.codes"
+            "url": "https://codeanddata.codes",
+            "for-print": true
         }, {
             "network": "loyno",
-            "url": "http://people.loyno.edu/~rharvey/"
+            "url": "http://people.loyno.edu/~rharvey/",
+            "for-print": true
         }, {
             "network": "github",
             "username": "nihonjinrxs",
-            "url": "https://github.com/nihonjinrxs"
+            "url": "https://github.com/nihonjinrxs",
+            "for-print": true
         }, {
             "network": "github2",
             "username": "ryanbharvey",
-            "url": "https://github.com/ryanbharvey"
+            "url": "https://github.com/ryanbharvey",
+            "for-print": false
         }, {
             "network": "twitter",
             "username": "CodeAndData",
-            "url": "https://twitter.com/CodeAndData"
+            "url": "https://twitter.com/CodeAndData",
+            "for-print": true
         }, {
             "network": "linkedin",
             "username": "ryan.b.harvey",
-            "url": "https://www.linkedin.com/in/ryanbharvey"
+            "url": "https://www.linkedin.com/in/ryanbharvey",
+            "for-print": false
         }, {
             "network": "youtube",
             "username": "nihonjinrxs",
-            "url": "https://www.youtube.com/user/nihonjinrxs"
+            "url": "https://www.youtube.com/user/nihonjinrxs",
+            "for-print": false
         }, {
             "network": "skype",
             "username": "nihonjinrxs",
-            "url": "skype:nihonjinrxs"
+            "url": "skype:nihonjinrxs",
+            "for-print": false
         }, {
             "network": "pluralsight",
             "username": "ryanbharvey",
-            "url": "https://app.pluralsight.com/profile/ryanbharvey"
+            "url": "https://app.pluralsight.com/profile/ryanbharvey",
+            "for-print": false
         }, {
             "network": "codepen",
             "username": "nihonjinrxs",
-            "url": "http://codepen.io/nihonjinrxs/"
+            "url": "http://codepen.io/nihonjinrxs/",
+            "for-print": false
         }, {
             "network": "bitbucket",
             "username": "nihonjinrxs",
-            "url": "https://bitbucket.org/NihonjinRXS"
+            "url": "https://bitbucket.org/NihonjinRXS",
+            "for-print": false
         }, {
             "network": "bountysource",
             "username": "31120-codeanddata",
-            "url": "https://www.bountysource.com/people/31120-codeanddata"
+            "url": "https://www.bountysource.com/people/31120-codeanddata",
+            "for-print": false
         }]
     },
     "work": [{
