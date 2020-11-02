@@ -1,0 +1,24 @@
+#skills ul.list-unstyled {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.skill-info {
+  width: 100%;
+}
+
+@media print {
+  .skill-info {
+    display: grid;
+    grid-template-columns: 7in;
+    grid-template-rows: max-content max-content;
+  }
+  .skill-info .skill-name-and-progress-bar {
+    display: grid;
+    grid-template-columns: 2.5in 1fr;
+    grid-template-rows: auto;
+  }
+  .skill-info .skill-name-and-progress-bar>strong {
+    padding-top: 5px;
+  }
+}

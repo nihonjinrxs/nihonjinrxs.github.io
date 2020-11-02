@@ -3,6 +3,8 @@ import React from 'react';
 import SkillProgressBar from '../SkillProgressBar/SkillProgressBar';
 import ResumeSection from '../ResumeSection/ResumeSection';
 
+import './ResumeSkills.css';
+
 export default function ResumeSkills({ title, subtitle, icon, skills }) {
   return skills ? <>
     <div className="detail" id="skills">
@@ -13,7 +15,22 @@ export default function ResumeSkills({ title, subtitle, icon, skills }) {
         defaultIcon="code"
       >
         <ul className="list-unstyled">
-          { skills.map((skill) => ResumeSkillCard(skill)) }
+          {skills.map((skill) => {
+            return (
+              <>
+                <ResumeSkillCard
+                  name={skill.name}
+                  level={skill.level}
+                  keywords={skill.keywords}
+                />
+                <ResumeSkillEntry
+                  name={skill.name}
+                  level={skill.level}
+                  keywords={skill.keywords}
+                />
+              </>
+            );
+          })}
         </ul>
       </ResumeSection>
     </div>
@@ -22,14 +39,37 @@ export default function ResumeSkills({ title, subtitle, icon, skills }) {
 
 export function ResumeSkillCard({ name, level, keywords, display_progress_bar = true }) {
   return (
-    <li className="card card-nested card-skills" key={name}>
+    <li className="card card-nested card-skills no-print" key={name}>
       <div className="skill-info">
-        <strong>{name}</strong> <small>({level.toUpperCase()})</small>
-        { display_progress_bar ? SkillProgressBar({ level }) : '' }
+        <strong>{name}</strong>
+        { display_progress_bar ? <SkillProgressBar level={level} /> : <></> }
 
         <div className="space-top labels">
           {keywords.map((keyword, index) => {
             return <span className="label label-keyword" key={keyword+index.toString()}>{keyword}</span>
+          })}
+        </div>
+      </div>
+    </li>
+  )
+}
+
+export function ResumeSkillEntry({ name, level, keywords }) {
+  return (
+    <li className="card card-nested card-skills for-print print-only no-pagebreak" key={name}>
+      <div className="skill-info">
+        <div className="skill-name-and-progress-bar">
+          <strong>{name}</strong>
+          <SkillProgressBar level={level} />
+        </div>
+        <div className="skill-labels space-top labels">
+          {keywords.map((keyword, index) => {
+            return (
+              <div
+                className="space-right label label-boxed"
+                key={keyword + index.toString()}
+              >{keyword}</div>
+            );
           })}
         </div>
       </div>

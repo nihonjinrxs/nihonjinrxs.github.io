@@ -6,14 +6,21 @@ function ResumeInterests ({
   interests, title, subtitle, icon
 }) {
   return (
-    <div className="detail" id="interests">
+    <div className="detail no-pagebreak" id="interests">
       <ResumeSection
         title={title}
         subtitle={subtitle}
         icon={icon}
         defaultIcon="heart"
       >
-        {interests.map((i) => (<span className="label label-keyword">{i.name}</span>))}
+        <p className="labels">
+        {interests.map((i) => (
+          <>
+            <span className="label label-keyword no-print">{i.name}</span>
+            <span className="label label-boxed print-only">{i.name}</span>
+          </>
+        ))}
+        </p>
       </ResumeSection>
     </div>
   );

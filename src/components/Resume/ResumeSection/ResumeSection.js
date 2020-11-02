@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './ResumeSection.css';
+
 function ResumeSection ({
   title, subtitle, slug, icon, defaultIcon, children
 }) {

@@ -13,7 +13,9 @@
   padding: 10px 20px;
 }
 .resume-details .detail {
-  display: table;
+  display: grid;
+  grid-template-columns: max-content 1fr;
+
   padding: 10px 0;
 }
 .resume-details .detail .icon {
@@ -27,6 +29,10 @@
 .resume-details .detail .title,
 .resume-details .detail .icon {
   color: #3d8b3d;
+}
+.resume-details .detail .title {
+  margin-top: 0;
+  margin-bottom: 1.5em;
 }
 .resume-details .detail .title .grey {
   color: #333333;

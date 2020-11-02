@@ -9,7 +9,7 @@
 .skill-level .skill-progress {
   border-radius: 10px;
   width: 0%;
-  height: 100%;
+  height: 1em;
   transition: width 1s ease;
   -webkit-transition: width 1s ease;
   font-weight: bold;
@@ -35,4 +35,14 @@
   width: 95%;
   background: #225bca;
   color: white;
+}
+
+@media print {
+  .skill-level {
+    border: 1px solid black;
+  }
+  .skill-level .skill-progress {
+    -webkit-print-color-adjust: exact !important;
+    border: 1px solid black;
+  }
 }

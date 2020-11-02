@@ -1,9 +1,11 @@
 import React from 'react';
 
 import {
-  Dates, SidebarDuration, displayDate
+  Dates, SidebarDuration, Duration, displayDate
 } from '../../../lib/date_utils';
 import ResumeSection from '../ResumeSection/ResumeSection';
+
+import './ResumeEducation.css';
 
 export default function ResumeEducation({
   education, title, subtitle, icon
@@ -30,9 +32,9 @@ export function EducationExperiences ({ education }) {
         startDate, endDate, completed, gpa, courses
       }) => {
         return (
-          <li className="card card-nested"
+          <li className="card card-nested no-pagebreak"
             key={studyType+area+institution+startDate}>
-            <div className="content has-sidebar">
+            <div className="content has-sidebar no-print">
               <p className="clear-margin-sm study-type">
                 <strong>{studyType}</strong>
               </p>
@@ -51,6 +53,22 @@ export function EducationExperiences ({ education }) {
               <div className="space-top labels">
                 <Courses courses={courses} />
               </div>
+            </div>
+            <div className="content has-sidebar for-print print-only">
+              <p>
+                <strong className="study-type">{studyType}</strong>
+                &nbsp;&mdash;&nbsp;
+                <strong className="study-area">{area}</strong>
+              </p>
+              <p className="text-muted">
+                <small>
+                  <strong className="institution">{institution}</strong>
+                  &nbsp;&bull;&nbsp;
+                  <Dates startDate={startDate} endDate={endDate} />
+                  &nbsp;&bull;&nbsp;
+                  <Duration startDate={startDate} endDate={endDate} />
+                </small>
+              </p>
             </div>
             <div className="sidebar text-muted text-center hidden-xs hidden-sm no-print">
               <SidebarContent

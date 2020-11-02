@@ -29,7 +29,7 @@ function PublicationCard ({
 }) {
   console.log(releaseDate);
   return (
-    <li className="card card-nested">
+    <li className="card card-nested no-pagebreak">
       <div className="content has-sidebar">
         <p className="clear-margin-sm">
           <strong>{
@@ -38,6 +38,19 @@ function PublicationCard ({
             ) : name
           }</strong>,&nbsp;{publisher}
         </p>
+        <div className="text-muted for-print hide-when-sidebar">
+          <p>
+            <small>
+              <i
+                className={`fas fa-xl fa-${getPublicationIcon(publicationType)} pub-icon`}
+              ></i>
+              <strong>{publicationType[0].toUpperCase() + publicationType.substring(1).replace('-', ' ')}</strong>
+              &nbsp;&bull;&nbsp;
+              <span>{getDeliveryName(publicationType)}:</span>
+              <span>{displayDate(releaseDate)}</span>
+            </small>
+          </p>
+        </div>
         <p className="clear-margin-sm">
           {PublicationLinks(links)}
         </p>
@@ -48,7 +61,7 @@ function PublicationCard ({
           {summary}
         </p>
       </div>
-      <div className="sidebar text-muted text-center hidden-sm hidden-xs">
+      <div className="sidebar text-muted text-center hidden-sm hidden-xs no-print">
         <p>
           <i
             className={`fas fa-xl fa-${getPublicationIcon(publicationType)} pub-icon`}

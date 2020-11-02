@@ -10,3 +10,11 @@
   text-align: right;
   color: #3d8b3d;
 }
+
+@media print {
+  .quote svg {
+    font-size: 1.5rem;
+    text-align: right;
+    color: #3d8b3d;
+  }
+}
