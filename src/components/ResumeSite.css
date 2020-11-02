@@ -231,9 +231,13 @@ p.study-area {
   }
 }
 @media print {
+  html {
+    height: 100%;
+  }
   body {
     width: 8in;
     font-size: 11pt;
+    height: inherit;
   }
   a[href]:after {
     content: none !important;

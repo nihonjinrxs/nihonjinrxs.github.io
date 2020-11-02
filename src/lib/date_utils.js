@@ -21,9 +21,9 @@ export function computeDuration(startDate, endDate) {
 
 export function Dates ({ startDate, endDate }) {
   return endDate ? (
-    <>{displayDate(startDate)} - {displayDate(endDate)}</>
+    <>{displayDate(startDate)}&nbsp;-&nbsp;{displayDate(endDate)}</>
   ) : (
-    <>{displayDate(startDate)} - Present</>
+    <>{displayDate(startDate)}&nbsp;-&nbsp;Present</>
   )
 }
 
