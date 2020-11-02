@@ -15,6 +15,37 @@ a.social-link:focus,
 .social-link-icon:focus {
   text-decoration: none;
 }
+a.social-link.no-print {
+  display: inline-block;
+}
+a.social-link .print-only {
+  display: none;
+}
+@media print {
+  a.social-link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .social-link-icon {
+    align-self: center;
+    transform: scale(0.8);
+  }
+  .social-link-text {
+    padding-left: 1em;
+    font-size: 11px;
+    height: inherit;
+    align-self: center;
+    vertical-align: middle;
+  }
+  a.social-link .print-only {
+    display: inline-block;
+    padding-right: 15px;
+  }
+  a.social-link.no-print {
+    display: none;
+  }
+}
 .link-github {
   color: #454545;
 }

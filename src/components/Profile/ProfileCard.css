@@ -1,0 +1,22 @@
+.profile-info-container {
+  display: flex;
+  flex-direction: column;
+}
+.spacer {
+  width: 0;
+}
+
+@media print {
+  .profile-card-wrapper {
+    height: fit-content;
+    overflow-y: inherit;
+  }
+  .profile-info-container {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .spacer {
+    width: 5em;
+  }
+}

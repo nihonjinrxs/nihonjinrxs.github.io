@@ -1,7 +1,12 @@
-@media (min-width: 993px) {
+@media screen and (min-width: 993px) {
   .resume-card-wrapper {
     overflow-y: scroll;
-  /*   scrollbar-width: 5; */
+  }
+}
+@media print {
+  .resume-card-wrapper {
+    height: auto;
+    overflow-y: inherit;
   }
 }
 .resume-card {
@@ -31,7 +36,7 @@
 .resume-details .detail .mobile-title {
   display: none;
 }
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
   .resume-details .detail .mobile-title {
     display: inline-block;
     margin-left: 5px;
@@ -48,7 +53,7 @@
   display: table-cell;
   padding: 0 10px;
 }
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
   .resume-details .detail {
     display: block;
   }

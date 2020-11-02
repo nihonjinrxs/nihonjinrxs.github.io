@@ -2,6 +2,8 @@ import React from 'react';
 
 import SocialLink from '../SocialLink/SocialLink';
 
+import './ProfileSocialLinks.css';
+
 const ICONS = {
   website: "globe",
   loyno: "user-graduate",
@@ -67,6 +69,8 @@ export default function ProfileSocialLinks ({ profiles }) {
               icon={ICONS[profile.network] || ICONS["website"]}
               iconStyle={STYLES[profile.network] || STYLES["website"]}
               type={profile.network}
+              username={profile.username}
+              forPrint={profile['for-print']}
               href={profile.url}
               key={profile.network}
             />

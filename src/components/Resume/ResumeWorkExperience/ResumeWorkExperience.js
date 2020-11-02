@@ -30,7 +30,7 @@ export function Work ({ work }) {
     workPosition => {
       const positionId = workPosition.company + workPosition.startDate
       return (
-        <li className="card card-nested clearfix" key={positionId}>
+        <li className="card card-nested no-pagebreak clearfix" key={positionId}>
           <WorkPosition
             position={workPosition.position}
             name={workPosition.name}
@@ -64,7 +64,7 @@ export function WorkPosition({
         <p className="clear-margin-sm">
           <strong>{position}</strong>,&nbsp;<Company name={name} url={url} />
         </p>
-        <p className="text-muted visible-xs visible-sm hide-when-sidebar">
+        <p className="text-muted visible-xs visible-sm hide-when-sidebar for-print">
           <small>
             <span className="space-right">
               <PositionLocation location={location} /> &bull;
@@ -74,14 +74,16 @@ export function WorkPosition({
               <Dates startDate={startDate} endDate={endDate} /> &bull;
             </span>
 
-            <Duration startDate={startDate} endDate={endDate} />
+            <Duration startDate={startDate} endDate={endDate} schedule={schedule} />&nbsp;/&nbsp;
+
+            <PositionType type={type} />
           </small>
         </p>
         <p dangerouslySetInnerHTML={{ __html: marked(summary, { sanitize: true }) }}></p>
         <PositionHighlights highlights={highlights} />
       </div>
 
-      <div className="sidebar text-muted text-center hidden-xs hidden-sm">
+      <div className="sidebar text-muted text-center hidden-xs hidden-sm no-print">
         <SidebarContent
           type={type}
           location={location}

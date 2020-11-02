@@ -42,7 +42,7 @@ export function EducationExperiences ({ education }) {
               <p className="clear-margin-sm institution">
                 {institution}
               </p>
-              <p className="visible-xs visible-sm text-muted hide-when-sidebar">
+              <p className="visible-xs visible-sm text-muted hide-when-sidebar for-print">
                 <small>
                   <Dates startDate={startDate} endDate={endDate} />
                 </small>
@@ -52,7 +52,7 @@ export function EducationExperiences ({ education }) {
                 <Courses courses={courses} />
               </div>
             </div>
-            <div className="sidebar text-muted text-center hidden-xs hidden-sm">
+            <div className="sidebar text-muted text-center hidden-xs hidden-sm no-print">
               <SidebarContent
                 location={location}
                 startDate={startDate}

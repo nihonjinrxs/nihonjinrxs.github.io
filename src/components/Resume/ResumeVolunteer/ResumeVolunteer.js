@@ -28,7 +28,7 @@ export function VolunteerPositions ({ volunteer }) {
     volunteerPosition => {
       const positionId = volunteerPosition.organization + volunteerPosition.startDate
       return (
-        <li className="card card-nested clearfix" key={positionId}>
+        <li className="card card-nested no-pagebreak clearfix" key={positionId}>
           <VolunteerPosition
             position={volunteerPosition.position}
             organization={volunteerPosition.organization}
@@ -59,7 +59,7 @@ export function VolunteerPosition({
         <p className="clear-margin-sm">
           <strong>{position}</strong>,&nbsp;<Organization organization={organization} url={url} />
         </p>
-        <p className="text-muted visible-xs visible-sm hide-when-sidebar">
+        <p className="text-muted visible-xs visible-sm hide-when-sidebar for-print">
           <small>
             <span className="space-right">
               <Dates startDate={startDate} endDate={endDate} />
@@ -72,7 +72,7 @@ export function VolunteerPosition({
         <PositionHighlights highlights={highlights} />
       </div>
 
-      <div className="sidebar text-muted text-center hidden-xs hidden-sm">
+      <div className="sidebar text-muted text-center hidden-xs hidden-sm no-print">
         <SidebarContent startDate={startDate} endDate={endDate} />
       </div>
     </>

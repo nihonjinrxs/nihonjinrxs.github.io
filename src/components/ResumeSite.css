@@ -121,7 +121,7 @@ a:hover {
   width: 100%;
   font-weight: bold;
 }
-@media (max-width: 992px) {
+@media screen and (max-width: 992px) {
   .info .sidebar {
     display: none;
   }
@@ -129,7 +129,7 @@ a:hover {
     display: block;
   }
 }
-@media (min-width: 993px) {
+@media screen and (min-width: 993px) {
   .info .sidebar {
     margin-left: 80%;
     box-sizing: border-box;
@@ -167,7 +167,7 @@ p.study-area {
   display: grid;
 
 }
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
   .card-nested {
     padding: 5px 0;
   }
@@ -185,7 +185,7 @@ p.study-area {
     display: none;
   }
 }
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .profile-card-wrapper {
     height: auto;
     /* overflow-y: auto; */
@@ -197,7 +197,7 @@ p.study-area {
     display: none;
   }
 }
-@media (max-width: 992px) {
+@media screen and (max-width: 992px) {
   #resume-container {
     grid-template-columns: 1fr;
     grid-template-rows: auto auto;
@@ -221,7 +221,7 @@ p.study-area {
     margin-top: 10px;
   }
 }
-@media (min-width: 993px) {
+@media screen and (min-width: 993px) {
   #resume-container {
     grid-template-columns: 1fr 3fr;
     grid-template-rows: 1fr;
@@ -231,11 +231,22 @@ p.study-area {
   }
 }
 @media print {
+  body {
+    width: 8in;
+    font-size: 11pt;
+  }
   a[href]:after {
     content: none !important;
   }
+  .card,
+  .card-nested {
+    border: none;
+  }
+  .card-nested {
+    margin-bottom: 0;
+  }
   .profile-card {
-    text-align: center;
+    text-align: left;
   }
   .name-and-profession {
     display: inline-block;
@@ -249,14 +260,29 @@ p.study-area {
   .pagebreak {
     page-break-before: always;
   }
+  .no-pagebreak {
+    page-break-inside: avoid;
+  }
   .label {
     border: none;
+  }
+  .for-print {
+    display: inherit !important;
   }
   #resume-container {
     grid-template-columns: 1fr;
     grid-template-rows: auto auto;
-    height: 100%;
-    overflow-y: auto;
+    height: auto;
+    overflow-y: inherit;
     scrollbar-width: 0;
   }
+  .info .content.has-sidebar {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 10px;
+    border-right: none;
+  }
+  .has-sidebar .hide-when-sidebar {
+    display: none;
+  }  
 }

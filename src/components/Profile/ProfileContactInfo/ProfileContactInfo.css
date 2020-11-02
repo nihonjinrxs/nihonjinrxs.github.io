@@ -20,7 +20,7 @@
   vertical-align: middle;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .contact-details {
     text-align: center;
     grid-template-columns: auto;
@@ -30,7 +30,7 @@
     min-height: 1px;
   }
 }
-@media (max-width: 992px) {
+@media screen and (max-width: 992px) {
   .contact-details {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
@@ -52,13 +52,18 @@
 
 @media print {
   .contact-details {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 2em;
+    min-width: 3in;
+    width: auto;
+    text-align: left;
   }
   .contact-details .detail {
     min-height: 1px;
+    padding: 0;
     padding-left: 15px;
     padding-right: 15px;
-    padding: 0;
   }
 }

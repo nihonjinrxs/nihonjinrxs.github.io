@@ -1,0 +1,12 @@
+.no-print {
+  display: inherit;
+}
+
+@media print {
+  .no-print {
+    display: none;
+  }
+  .info .content.has-sidebar {
+    border-right: none;
+  }
+}
