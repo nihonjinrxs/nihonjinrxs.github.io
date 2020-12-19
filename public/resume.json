@@ -76,22 +76,26 @@
             {
                 "name": "Résumé (PDF)",
                 "format": "application/pdf",
-                "url": "https://CodeAndData.codes/RyanBHarvey-Resume.pdf"
+                "url": "https://CodeAndData.codes/RyanBHarvey-Resume.pdf",
+                "withReferenceContacts": false
             },
             {
-                "name": "Résumé (PDF) with Reference Contacts",
+                "name": "Résumé (PDF)",
                 "format": "application/pdf",
-                "url": "https://CodeAndData.codes/RyanBHarvey-Resume-WithReferences.pdf"
+                "url": "https://CodeAndData.codes/RyanBHarvey-Resume-WithReferences.pdf",
+                "withReferenceContacts": true
             },
             {
                 "name": "Curriculum Vita (PDF)",
                 "format": "application/pdf",
-                "url": "https://CodeAndData.codes/RyanBHarvey-CV.pdf"
+                "url": "https://CodeAndData.codes/RyanBHarvey-CV.pdf",
+                "withReferenceContacts": false
             },
             {
-                "name": "Curriculum Vita (PDF) with Reference Contacts",
+                "name": "Curriculum Vita (PDF)",
                 "format": "application/pdf",
-                "url": "https://CodeAndData.codes/RyanBHarvey-CV-WithReferences.pdf"
+                "url": "https://CodeAndData.codes/RyanBHarvey-CV-WithReferences.pdf",
+                "withReferenceContacts": true
             }
         ]
     },

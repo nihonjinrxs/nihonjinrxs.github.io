@@ -1,0 +1,55 @@
+.profile-resume-format-links {
+  display: flex;
+  margin: 10px;
+  border: 1px solid #3d8b3d;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  padding: 10px;
+  flex-direction: column;
+}
+.resume-format-links-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.resume-format-links {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+.resume-format-link {
+  width: 10em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+}
+.resume-format-link .icon {
+  display: block;
+  text-align: center;
+  width: 100%;
+  font-size: 3em;
+}
+.resume-format-link span {
+  display: block;
+}
+.resume-format-links {
+  list-style-type: none;
+  padding-left: 0;
+}
+.profile-resume-format-links label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.resume-format-links-refs-switch.react-toggle--checked .react-toggle-track {
+  background-color: #3d8b3d;
+}
+.resume-format-links-refs-switch.react-toggle--unchecked .react-toggle-track {
+  background-color: #660000;
+}
+

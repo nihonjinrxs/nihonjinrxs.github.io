@@ -4,6 +4,7 @@
 }
 .spacer {
   width: 0;
+  height: 20px;
 }
 
 @media print {

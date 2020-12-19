@@ -17,6 +17,7 @@ export default function ResumeSite ({ resume, sections }) {
         email={resume.basics.email}
         languages={resume.languages}
         social={resume.basics.profiles}
+        formats={resume.basics.formats}
       ></ProfileCard>
       <ResumeCard
         sections={sections ? sections : {}}
