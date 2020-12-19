@@ -17,61 +17,83 @@
             "network": "website",
             "url": "https://codeanddata.codes",
             "for-print": true
-        }, {
+        },{
             "network": "loyno",
             "url": "http://people.loyno.edu/~rharvey/",
             "for-print": true
-        }, {
+        },{
             "network": "github",
             "username": "nihonjinrxs",
             "url": "https://github.com/nihonjinrxs",
             "for-print": true
-        }, {
+        },{
             "network": "github2",
             "username": "ryanbharvey",
             "url": "https://github.com/ryanbharvey",
             "for-print": false
-        }, {
+        },{
             "network": "twitter",
             "username": "CodeAndData",
             "url": "https://twitter.com/CodeAndData",
             "for-print": true
-        }, {
+        },{
             "network": "linkedin",
             "username": "ryan.b.harvey",
             "url": "https://www.linkedin.com/in/ryanbharvey",
             "for-print": false
-        }, {
+        },{
             "network": "youtube",
             "username": "nihonjinrxs",
             "url": "https://www.youtube.com/user/nihonjinrxs",
             "for-print": false
-        }, {
+        },{
             "network": "skype",
             "username": "nihonjinrxs",
             "url": "skype:nihonjinrxs",
             "for-print": false
-        }, {
+        },{
             "network": "pluralsight",
             "username": "ryanbharvey",
             "url": "https://app.pluralsight.com/profile/ryanbharvey",
             "for-print": false
-        }, {
+        },{
             "network": "codepen",
             "username": "nihonjinrxs",
             "url": "http://codepen.io/nihonjinrxs/",
             "for-print": false
-        }, {
+        },{
             "network": "bitbucket",
             "username": "nihonjinrxs",
             "url": "https://bitbucket.org/NihonjinRXS",
             "for-print": false
-        }, {
+        },{
             "network": "bountysource",
             "username": "31120-codeanddata",
             "url": "https://www.bountysource.com/people/31120-codeanddata",
             "for-print": false
-        }]
+        }],
+        "formats": [
+            {
+                "name": "Résumé (PDF)",
+                "format": "application/pdf",
+                "url": "https://CodeAndData.codes/RyanBHarvey-Resume.pdf"
+            },
+            {
+                "name": "Résumé (PDF) with Reference Contacts",
+                "format": "application/pdf",
+                "url": "https://CodeAndData.codes/RyanBHarvey-Resume-WithReferences.pdf"
+            },
+            {
+                "name": "Curriculum Vita (PDF)",
+                "format": "application/pdf",
+                "url": "https://CodeAndData.codes/RyanBHarvey-CV.pdf"
+            },
+            {
+                "name": "Curriculum Vita (PDF) with Reference Contacts",
+                "format": "application/pdf",
+                "url": "https://CodeAndData.codes/RyanBHarvey-CV-WithReferences.pdf"
+            }
+        ]
     },
     "work": [{
         "name": "TED Conferences",
@@ -87,7 +109,7 @@
             "Built and maintain the open source [@tedconf/fessonia Node.js library](https://www.npmjs.com/package/@tedconf/fessonia) for integrating FFmpeg",
             "Built an automated, dockerized encoding process that integrates with our media asset management software"
         ]
-    }, {
+    },{
         "name": "Loyola University New Orleans",
         "location": "New Orleans, LA",
         "position": "Adjunct Instructor & Research Associate (Pro Bono)",
@@ -100,7 +122,7 @@
             "Developed and taught [COSC A451 Software Engineering program capstone course](http://people.loyno.edu/~rharvey/teaching/cosc-a451/) in a service learning mode, engaging students with real-world projects for government and non-profit partners",
             "Developed and taught [COSC A319 Internet Technologies elective course](http://people.loyno.edu/~rharvey/teaching/cosc-a319/) covering Internet fundamentals, protocols and Internet-based software development"
         ]
-    }, {
+    },{
         "name": "Kitchology Inc.",
         "location": "Germantown, MD / Remote",
         "position": "Data Scientist & Software Architect",
@@ -115,7 +137,7 @@
             "Architected services-based application delivery using containerized deployment",
             "Setup continuous integration services for development use by staff and contractors"
         ]
-    }, {
+    },{
         "name": "University of Maryland",
         "location": "College Park, MD",
         "position": "Research Affiliate",
@@ -129,7 +151,7 @@
             "Carried out self-directed research and collaborated with center faculty on research into manifold learning methods for dimensionality reduction of large data sets and applications to data compression and signal processing",
             "Researched and created MATLAB- and C-based software for blind sound source separation using Kalman-based modulation filter banks modeling how the auditory cortex of the brain processes sound cues"
         ]
-    }, {
+    },{
         "name": "Executive Office of the President",
         "location": "Washington, DC",
         "position": "IT Project Manager (Application Software)",
@@ -144,7 +166,7 @@
             "Managed development and improvement of a suite of collaboration applications, leading several cross-functional teams of contractors and in-house technical staff in work on over 50 applications",
             "Developed, delivered and began implementation of a multi-year software architecture shift to cloud-capable services, including hardware and networking transition, application software architecture and interface specification, service transition and launch planning, CI/CD automation, and security, monitoring and maintenance planning"
         ]
-    }, {
+    },{
         "name": "Social Security Administration",
         "location": "Baltimore, MD & Washington, DC",
         "position": "Hardy-Apfel IT Fellow (Computer Scientist)",
@@ -155,7 +177,7 @@
         "schedule": "full-time",
         "summary": "In this rotational leadership development program, I impacted each major program the agency runs.  I led a research effort on health IT to improve disability claims processing, facilitated the development of the agency's strategic plan, developed communications for the agency CIO, led several web-based communications and full-stack development efforts in the Office of Open Government, and architected and wrote software to model effects of retirement program policy for the Office of Policy Analysis.",
         "highlights": []
-    }, {
+    },{
         "name": "BAE Systems",
         "location": "Washington, DC",
         "position": "DSP Analyst & Software Engineer",
@@ -166,7 +188,7 @@
         "schedule": "full-time",
         "summary": "In the Sensor Systems division's Advanced Technologies group, I developed software and associated mathematics and algorithms for DARPA-funded research projects using such technologies as VLF controlled-source EM sensing, tomography, compressed sensing, GPS tracking, and noise reduction.",
         "highlights": []
-    }, {
+    },{
         "name": "University of Maryland, Office of IT",
         "location": "College Park, MD",
         "position": "Graduate Assistant",
@@ -380,68 +402,68 @@
           "slides": "http://bit.ly/evolving-fessonia-slides",
           "library": "https://www.npmjs.com/package/@tedconf/fessonia"
         }
-      }, {
-        "name": "Evolving an API to Match a Conceptual Model: Expressing ffmpeg in JavaScript",
-        "publicationType": "talk",
-        "publisher": "NoFUN: New Orleans Functional Programming",
-        "releaseDate": "2020-02-04",
-        "website": "https://www.meetup.com/no-fun/events/268424936/",
-        "summary": "In this talk, I walked through the evolution of the Fessonia open source library API and how it was driven by the conceptual model of ffmpeg created early on in its development.",
-        "links": {
-          "slides": "https://bit.ly/fessonia-evolving-api",
-          "library": "https://www.npmjs.com/package/@tedconf/fessonia"
-        }
-      }, {
-        "name": "Modeling the Conceptual Structure of ffmpeg in JavaScript",
-        "publicationType": "talk",
-        "publisher": "Demuxed",
-        "releaseDate": "2019-10-23",
-        "website": "https://2019.demuxed.com/#schedule",
-        "summary": "In this talk, I introduced a new open source library I built for Node.js to make interfacing with ffmpeg from JavaScript server-side code easier and lessen the learning curve, covering both conceptual structure and motivation, as well as practical examples.",
-        "links": {
-          "video": "https://www.youtube.com/watch?v=1MUgs42_D8I&list=PLkyaYNWEKcOf_C_6W45abNvXMb40xUUqh&index=4&t=2s",
-          "slides": "http://bit.ly/fessonia-intro-slides",
-          "library": "https://www.npmjs.com/package/@tedconf/fessonia"
-        }
-      }, {
-        "name": "Modeling the Conceptual Structure of ffmpeg in JavaScript",
-        "publicationType": "talk",
-        "publisher": "Google Developer Group New Orleans",
-        "releaseDate": "2019-10-05",
-        "website": "https://devfest2019.gdgneworleans.com/#ryan",
-        "summary": "In this talk, I introduced a new open source library I built for Node.js to make interfacing with ffmpeg from JavaScript server-side code easier and lessen the learning curve, covering both conceptual structure and motivation, as well as practical examples.",
-        "links": {
-          "slides": "http://bit.ly/fessonia-intro-slides"
-        }
-      }, {
-        "name": "Sets, Bags, and Relational Theory: Real-World Interactions with Data",
-        "publicationType": "talk",
-        "publisher": "Loyola University New Orleans, ΠΜΕ LAΘ Chapter",
-        "releaseDate": "2017-01-26",
-        "website": "http://loyno.edu/~pme/",
-        "summary": "I gave a talk on sets and their extension to relational theory of databases to the Pi Mu Epsilon mathematics honor society chapter at Loyola University New Orleans.",
-        "links": {
-          "slides": "https://slides.com/ryanbharvey/sets-bags-relational-theory/live#/"
-        }
-      }, {
-        "name": "A Brief Introduction to Web Components and Polymer",
-        "publicationType": "talk",
-        "publisher": "#FrontEndParty",
-        "releaseDate": "2016-10-27",
-        "website": "https://www.meetup.com/FrontEndParty/events/234276694/",
-        "summary": "In this talk to the New Orleans #FrontEndParty meetup, I gave an introduction to web components and their standards, as well as an introduction to Google's Polymer Project, which makes it possible to build web component based sites and apps today. I also briefly reviewed the changes between Polymer 1.x and the 2.0 Preview, and the upgrade path provided by the Polymer team.",
-        "links": {
-          "slides": "https://github.com/nihonjinrxs/frontendparty-oct2016/blob/master/slides/webcomponents.pdf",
-          "materials": "https://github.com/nihonjinrxs/frontendparty-oct2016"
-        }
-      }, {
-        "name": "Agile - Where is the Greatest Value",
-        "publicationType": "talk",
-        "publisher": "ACT-IAC Management of Change 2015",
-        "releaseDate": "2015-04-18",
-        "website": "https://actiac.org/events/MOC2015",
-        "summary": "At this conference, organized by the American Council for Technology and Industry Advisory Council (ACT-IAC), I was one of three participants in a \"Learning Lounge\" panel discussion on agile project management methodologies and their fit and value for government technology projects."
-     }, {
+    },{
+    "name": "Evolving an API to Match a Conceptual Model: Expressing ffmpeg in JavaScript",
+    "publicationType": "talk",
+    "publisher": "NoFUN: New Orleans Functional Programming",
+    "releaseDate": "2020-02-04",
+    "website": "https://www.meetup.com/no-fun/events/268424936/",
+    "summary": "In this talk, I walked through the evolution of the Fessonia open source library API and how it was driven by the conceptual model of ffmpeg created early on in its development.",
+    "links": {
+        "slides": "https://bit.ly/fessonia-evolving-api",
+        "library": "https://www.npmjs.com/package/@tedconf/fessonia"
+    }
+    },{
+    "name": "Modeling the Conceptual Structure of ffmpeg in JavaScript",
+    "publicationType": "talk",
+    "publisher": "Demuxed",
+    "releaseDate": "2019-10-23",
+    "website": "https://2019.demuxed.com/#schedule",
+    "summary": "In this talk, I introduced a new open source library I built for Node.js to make interfacing with ffmpeg from JavaScript server-side code easier and lessen the learning curve, covering both conceptual structure and motivation, as well as practical examples.",
+    "links": {
+        "video": "https://www.youtube.com/watch?v=1MUgs42_D8I&list=PLkyaYNWEKcOf_C_6W45abNvXMb40xUUqh&index=4&t=2s",
+        "slides": "http://bit.ly/fessonia-intro-slides",
+        "library": "https://www.npmjs.com/package/@tedconf/fessonia"
+    }
+    },{
+    "name": "Modeling the Conceptual Structure of ffmpeg in JavaScript",
+    "publicationType": "talk",
+    "publisher": "Google Developer Group New Orleans",
+    "releaseDate": "2019-10-05",
+    "website": "https://devfest2019.gdgneworleans.com/#ryan",
+    "summary": "In this talk, I introduced a new open source library I built for Node.js to make interfacing with ffmpeg from JavaScript server-side code easier and lessen the learning curve, covering both conceptual structure and motivation, as well as practical examples.",
+    "links": {
+        "slides": "http://bit.ly/fessonia-intro-slides"
+    }
+    },{
+    "name": "Sets, Bags, and Relational Theory: Real-World Interactions with Data",
+    "publicationType": "talk",
+    "publisher": "Loyola University New Orleans, ΠΜΕ LAΘ Chapter",
+    "releaseDate": "2017-01-26",
+    "website": "http://loyno.edu/~pme/",
+    "summary": "I gave a talk on sets and their extension to relational theory of databases to the Pi Mu Epsilon mathematics honor society chapter at Loyola University New Orleans.",
+    "links": {
+        "slides": "https://slides.com/ryanbharvey/sets-bags-relational-theory/live#/"
+    }
+    },{
+    "name": "A Brief Introduction to Web Components and Polymer",
+    "publicationType": "talk",
+    "publisher": "#FrontEndParty",
+    "releaseDate": "2016-10-27",
+    "website": "https://www.meetup.com/FrontEndParty/events/234276694/",
+    "summary": "In this talk to the New Orleans #FrontEndParty meetup, I gave an introduction to web components and their standards, as well as an introduction to Google's Polymer Project, which makes it possible to build web component based sites and apps today. I also briefly reviewed the changes between Polymer 1.x and the 2.0 Preview, and the upgrade path provided by the Polymer team.",
+    "links": {
+        "slides": "https://github.com/nihonjinrxs/frontendparty-oct2016/blob/master/slides/webcomponents.pdf",
+        "materials": "https://github.com/nihonjinrxs/frontendparty-oct2016"
+    }
+    },{
+    "name": "Agile - Where is the Greatest Value",
+    "publicationType": "talk",
+    "publisher": "ACT-IAC Management of Change 2015",
+    "releaseDate": "2015-04-18",
+    "website": "https://actiac.org/events/MOC2015",
+    "summary": "At this conference, organized by the American Council for Technology and Industry Advisory Council (ACT-IAC), I was one of three participants in a \"Learning Lounge\" panel discussion on agile project management methodologies and their fit and value for government technology projects."
+    },{
         "name": "JSON Processing in the Database using PostgreSQL 9.4",
         "publicationType": "talk",
         "publisher": "Data Wranglers DC",
@@ -534,52 +556,52 @@
         "name": "Software Engineering",
         "level": "mastery",
         "keywords": ["Web Applications", "Web Development", "Software Development", "Databases"]
-    }, {
+    },{
         "name": "Back-end Software Development",
         "level": "mastery",
         "keywords": ["JavaScript", "Node.js", "SQL", "Ruby", "Python", "Golang", "Bash Scripting", "Software Architecture", "Software Design", "Microservices", "Web APIs", "C++", "C", "Java", "Mac OS X", "Linux", "Windows", "Databases", "Data Integration", "ETL"]
-    }, {
+    },{
         "name": "Web Development",
         "level": "mastery",
         "keywords": ["JavaScript", "Express.js", "Ruby on Rails", "React", "HTML", "CSS", "Web Components", "Polymer", "PHP", "Web Design", "Web Analytics", "Web Content Management", "Web 2.0", "Web Accessibility"]
-    }, {
+    },{
         "name": "Data Science",
         "level": "mastery",
         "keywords": ["Data Analysis", "SQL", "R", "Python", "Databases", "Data Cleaning", "Data Transformation", "Applied Mathematics", "Machine Learning", "Statistical Signal Processing", "Numerical Computing", "Statistical Computing", "Data Visualization", "Information Visualization", "Signal Processing", "Matlab", "SAS"]
-    }, {
+    },{
         "name": "Business, Government and Project Management",
         "level": "mastery",
         "keywords": ["Agile Project Management", "Agile Methodologies", "Information Technology Management", "Data Analysis Management", "Public Speaking", "Strategic Planning", "Visioning", "Writing", "Technical Writing", "Presentation Development", "Public Sector", "Federal Government", "Federal Budget", "Open Government Initiative", "Open Data", "Federal Records Management", "Microsoft Office", "Adobe Creative Suite"]
-    }, {
+    },{
         "name": "Design",
         "level": "advanced",
         "keywords": ["Iterative Design", "User-centered Design", "Information Design", "Information Architecture", "Prototyping", "Web Design", "Information Visualization", "Accessible Design"]
     }],
     "interests": [{
         "name": "reading"
-    }, {
+    },{
         "name": "mystery literature"
-    }, {
+    },{
         "name": "coding"
-    }, {
+    },{
         "name": "music"
-    }, {
+    },{
         "name": "cello"
-    }, {
+    },{
         "name": "bass guitar"
-    }, {
+    },{
         "name": "video games"
-    }, {
+    },{
         "name": "JRPGs"
-    }, {
+    },{
         "name": "judo"
-    }, {
+    },{
         "name": "Japan"
-    }, {
+    },{
         "name": "Japanese literature"
-    }, {
+    },{
         "name": "Japanese animation"
-    }, {
+    },{
         "name": "fantasy literature"
     }],
     "references": [{
@@ -588,19 +610,19 @@
       "profile": "https://www.linkedin.com/in/kara-f-348aa648/",
       "date": "2017-11-07",
       "relationship": "reported to Ryan at Executive Office of the President"
-    }, {
+    },{
       "name": "Kara Farley-Cahill",
       "reference": "Ryan is one of the most intelligent people I have ever had the pleasure to work for. His leadership skills and capacity to keep all team members on track without the need to micromanage are extraordinary. Ryan's ability to identify and resolve technical issues are incomparable. He can communicate complex ideas to both technical and non-technical team members. Ryan was able to focus on the current state of our tools while keeping an eye to the future via road map that was clearly communicated to the entire team. Perhaps one of his most impressible skills was that he always remained calm under pressure and treated his team with respect.",
       "profile": "https://www.linkedin.com/in/kara-f-348aa648/",
       "date": "2017-10-18",
       "relationship": "reported to Ryan at Executive Office of the President"
-    }, {
+    },{
       "name": "Ryan Rusnak",
       "reference": "Ryan Harvey is one of the smartest guys I have ever worked with. We have white boarded and collaborated on machine learning problems, monte carlo simulations and even the application that assembles the federal budget. Just never be on the other end of an interview from him and claim you are an expert at SQL!",
       "profile": "https://www.linkedin.com/in/ryan-rusnak-b936989/",
       "date": "2017-04-07",
       "relationship": "reported to Ryan at Executive Office of the President"
-    }, {
+    },{
         "name": "Dan Chandler",
         "reference": "Ryan is without reservation the best IT Architect I have ever known. His vast knowledge of the IT industry is unparalleled and he is able to effectively apply this knowledge to effectively address the business needs of an organization. Ryan's skill, talent, and dedication make him an invaluable asset to any team lucky enough to have him.",
         "profile": "https://www.linkedin.com/in/dan-chandler-03ab45",
@@ -722,8 +744,8 @@
         "relationship": "taught Ryan at Loyola University New Orleans"
     }],
     "meta": {
-      "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
-      "version": "v1.0.0",
-      "lastModified": "2017-12-24T15:53:00"
+        "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+        "version": "v1.0.0",
+        "lastModified": "2017-12-24T15:53:00"
     }
 }
