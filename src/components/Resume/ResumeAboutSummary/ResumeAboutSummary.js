@@ -1,5 +1,6 @@
 import React from 'react';
 import marked from 'marked';
+import { sanitize } from 'dompurify';
 
 import ResumeSection from '../ResumeSection/ResumeSection';
 
@@ -12,7 +13,7 @@ export default function ResumeAboutSummary ({ title, subtitle, description, icon
         icon={icon}
         defaultIcon="user"
       >
-        <span dangerouslySetInnerHTML={{ __html: marked(description, { sanitize: true }) }}></span>
+        <span dangerouslySetInnerHTML={{ __html: sanitize(marked(description)) }}></span>
       </ResumeSection>
     </div>
   )

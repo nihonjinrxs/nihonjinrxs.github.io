@@ -51,6 +51,7 @@ function NavigationMenu ({
               slug={item.slug}
               navOpen={navOpen}
               updateNavOpen={updateNavOpen}
+              key={item.slug}
             ></NavigationLink>
           );
         })}

@@ -27,9 +27,8 @@ function ResumePublication ({
 function PublicationCard ({
   name, publicationType, publisher, releaseDate, website, summary, links
 }) {
-  console.log(releaseDate);
   return (
-    <li className="card card-nested no-pagebreak">
+    <li className="card card-nested no-pagebreak" key={name+releaseDate}>
       <div className="content has-sidebar">
         <p className="clear-margin-sm">
           <strong>{
@@ -87,6 +86,7 @@ function PublicationLinks (links) {
             <a
               className="pub-link"
               href={linkUrl} target="_blank" rel="noopener noreferrer"
+              key={linkType+linkUrl}
             >
               <i className={
                 `fa${getIconStyle(linkType)} fa-lg fa-${getLinkIcon(linkType)} pub-link-icon`
@@ -95,9 +95,8 @@ function PublicationLinks (links) {
             </a>
           );
         })
-        .reduce((acc, elt) => {
-          console.log(elt, acc);
-          return acc.concat([elt, (<span class="link-separator">•</span>)]);
+        .reduce((acc, elt, idx) => {
+          return acc.concat([elt, (<span className="link-separator" key={`sep-${idx}`}>•</span>)]);
         }, [])
         .slice(0, -1) :
       ''

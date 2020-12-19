@@ -28,7 +28,7 @@ function ReferenceCard ({
   name, reference, profile, date, relationship
 }) {
   return (
-    <li className="card card-nested">
+    <li className="card card-nested" key={name+date}>
       <p>
         <a href={profile} target="_blank" rel="noopener noreferrer"><strong>{name}</strong></a>,&nbsp;
         {displayDate(date)} <span className="reference-relationship">({relationship})</span>

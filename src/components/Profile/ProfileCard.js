@@ -20,7 +20,7 @@ export default function ProfileCard({
             email={email}
             languages={languages}
           />
-          <div class="spacer"></div>
+          <div className="spacer"></div>
           <ProfileSocialLinks profiles={social}/>
         </div>
       </div>

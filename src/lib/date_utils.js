@@ -34,7 +34,7 @@ export function Duration ({ startDate, endDate, schedule }) {
       {computeDuration(startDate, endDate)}{
         schedule ? (
           <>
-            <span class="link-separator">•</span>
+            <span className="link-separator">•</span>
             {schedule[0].toUpperCase() + schedule.substring(1)}
           </>
         ) : <></>
@@ -50,7 +50,7 @@ export function SidebarDuration ({ startDate, endDate, schedule }) {
       {computeDuration(startDate, endDate)}{
         schedule ? (
           <>
-            <span class="link-separator">•</span>
+            <span className="link-separator">•</span>
             {schedule[0].toUpperCase() + schedule.substring(1)}
           </>
         ) : <></>

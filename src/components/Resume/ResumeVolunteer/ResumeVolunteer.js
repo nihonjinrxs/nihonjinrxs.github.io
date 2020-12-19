@@ -1,5 +1,6 @@
 import React from 'react';
 import marked from 'marked';
+import { sanitize } from 'dompurify';
 
 import {
   Dates, Duration, SidebarDuration, displayDate
@@ -68,7 +69,7 @@ export function VolunteerPosition({
             <Duration startDate={startDate} endDate={endDate} />
           </small>
         </p>
-        <p dangerouslySetInnerHTML={{ __html: marked(summary, { sanitize: true }) }}></p>
+        <p dangerouslySetInnerHTML={{ __html: sanitize(marked(summary)) }}></p>
         <PositionHighlights highlights={highlights} />
       </div>
 
@@ -96,7 +97,7 @@ export function PositionHighlights ({ highlights }) {
         {highlights.map((highlight, idx) => {
           const key = `highlight-${idx}`;
           return <li key={key} dangerouslySetInnerHTML={{
-            __html: marked(highlight, { sanitize: true })
+            __html: sanitize(marked(highlight))
           }}></li>;
         })}
       </ul>

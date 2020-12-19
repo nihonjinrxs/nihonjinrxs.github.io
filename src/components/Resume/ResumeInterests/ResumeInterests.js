@@ -15,10 +15,10 @@ function ResumeInterests ({
       >
         <p className="labels">
         {interests.map((i) => (
-          <>
+          <span key={i.name}>
             <span className="label label-keyword no-print">{i.name}</span>
             <span className="label label-boxed print-only">{i.name}</span>
-          </>
+          </span>
         ))}
         </p>
       </ResumeSection>

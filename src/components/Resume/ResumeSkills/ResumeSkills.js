@@ -15,9 +15,9 @@ export default function ResumeSkills({ title, subtitle, icon, skills }) {
         defaultIcon="code"
       >
         <ul className="list-unstyled">
-          {skills.map((skill) => {
+          {skills.map((skill, index) => {
             return (
-              <>
+              <div key={skill.name+index.toString()}>
                 <ResumeSkillCard
                   name={skill.name}
                   level={skill.level}
@@ -28,7 +28,7 @@ export default function ResumeSkills({ title, subtitle, icon, skills }) {
                   level={skill.level}
                   keywords={skill.keywords}
                 />
-              </>
+              </div>
             );
           })}
         </ul>
