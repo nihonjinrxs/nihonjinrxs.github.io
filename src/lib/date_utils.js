@@ -15,8 +15,20 @@ export function displayDate (date) {
 }
 
 export function computeDuration(startDate, endDate) {
-  return moment(startDate)
-    .from(moment(endDate ? endDate : undefined), true);
+  const roundingDefault = moment.relativeTimeRounding();
+  // Round relative time evaluation down
+  moment.relativeTimeRounding(Math.floor);
+  moment.relativeTimeThreshold('s', 60);
+  moment.relativeTimeThreshold('m', 60);
+  moment.relativeTimeThreshold('h', 24);
+  moment.relativeTimeThreshold('d', 7);
+  moment.relativeTimeThreshold('w', 4);
+  moment.relativeTimeThreshold('M', 12);
+  const duration = moment(startDate)
+    .to(moment(endDate ? endDate : undefined), true);
+  // back to default
+  moment.relativeTimeRounding(roundingDefault);
+  return duration;
 }
 
 export function Dates ({ startDate, endDate }) {
