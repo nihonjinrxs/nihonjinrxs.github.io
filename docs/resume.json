@@ -100,19 +100,15 @@
         ]
     },
     "work": [{
-        "name": "TED Conferences",
+        "name": "Healthify",
         "location": "New York, NY / Remote",
-        "position": "Senior Backend & Data Engineer",
-        "url": "http://www.ted.com",
-        "startDate": "2016-08-22",
+        "position": "Senior Software Engineer",
+        "url": "http://www.healthify.us",
+        "startDate": "2021-03-24",
         "type": "primary",
         "schedule": "full-time",
-        "summary": "In this position on TED's Technology Team, I build processing pipelines and products for TED's web presences and for the organization's internal tools and reporting. I spent about two years on the Analytics Squad, after which I've been working in the Video Squad.",
-        "highlights": [
-            "Built a user recommendations API that serves recommendations for over 10 million subscribed users",
-            "Built and maintain the open source [@tedconf/fessonia Node.js library](https://www.npmjs.com/package/@tedconf/fessonia) for integrating FFmpeg",
-            "Built an automated, dockerized encoding process that integrates with our media asset management software"
-        ]
+        "summary": "I've recently joined the Engineering team at Healthify, a startup enabling organizations to address the social determinants of health by providing solutions for identifying social needs, searching for social services, and coordinating care with an integrated network of community partners to improve outcomes.",
+        "highlights": []
     },{
         "name": "Loyola University New Orleans",
         "location": "New Orleans, LA",
@@ -140,6 +136,21 @@
             "Developed and proved database schema supporting multiple applications and data analysis services",
             "Architected services-based application delivery using containerized deployment",
             "Setup continuous integration services for development use by staff and contractors"
+        ]
+    },{
+        "name": "TED Conferences",
+        "location": "New York, NY / Remote",
+        "position": "Senior Backend & Data Engineer",
+        "url": "http://www.ted.com",
+        "startDate": "2016-08-22",
+        "endDate": "2021-03-15",
+        "type": "primary",
+        "schedule": "full-time",
+        "summary": "In this position on TED's Technology Team, I built processing pipelines and products for TED's web presences and for the organization's internal tools and reporting. I spent about two years on the Analytics Squad, after which I built out a new encoding platform in the Video Squad.",
+        "highlights": [
+            "Built a user recommendations API that serves recommendations for over 10 million subscribed users",
+            "Built and maintain the open source [@tedconf/fessonia Node.js library](https://www.npmjs.com/package/@tedconf/fessonia) for integrating FFmpeg",
+            "Built an automated, dockerized encoding process that integrates with our media asset management software"
         ]
     },{
         "name": "University of Maryland",
