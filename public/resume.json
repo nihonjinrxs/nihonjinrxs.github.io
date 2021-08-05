@@ -107,8 +107,11 @@
         "startDate": "2021-03-24",
         "type": "primary",
         "schedule": "full-time",
-        "summary": "I've recently joined the Engineering team at Healthify, a startup enabling organizations to address the social determinants of health by providing solutions for identifying social needs, searching for social services, and coordinating care with an integrated network of community partners to improve outcomes.",
-        "highlights": []
+        "summary": "I’m a member of the Engineering team at Healthify, a startup enabling organizations to address the social determinants of health by providing solutions for identifying social needs, searching for social services, and coordinating care with an integrated network of community partners to improve outcomes.",
+        "highlights": [
+            "Prototyped in-app self-serve reporting feature long requested by customers, then began building it.",
+            "Enabled the team by significantly improving speed and reliability of CI, deploys, and ELT processes."
+        ]
     },{
         "name": "Loyola University New Orleans",
         "location": "New Orleans, LA",
