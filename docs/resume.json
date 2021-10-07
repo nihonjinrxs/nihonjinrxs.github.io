@@ -100,7 +100,7 @@
         ]
     },
     "work": [{
-        "name": "Healthify",
+        "name": "Healthify (now WellSky)",
         "location": "New York, NY / Remote",
         "position": "Senior Software Engineer",
         "url": "http://www.healthify.us",
@@ -109,8 +109,8 @@
         "schedule": "full-time",
         "summary": "I’m a member of the Engineering team at Healthify, a startup enabling organizations to address the social determinants of health by providing solutions for identifying social needs, searching for social services, and coordinating care with an integrated network of community partners to improve outcomes.",
         "highlights": [
-            "Prototyped in-app self-serve reporting feature long requested by customers, then began building it.",
-            "Enabled the team by significantly improving speed and reliability of CI, deploys, and ELT processes."
+            "Prototyped and built in-app self-serve reporting feature long requested by customers, integrating Looker dashboards and reports into our Ruby on Rails-based application",
+            "Enabled the team by improving DevOps and developer tooling, improving observability of ELT processes, and mentoring more junior engineers"
         ]
     },{
         "name": "Loyola University New Orleans",
@@ -123,7 +123,8 @@
         "summary": "As an Adjunct Instructor, I teach upper level undergraduate computer science courses. In my volunteer capacity, I assist the Department of Mathematics & Computer Sciences with computer science curriculum development, project ideas, community partnerships, and research.",
         "highlights": [
             "Developed and taught [COSC A451 Software Engineering program capstone course](http://people.loyno.edu/~rharvey/teaching/cosc-a451/) in a service learning mode, engaging students with real-world projects for government and non-profit partners",
-            "Developed and taught [COSC A319 Internet Technologies elective course](http://people.loyno.edu/~rharvey/teaching/cosc-a319/) covering Internet fundamentals, protocols and Internet-based software development"
+            "Developed and taught [COSC A319 Internet Technologies elective course](http://people.loyno.edu/~rharvey/teaching/cosc-a319/) covering Internet fundamentals, protocols and Internet-based software development",
+            "Currently teaching a hands-on guided study course COSC A499 Open Source covering open source project structures, contribution approaches, roles and team structures, licenses, and communities"
         ]
     },{
         "name": "Kitchology Inc.",
