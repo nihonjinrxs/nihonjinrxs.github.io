@@ -100,18 +100,15 @@
         ]
     },
     "work": [{
-        "name": "Healthify (now WellSky)",
-        "location": "New York, NY / Remote",
-        "position": "Senior Software Engineer",
-        "url": "http://www.healthify.us",
-        "startDate": "2021-03-24",
+        "name": "Screencastify",
+        "location": "Chicago, IL / Remote",
+        "position": "Staff Software Engineer",
+        "url": "http://screencastify.com",
+        "startDate": "2022-01-18",
         "type": "primary",
         "schedule": "full-time",
-        "summary": "I’m a member of the Engineering team at Healthify, a startup enabling organizations to address the social determinants of health by providing solutions for identifying social needs, searching for social services, and coordinating care with an integrated network of community partners to improve outcomes.",
-        "highlights": [
-            "Prototyped and built in-app self-serve reporting feature long requested by customers, integrating Looker dashboards and reports into our Ruby on Rails-based application",
-            "Enabled the team by improving DevOps and developer tooling, improving observability of ELT processes, and mentoring more junior engineers"
-        ]
+        "summary": "I’m a member of the Engineering Department at Screencastify, a startup providing a simple way to record, edit, and share video, with a special focus on enabling video as a medium for K-12 teachers.",
+        "highlights": []
     },{
         "name": "Loyola University New Orleans",
         "location": "New Orleans, LA",
@@ -140,6 +137,20 @@
             "Developed and proved database schema supporting multiple applications and data analysis services",
             "Architected services-based application delivery using containerized deployment",
             "Setup continuous integration services for development use by staff and contractors"
+        ]
+    },{
+        "name": "Healthify (now WellSky)",
+        "location": "New York, NY / Remote",
+        "position": "Senior Software Engineer",
+        "url": "http://www.healthify.us",
+        "startDate": "2021-03-24",
+        "endDate": "2022-01-13",
+        "type": "primary",
+        "schedule": "full-time",
+        "summary": "I was a member of the Engineering team at Healthify, a startup enabling organizations to address the social determinants of health by providing solutions for identifying social needs, searching for social services, and coordinating care with an integrated network of community partners to improve outcomes.",
+        "highlights": [
+            "Prototyped and built in-app self-serve reporting feature long requested by customers, integrating Looker dashboards and reports into our Ruby on Rails-based application",
+            "Enabled the team by improving DevOps and developer tooling, improving observability of ELT processes, and mentoring more junior engineers"
         ]
     },{
         "name": "TED Conferences",
