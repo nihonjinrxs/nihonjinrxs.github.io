@@ -13,65 +13,78 @@
             "region": "LA",
             "countryCode": "USA"
         },
-        "profiles": [{
-            "network": "website",
-            "url": "https://codeanddata.codes",
-            "for-print": true
-        },{
-            "network": "loyno",
-            "url": "http://people.loyno.edu/~rharvey/",
-            "for-print": true
-        },{
-            "network": "github",
-            "username": "nihonjinrxs",
-            "url": "https://github.com/nihonjinrxs",
-            "for-print": true
-        },{
-            "network": "github2",
-            "username": "ryanbharvey",
-            "url": "https://github.com/ryanbharvey",
-            "for-print": false
-        },{
-            "network": "twitter",
-            "username": "CodeAndData",
-            "url": "https://twitter.com/CodeAndData",
-            "for-print": true
-        },{
-            "network": "linkedin",
-            "username": "ryan.b.harvey",
-            "url": "https://www.linkedin.com/in/ryanbharvey",
-            "for-print": false
-        },{
-            "network": "youtube",
-            "username": "nihonjinrxs",
-            "url": "https://www.youtube.com/user/nihonjinrxs",
-            "for-print": false
-        },{
-            "network": "skype",
-            "username": "nihonjinrxs",
-            "url": "skype:nihonjinrxs",
-            "for-print": false
-        },{
-            "network": "pluralsight",
-            "username": "ryanbharvey",
-            "url": "https://app.pluralsight.com/profile/ryanbharvey",
-            "for-print": false
-        },{
-            "network": "codepen",
-            "username": "nihonjinrxs",
-            "url": "http://codepen.io/nihonjinrxs/",
-            "for-print": false
-        },{
-            "network": "bitbucket",
-            "username": "nihonjinrxs",
-            "url": "https://bitbucket.org/NihonjinRXS",
-            "for-print": false
-        },{
-            "network": "bountysource",
-            "username": "31120-codeanddata",
-            "url": "https://www.bountysource.com/people/31120-codeanddata",
-            "for-print": false
-        }],
+        "profiles": [
+            {
+                "network": "website",
+                "url": "https://codeanddata.codes",
+                "for-print": true
+            },
+            {
+                "network": "loyno",
+                "url": "http://people.loyno.edu/~rharvey/",
+                "for-print": true
+            },
+            {
+                "network": "github",
+                "username": "nihonjinrxs",
+                "url": "https://github.com/nihonjinrxs",
+                "for-print": true
+            },
+            {
+                "network": "github2",
+                "username": "ryanbharvey",
+                "url": "https://github.com/ryanbharvey",
+                "for-print": false
+            },
+            {
+                "network": "twitter",
+                "username": "CodeAndData",
+                "url": "https://twitter.com/CodeAndData",
+                "for-print": true
+            },
+            {
+                "network": "linkedin",
+                "username": "ryan.b.harvey",
+                "url": "https://www.linkedin.com/in/ryanbharvey",
+                "for-print": false
+            },
+            {
+                "network": "youtube",
+                "username": "nihonjinrxs",
+                "url": "https://www.youtube.com/user/nihonjinrxs",
+                "for-print": false
+            },
+            {
+                "network": "skype",
+                "username": "nihonjinrxs",
+                "url": "skype:nihonjinrxs",
+                "for-print": false
+            },
+            {
+                "network": "pluralsight",
+                "username": "ryanbharvey",
+                "url": "https://app.pluralsight.com/profile/ryanbharvey",
+                "for-print": false
+            },
+            {
+                "network": "codepen",
+                "username": "nihonjinrxs",
+                "url": "http://codepen.io/nihonjinrxs/",
+                "for-print": false
+            },
+            {
+                "network": "bitbucket",
+                "username": "nihonjinrxs",
+                "url": "https://bitbucket.org/NihonjinRXS",
+                "for-print": false
+            },
+            {
+                "network": "bountysource",
+                "username": "31120-codeanddata",
+                "url": "https://www.bountysource.com/people/31120-codeanddata",
+                "for-print": false
+            }
+        ],
         "formats": [
             {
                 "name": "Résumé (PDF)",
@@ -99,286 +112,317 @@
             }
         ]
     },
-    "work": [{
-        "name": "Healthify (now WellSky)",
-        "location": "New York, NY / Remote",
-        "position": "Senior Software Engineer",
-        "url": "http://www.healthify.us",
-        "startDate": "2021-03-24",
-        "type": "primary",
-        "schedule": "full-time",
-        "summary": "I’m a member of the Engineering team at Healthify, a startup enabling organizations to address the social determinants of health by providing solutions for identifying social needs, searching for social services, and coordinating care with an integrated network of community partners to improve outcomes.",
-        "highlights": [
-            "Prototyped and built in-app self-serve reporting feature long requested by customers, integrating Looker dashboards and reports into our Ruby on Rails-based application",
-            "Enabled the team by improving DevOps and developer tooling, improving observability of ELT processes, and mentoring more junior engineers"
-        ]
-    },{
-        "name": "Loyola University New Orleans",
-        "location": "New Orleans, LA",
-        "position": "Adjunct Instructor & Research Associate (Pro Bono)",
-        "url": "http://cas.loyno.edu/mathematics",
-        "startDate": "2016-12-15",
-        "type": "secondary",
-        "schedule": "part-time",
-        "summary": "As an Adjunct Instructor, I teach upper level undergraduate computer science courses. In my volunteer capacity, I assist the Department of Mathematics & Computer Sciences with computer science curriculum development, project ideas, community partnerships, and research.",
-        "highlights": [
-            "Developed and taught [COSC A451 Software Engineering program capstone course](http://people.loyno.edu/~rharvey/teaching/cosc-a451/) in a service learning mode, engaging students with real-world projects for government and non-profit partners",
-            "Developed and taught [COSC A319 Internet Technologies elective course](http://people.loyno.edu/~rharvey/teaching/cosc-a319/) covering Internet fundamentals, protocols and Internet-based software development",
-            "Currently teaching a hands-on guided study course COSC A499 Open Source covering open source project structures, contribution approaches, roles and team structures, licenses, and communities"
-        ]
-    },{
-        "name": "Kitchology Inc.",
-        "location": "Germantown, MD / Remote",
-        "position": "Data Scientist & Software Architect",
-        "url": "http://www.kitchology.com",
-        "startDate": "2013-06-02",
-        "type": "secondary",
-        "schedule": "part-time",
-        "summary": "As part of the tech team at this small startup, I develop machine learning and data analysis algorithms for food and recipe science. I also wear any other hat needed, from server and database management to launch planning to business process and software architecture.",
-        "highlights": [
-            "Built out AWS deployment infrastructure for application services",
-            "Developed and proved database schema supporting multiple applications and data analysis services",
-            "Architected services-based application delivery using containerized deployment",
-            "Setup continuous integration services for development use by staff and contractors"
-        ]
-    },{
-        "name": "TED Conferences",
-        "location": "New York, NY / Remote",
-        "position": "Senior Backend & Data Engineer",
-        "url": "http://www.ted.com",
-        "startDate": "2016-08-22",
-        "endDate": "2021-03-15",
-        "type": "primary",
-        "schedule": "full-time",
-        "summary": "In this position on TED's Technology Team, I built processing pipelines and products for TED's web presences and for the organization's internal tools and reporting. I spent about two years on the Analytics Squad, after which I built out a new encoding platform in the Video Squad.",
-        "highlights": [
-            "Built a user recommendations API that serves recommendations for over 10 million subscribed users",
-            "Built and maintain the open source [@tedconf/fessonia Node.js library](https://www.npmjs.com/package/@tedconf/fessonia) for integrating FFmpeg",
-            "Built an automated, dockerized encoding process that integrates with our media asset management software"
-        ]
-    },{
-        "name": "University of Maryland",
-        "location": "College Park, MD",
-        "position": "Research Affiliate",
-        "url": "http://norbertwiener.umd.edu",
-        "startDate": "2014-09-02",
-        "endDate": "2019-06-30",
-        "type": "secondary",
-        "schedule": "part-time",
-        "summary": "I was a research affiliate in the Norbert Wiener Center for Harmonic Analysis and Applications, housed in the Department of Mathematics. I occasionally collaborated with NWC staff on research in applications of harmonic analysis, mostly in the areas of machine learning, signal processing, and dimensionality reduction of large data sets.",
-        "highlights": [
-            "Carried out self-directed research and collaborated with center faculty on research into manifold learning methods for dimensionality reduction of large data sets and applications to data compression and signal processing",
-            "Researched and created MATLAB- and C-based software for blind sound source separation using Kalman-based modulation filter banks modeling how the auditory cortex of the brain processes sound cues"
-        ]
-    },{
-        "name": "Executive Office of the President",
-        "location": "Washington, DC",
-        "position": "IT Project Manager (Application Software)",
-        "url": "http://www.whitehouse.gov/omb",
-        "startDate": "2012-04-02",
-        "endDate": "2016-08-06",
-        "type": "primary",
-        "schedule": "full-time",
-        "summary": "In the Budget Systems Branch of the Office of Management and Budget, I was responsible for the development of our data collection platforms, including a next generation data collection platform composed of Java EE-based micro-services, that facilitate government-wide data collections and enable the development and publication of the President's Budget.  I made sure our 180,000+ users were happy and ensured that all the must-have features were complete within the impossible timelines allocated.  I was also responsible for our UX design team, delivering style guidance, prototypes and coded front-end solutions across many of our 50+ web applications.  In addition, I managed a few other web apps, wrote lots of SQL, and improved our development and project management tools and processes.",
-        "highlights": [
-            "[Built and delivered](https://github.com/bfelob/map) a [map-based display of community programs information](http://web.archive.org/web/20150905080034/https://www.whitehouse.gov/blog/2015/08/25/heres-how-federal-government-working-local-communities-create-change-one-map) on the [White House website front page](http://web.archive.org/web/20150827120252/https://www.whitehouse.gov/) which was covered by Wired magazine",
-            "Managed development and improvement of a suite of collaboration applications, leading several cross-functional teams of contractors and in-house technical staff in work on over 50 applications",
-            "Developed, delivered and began implementation of a multi-year software architecture shift to cloud-capable services, including hardware and networking transition, application software architecture and interface specification, service transition and launch planning, CI/CD automation, and security, monitoring and maintenance planning"
-        ]
-    },{
-        "name": "Social Security Administration",
-        "location": "Baltimore, MD & Washington, DC",
-        "position": "Hardy-Apfel IT Fellow (Computer Scientist)",
-        "url": "http://www.socialsecurity.gov",
-        "startDate": "2009-03-02",
-        "endDate": "2012-03-29",
-        "type": "primary",
-        "schedule": "full-time",
-        "summary": "In this rotational leadership development program, I impacted each major program the agency runs.  I led a research effort on health IT to improve disability claims processing, facilitated the development of the agency's strategic plan, developed communications for the agency CIO, led several web-based communications and full-stack development efforts in the Office of Open Government, and architected and wrote software to model effects of retirement program policy for the Office of Policy Analysis.",
-        "highlights": []
-    },{
-        "name": "BAE Systems",
-        "location": "Washington, DC",
-        "position": "DSP Analyst & Software Engineer",
-        "url": "http://www.baesystems.com",
-        "startDate": "2006-05-22",
-        "endDate": "2009-02-28",
-        "type": "primary",
-        "schedule": "full-time",
-        "summary": "In the Sensor Systems division's Advanced Technologies group, I developed software and associated mathematics and algorithms for DARPA-funded research projects using such technologies as VLF controlled-source EM sensing, tomography, compressed sensing, GPS tracking, and noise reduction.",
-        "highlights": []
-    },{
-        "name": "University of Maryland, Office of IT",
-        "location": "College Park, MD",
-        "position": "Graduate Assistant",
-        "url": "http://www.baesystems.com",
-        "startDate": "2004-06-02",
-        "endDate": "2006-05-19",
-        "type": "secondary",
-        "schedule": "part-time",
-        "summary": "In the Office of Learning Technologies, I wrote and installed software and built platforms to enable the use of collaborative learning tools in courses. In addition, I taught classes on programming in MATLAB to undergraduate and graduate students from across the university.",
-        "highlights": []
-    }],
-    "education": [{
-        "institution": "Johns Hopkins University on Coursera",
-        "studyType": "Mastering Software Development in R Specialization",
-        "area": "Data Engineering",
-        "startDate": "2016-10-08",
-        "endDate": "2018-06-01",
-        "completed": false,
-        "courses": [
-            "The R Programming Environment",
-            "Advanced R Programming",
-            "Building R Packages",
-            "Building Data Visualization Tools",
-            "Mastering Software Development in R Capstone"
-        ]
-    },{
-        "institution": "Johns Hopkins University on Coursera",
-        "studyType": "Executive Data Science Specialization",
-        "area": "Data Science Management",
-        "startDate": "2015-10-01",
-        "endDate": "2016-03-27",
-        "completed": true,
-        "courses": [
-            "A Crash Course in Data Science",
-            "Building a Data Science Team",
-            "Managing Data Analysis",
-            "Data Science in Real Life",
-            "Executive Data Science Capstone"
-        ]
-    },{
-        "institution": "University of Maryland at College Park",
-        "studyType": "Doctor of Philosophy (candidate, all but dissertation)",
-        "area": "Applied Mathematics, Applied Statistics and Scientific Computing",
-        "startDate": "2007-09-01",
-        "endDate": "2014-06-02",
-        "completed": false,
-        "courses": [
-            "AMSC898 Pre-dissertation Research",
-            "AMSC899 Dissertation Research"
-        ]
-    },{
-        "institution": "University of Maryland at College Park",
-        "studyType": "Master of Science",
-        "area": "Applied Mathematics and Scientific Computing",
-        "startDate": "2003-09-01",
-        "endDate": "2007-12-31",
-        "completed": true,
-        "courses": [
-            "AMSC663 Advanced Scientific Computing I",
-            "AMSC664 Advanced Scientific Computing II",
-            "AMSC666 Numerical Analysis I",
-            "AMSC670 Ordinary Differential Equations II",
-            "BIOL646 Hearing",
-            "ENEE620 Random Processes in Communications & Control",
-            "MAIT679E Computational Time-Frequency Analysis",
-            "MAIT699 Independent Master's Project: Stockwell Transform",
-            "ENEE463 Digital Control Systems",
-            "ENEE425 Digital Signal Processing",
-            "AMSC452 Intro to Dynamics & Chaos",
-            "AMSC466 Intro to Numerical Anaylsis I"
-        ]
-    },{
-        "institution": "University of Maryland at College Park",
-        "studyType": "Graduate Certificate",
-        "area": "Scientific Computing",
-        "startDate": "2003-09-01",
-        "endDate": "2007-07-31",
-        "completed": true,
-        "courses": [
-            "AMSC660 Scientific Computing I",
-            "AMSC661 Scientific Computing II",
-            "AMSC662 Computer Organization & Programming for Scientific Computing",
-            "ENEE630 Advanced Digital Signal Processing"
-        ]
-    },{
-        "institution": "University of Maryland at College Park",
-        "studyType": "Graduate Certificate",
-        "area": "Computational Harmonic Analysis",
-        "startDate": "2003-09-01",
-        "endDate": "2007-07-31",
-        "completed": true,
-        "courses": [
-            "MAIT623 Mathematical Methods for Signal Processing I",
-            "MAIT624 Mathematical Methods for Signal Processing II",
-            "MAIT633 Applied Fourier Analysis",
-            "MAIT79F Special Topics: Frame Theory & Applications"
-        ]
-    },{
-        "institution": "University of Maryland at College Park",
-        "studyType": "Executive Education Certificate (non-credit)",
-        "area": "Innovation Management",
-        "startDate": "2010-01-02",
-        "endDate": "2010-05-31",
-        "completed": true,
-        "courses": [
-            "Strategies for Managing Innovation",
-            "Negotiation Techniques",
-            "Marketing in Technology-Driven Industries",
-            "Innovative Product Design & Development",
-            "Introduction to Finance"
-        ]
-    },{
-        "institution": "Loyola University New Orleans",
-        "studyType": "Bachelor of Science",
-        "area": "Mathematics and Computer Science, minor in Japanese Studies",
-        "startDate": "1997-09-01",
-        "endDate": "2001-05-22",
-        "completed": true,
-        "courses": [
-            "MATH-A200 Intro to Linear Algebra",
-            "MATH-A204 Discrete Math Structures",
-            "MATH-A257 Calculus I",
-            "MATH-A258 Calculus II",
-            "MATH-A270 Mathematical Foundations of Computer Science",
-            "MATH-A330 Theory of Numbers",
-            "MATH-A340 Mathematical Probability",
-            "MATH-A341 Statistical Theory & Methods",
-            "MATH-A400 Abstract Algebra I",
-            "MATH-A410 Advanced Calculus I",
-            "MATH-A411 Advanced Calculus II",
-            "MATH-A498 Research Project",
-            "COSC-A210 Programming & Problem Solving",
-            "COSC-A215 Fundamental Data Structures",
-            "COSC-A216 Fundamentals of Software Development",
-            "COSC-A270 Intro to Visual Databases",
-            "COSC-A275 Languages & Processors",
-            "COSC-A280 Intro to Computer Graphics",
-            "COSC-A360 Operating Systems & Environments",
-            "COSC-A363 Algorithms & Software Development",
-            "COSC-A375 Numerical Algorithms",
-            "COSC-A451 Software Engineering",
-            "COSC-A470 Communication Systems & Networks",
-            "COSC-A493 Data Warehousing/Data Mining",
-            "JPNS-A100 Modern Japanese I",
-            "JPNS-A101 Modern Japanese II",
-            "JPNS-U150 Premodern Japanese Culture",
-            "JPNS-V151 Culture in Early Modern Japan",
-            "JPNS-A294 Japanese Animation",
-            "JPNS-A300 Japanese Conversation & Composition",
-            "JPNS-A494 Japanese Conversation & Composition II",
-            "RELS-T122 Intro to World Religions",
-            "RELS-U133 Zen I",
-            "RELS-A499 Confucian Traditions",
-            "PHYS-A110 Basic Physics I",
-            "PHYS-A112 Physics I Lab",
-            "PHYS-A111 Basic Physics II",
-            "PHYS-A113 Physics II Lab",
-            "PHYS-Z130 Faith, Science & Religion",
-            "HIST-T122 World Civilization to 1650",
-            "HIST-T124 World Civilization from 1650",
-            "ENGL-U195 Legend of Robin Hood",
-            "PHIL-T122 Intro to Philosophy",
-            "PHIL-V180 Freedom & Oppression",
-            "PHIL-V135 Philosophy of Right",
-            "POLS-X158 Global Political Issues",
-            "MUPR-M112 Cello",
-            "MUPR-M118 Training Orchestra",
-            "MUPR-M117 Symphony Orchestra",
-            "MUEN-M100 Symphony Orchestra"
-        ]
-    }],
+    "work": [
+        {
+            "name": "Screencastify",
+            "location": "Chicago, IL / Remote",
+            "position": "Staff Software Engineer",
+            "url": "http://screencastify.com",
+            "startDate": "2022-01-18",
+            "type": "primary",
+            "schedule": "full-time",
+            "summary": "I’m a member of the Engineering Department at Screencastify, a startup providing a simple way to record, edit, and share video, with a special focus on enabling video as a medium for K-12 teachers.",
+            "highlights": []
+        },
+        {
+            "name": "Loyola University New Orleans",
+            "location": "New Orleans, LA",
+            "position": "Adjunct Instructor & Research Associate (Pro Bono)",
+            "url": "http://cas.loyno.edu/mathematics",
+            "startDate": "2016-12-15",
+            "type": "secondary",
+            "schedule": "part-time",
+            "summary": "As an Adjunct Instructor, I teach upper level undergraduate computer science courses. In my volunteer capacity, I assist the Department of Mathematics & Computer Sciences with computer science curriculum development, project ideas, community partnerships, and research.",
+            "highlights": [
+                "Developed and taught [COSC A451 Software Engineering program capstone course](http://people.loyno.edu/~rharvey/teaching/cosc-a451/) in a service learning mode, engaging students with real-world projects for government and non-profit partners",
+                "Developed and taught [COSC A319 Internet Technologies elective course](http://people.loyno.edu/~rharvey/teaching/cosc-a319/) covering Internet fundamentals, protocols and Internet-based software development",
+                "Developed and taught [COSC A499 Open Source](http://people.loyno.edu/~rharvey/teaching/cosc-a499-oss/), a hands-on guided study course covering open source project structures, contribution approaches, roles and team structures, licenses, and communities"
+            ]
+        },
+        {
+            "name": "Kitchology Inc.",
+            "location": "Germantown, MD / Remote",
+            "position": "Data Scientist & Software Architect",
+            "url": "http://www.kitchology.com",
+            "startDate": "2013-06-02",
+            "type": "secondary",
+            "schedule": "part-time",
+            "summary": "As part of the tech team at this small startup, I develop machine learning and data analysis algorithms for food and recipe science. I also wear any other hat needed, from server and database management to launch planning to business process and software architecture.",
+            "highlights": [
+                "Built out AWS deployment infrastructure for application services",
+                "Developed and proved database schema supporting multiple applications and data analysis services",
+                "Architected services-based application delivery using containerized deployment",
+                "Setup continuous integration services for development use by staff and contractors"
+            ]
+        },
+        {
+            "name": "Healthify (now WellSky)",
+            "location": "New York, NY / Remote",
+            "position": "Senior Software Engineer",
+            "url": "http://www.healthify.us",
+            "startDate": "2021-03-24",
+            "endDate": "2022-01-13",
+            "type": "primary",
+            "schedule": "full-time",
+            "summary": "I was a member of the Engineering team at Healthify, a startup enabling organizations to address the social determinants of health by providing solutions for identifying social needs, searching for social services, and coordinating care with an integrated network of community partners to improve outcomes.",
+            "highlights": [
+                "Prototyped and built in-app self-serve reporting feature long requested by customers, integrating Looker dashboards and reports into our Ruby on Rails-based application",
+                "Enabled the team by improving DevOps and developer tooling, improving observability of ELT processes, and mentoring more junior engineers"
+            ]
+        },
+        {
+            "name": "TED Conferences",
+            "location": "New York, NY / Remote",
+            "position": "Senior Backend & Data Engineer",
+            "url": "http://www.ted.com",
+            "startDate": "2016-08-22",
+            "endDate": "2021-03-15",
+            "type": "primary",
+            "schedule": "full-time",
+            "summary": "In this position on TED's Technology Team, I built processing pipelines and products for TED's web presences and for the organization's internal tools and reporting. I spent about two years on the Analytics Squad, after which I built out a new encoding platform in the Video Squad.",
+            "highlights": [
+                "Built a user recommendations API that serves recommendations for over 10 million subscribed users",
+                "Built and maintain the open source [@tedconf/fessonia Node.js library](https://www.npmjs.com/package/@tedconf/fessonia) for integrating FFmpeg",
+                "Built an automated, dockerized encoding process that integrates with our media asset management software"
+            ]
+        },
+        {
+            "name": "University of Maryland",
+            "location": "College Park, MD",
+            "position": "Research Affiliate",
+            "url": "http://norbertwiener.umd.edu",
+            "startDate": "2014-09-02",
+            "endDate": "2019-06-30",
+            "type": "secondary",
+            "schedule": "part-time",
+            "summary": "I was a research affiliate in the Norbert Wiener Center for Harmonic Analysis and Applications, housed in the Department of Mathematics. I occasionally collaborated with NWC staff on research in applications of harmonic analysis, mostly in the areas of machine learning, signal processing, and dimensionality reduction of large data sets.",
+            "highlights": [
+                "Carried out self-directed research and collaborated with center faculty on research into manifold learning methods for dimensionality reduction of large data sets and applications to data compression and signal processing",
+                "Researched and created MATLAB- and C-based software for blind sound source separation using Kalman-based modulation filter banks modeling how the auditory cortex of the brain processes sound cues"
+            ]
+        },
+        {
+            "name": "Executive Office of the President",
+            "location": "Washington, DC",
+            "position": "IT Project Manager (Application Software)",
+            "url": "http://www.whitehouse.gov/omb",
+            "startDate": "2012-04-02",
+            "endDate": "2016-08-06",
+            "type": "primary",
+            "schedule": "full-time",
+            "summary": "In the Budget Systems Branch of the Office of Management and Budget, I was responsible for the development of our data collection platforms, including a next generation data collection platform composed of Java EE-based micro-services, that facilitate government-wide data collections and enable the development and publication of the President's Budget.  I made sure our 180,000+ users were happy and ensured that all the must-have features were complete within the impossible timelines allocated.  I was also responsible for our UX design team, delivering style guidance, prototypes and coded front-end solutions across many of our 50+ web applications.  In addition, I managed a few other web apps, wrote lots of SQL, and improved our development and project management tools and processes.",
+            "highlights": [
+                "[Built and delivered](https://github.com/bfelob/map) a [map-based display of community programs information](http://web.archive.org/web/20150905080034/https://www.whitehouse.gov/blog/2015/08/25/heres-how-federal-government-working-local-communities-create-change-one-map) on the [White House website front page](http://web.archive.org/web/20150827120252/https://www.whitehouse.gov/) which was covered by Wired magazine",
+                "Managed development and improvement of a suite of collaboration applications, leading several cross-functional teams of contractors and in-house technical staff in work on over 50 applications",
+                "Developed, delivered and began implementation of a multi-year software architecture shift to cloud-capable services, including hardware and networking transition, application software architecture and interface specification, service transition and launch planning, CI/CD automation, and security, monitoring and maintenance planning"
+            ]
+        },
+        {
+            "name": "Social Security Administration",
+            "location": "Baltimore, MD & Washington, DC",
+            "position": "Hardy-Apfel IT Fellow (Computer Scientist)",
+            "url": "http://www.socialsecurity.gov",
+            "startDate": "2009-03-02",
+            "endDate": "2012-03-29",
+            "type": "primary",
+            "schedule": "full-time",
+            "summary": "In this rotational leadership development program, I impacted each major program the agency runs.  I led a research effort on health IT to improve disability claims processing, facilitated the development of the agency's strategic plan, developed communications for the agency CIO, led several web-based communications and full-stack development efforts in the Office of Open Government, and architected and wrote software to model effects of retirement program policy for the Office of Policy Analysis.",
+            "highlights": []
+        },
+        {
+            "name": "BAE Systems",
+            "location": "Washington, DC",
+            "position": "DSP Analyst & Software Engineer",
+            "url": "http://www.baesystems.com",
+            "startDate": "2006-05-22",
+            "endDate": "2009-02-28",
+            "type": "primary",
+            "schedule": "full-time",
+            "summary": "In the Sensor Systems division's Advanced Technologies group, I developed software and associated mathematics and algorithms for DARPA-funded research projects using such technologies as VLF controlled-source EM sensing, tomography, compressed sensing, GPS tracking, and noise reduction.",
+            "highlights": []
+        },
+        {
+            "name": "University of Maryland, Office of IT",
+            "location": "College Park, MD",
+            "position": "Graduate Assistant",
+            "url": "http://www.baesystems.com",
+            "startDate": "2004-06-02",
+            "endDate": "2006-05-19",
+            "type": "secondary",
+            "schedule": "part-time",
+            "summary": "In the Office of Learning Technologies, I wrote and installed software and built platforms to enable the use of collaborative learning tools in courses. In addition, I taught classes on programming in MATLAB to undergraduate and graduate students from across the university.",
+            "highlights": []
+        }
+    ],
+    "education": [
+        {
+            "institution": "Johns Hopkins University on Coursera",
+            "studyType": "Mastering Software Development in R Specialization",
+            "area": "Data Engineering",
+            "startDate": "2016-10-08",
+            "endDate": "2018-06-01",
+            "completed": false,
+            "courses": [
+                "The R Programming Environment",
+                "Advanced R Programming",
+                "Building R Packages",
+                "Building Data Visualization Tools",
+                "Mastering Software Development in R Capstone"
+            ]
+        },
+        {
+            "institution": "Johns Hopkins University on Coursera",
+            "studyType": "Executive Data Science Specialization",
+            "area": "Data Science Management",
+            "startDate": "2015-10-01",
+            "endDate": "2016-03-27",
+            "completed": true,
+            "courses": [
+                "A Crash Course in Data Science",
+                "Building a Data Science Team",
+                "Managing Data Analysis",
+                "Data Science in Real Life",
+                "Executive Data Science Capstone"
+            ]
+        },
+        {
+            "institution": "University of Maryland at College Park",
+            "studyType": "Doctor of Philosophy (candidate, all but dissertation)",
+            "area": "Applied Mathematics, Applied Statistics and Scientific Computing",
+            "startDate": "2007-09-01",
+            "endDate": "2014-06-02",
+            "completed": false,
+            "courses": [
+                "AMSC898 Pre-dissertation Research",
+                "AMSC899 Dissertation Research"
+            ]
+        },
+        {
+            "institution": "University of Maryland at College Park",
+            "studyType": "Master of Science",
+            "area": "Applied Mathematics and Scientific Computing",
+            "startDate": "2003-09-01",
+            "endDate": "2007-12-31",
+            "completed": true,
+            "courses": [
+                "AMSC663 Advanced Scientific Computing I",
+                "AMSC664 Advanced Scientific Computing II",
+                "AMSC666 Numerical Analysis I",
+                "AMSC670 Ordinary Differential Equations II",
+                "BIOL646 Hearing",
+                "ENEE620 Random Processes in Communications & Control",
+                "MAIT679E Computational Time-Frequency Analysis",
+                "MAIT699 Independent Master's Project: Stockwell Transform",
+                "ENEE463 Digital Control Systems",
+                "ENEE425 Digital Signal Processing",
+                "AMSC452 Intro to Dynamics & Chaos",
+                "AMSC466 Intro to Numerical Anaylsis I"
+            ]
+        },
+        {
+            "institution": "University of Maryland at College Park",
+            "studyType": "Graduate Certificate",
+            "area": "Scientific Computing",
+            "startDate": "2003-09-01",
+            "endDate": "2007-07-31",
+            "completed": true,
+            "courses": [
+                "AMSC660 Scientific Computing I",
+                "AMSC661 Scientific Computing II",
+                "AMSC662 Computer Organization & Programming for Scientific Computing",
+                "ENEE630 Advanced Digital Signal Processing"
+            ]
+        },
+        {
+            "institution": "University of Maryland at College Park",
+            "studyType": "Graduate Certificate",
+            "area": "Computational Harmonic Analysis",
+            "startDate": "2003-09-01",
+            "endDate": "2007-07-31",
+            "completed": true,
+            "courses": [
+                "MAIT623 Mathematical Methods for Signal Processing I",
+                "MAIT624 Mathematical Methods for Signal Processing II",
+                "MAIT633 Applied Fourier Analysis",
+                "MAIT79F Special Topics: Frame Theory & Applications"
+            ]
+        },
+        {
+            "institution": "University of Maryland at College Park",
+            "studyType": "Executive Education Certificate (non-credit)",
+            "area": "Innovation Management",
+            "startDate": "2010-01-02",
+            "endDate": "2010-05-31",
+            "completed": true,
+            "courses": [
+                "Strategies for Managing Innovation",
+                "Negotiation Techniques",
+                "Marketing in Technology-Driven Industries",
+                "Innovative Product Design & Development",
+                "Introduction to Finance"
+            ]
+        },
+        {
+            "institution": "Loyola University New Orleans",
+            "studyType": "Bachelor of Science",
+            "area": "Mathematics and Computer Science, minor in Japanese Studies",
+            "startDate": "1997-09-01",
+            "endDate": "2001-05-22",
+            "completed": true,
+            "courses": [
+                "MATH-A200 Intro to Linear Algebra",
+                "MATH-A204 Discrete Math Structures",
+                "MATH-A257 Calculus I",
+                "MATH-A258 Calculus II",
+                "MATH-A270 Mathematical Foundations of Computer Science",
+                "MATH-A330 Theory of Numbers",
+                "MATH-A340 Mathematical Probability",
+                "MATH-A341 Statistical Theory & Methods",
+                "MATH-A400 Abstract Algebra I",
+                "MATH-A410 Advanced Calculus I",
+                "MATH-A411 Advanced Calculus II",
+                "MATH-A498 Research Project",
+                "COSC-A210 Programming & Problem Solving",
+                "COSC-A215 Fundamental Data Structures",
+                "COSC-A216 Fundamentals of Software Development",
+                "COSC-A270 Intro to Visual Databases",
+                "COSC-A275 Languages & Processors",
+                "COSC-A280 Intro to Computer Graphics",
+                "COSC-A360 Operating Systems & Environments",
+                "COSC-A363 Algorithms & Software Development",
+                "COSC-A375 Numerical Algorithms",
+                "COSC-A451 Software Engineering",
+                "COSC-A470 Communication Systems & Networks",
+                "COSC-A493 Data Warehousing/Data Mining",
+                "JPNS-A100 Modern Japanese I",
+                "JPNS-A101 Modern Japanese II",
+                "JPNS-U150 Premodern Japanese Culture",
+                "JPNS-V151 Culture in Early Modern Japan",
+                "JPNS-A294 Japanese Animation",
+                "JPNS-A300 Japanese Conversation & Composition",
+                "JPNS-A494 Japanese Conversation & Composition II",
+                "RELS-T122 Intro to World Religions",
+                "RELS-U133 Zen I",
+                "RELS-A499 Confucian Traditions",
+                "PHYS-A110 Basic Physics I",
+                "PHYS-A112 Physics I Lab",
+                "PHYS-A111 Basic Physics II",
+                "PHYS-A113 Physics II Lab",
+                "PHYS-Z130 Faith, Science & Religion",
+                "HIST-T122 World Civilization to 1650",
+                "HIST-T124 World Civilization from 1650",
+                "ENGL-U195 Legend of Robin Hood",
+                "PHIL-T122 Intro to Philosophy",
+                "PHIL-V180 Freedom & Oppression",
+                "PHIL-V135 Philosophy of Right",
+                "POLS-X158 Global Political Issues",
+                "MUPR-M112 Cello",
+                "MUPR-M118 Training Orchestra",
+                "MUPR-M117 Symphony Orchestra",
+                "MUEN-M100 Symphony Orchestra"
+            ]
+        }
+    ],
     "volunteer": [
         {
             "organization": "St. Charles Center for Faith + Action",
@@ -389,7 +433,8 @@
             "highlights": [
                 "Created, edited and published [programs page](https://stcharlesave.center/programs) and [session videos](https://www.youtube.com/watch?list=PLXya5pDOly5QGxxUtZQiQUC7NtDvcgyuM&v=DYBLFsSZJJs&feature=emb_logo) for Center program _Policing New Orleans: Past, Present and Future_"
             ]
-        }, {
+        },
+        {
             "organization": "Code for New Orleans",
             "position": "Co-Organizer & Chief Data Wrangler",
             "url": "http://codeforneworleans.org",
@@ -399,7 +444,8 @@
                 "Organized a team [to assist](https://github.com/codefornola/211-data-wrangling) New Orleans area 2-1-1 services operator VIA LINK with [data dashboard delivery during COVID-19 pandemic](https://app.powerbi.com/view?r=eyJrIjoiZTQ0OGYwYTEtYWFmNS00YjM2LWI2NTQtZGE3Nzg4YmEzYmVjIiwidCI6IjNlNDEwNjM1LWI1MmMtNGE4Zi1hOTlmLTM5YTViOGVjNzc5YiJ9)",
                 "Led a project [delivering shelter and distribution point information services](https://www.hurricane-response.org/about/) during hurricane disaster response scenarios, including partnering with FEMA's Crowdsourcing Unit, American Red Cross, and others"
             ]
-        }, {
+        },
+        {
             "organization": "Data Community DC",
             "position": "Board Member & Co-Organizer of Data Wranglers DC",
             "url": "http://www.datacommunitydc.org",
@@ -409,359 +455,512 @@
             "highlights": []
         }
     ],
-    "publications": [{
-        "name": "Evolving Fessonia: An update on the Fessonia ffmpeg interface library for Node.js",
-        "publicationType": "lightning-talk",
-        "publisher": "Demuxed",
-        "releaseDate": "2020-10-29",
-        "website": "https://2020.demuxed.com/#schedule",
-        "summary": "In this 3-minute lightning talk, I gave a quick recap of a prior talk and provided some updates on the evolution of the library since its 2019 introduction.",
-        "links": {
-          "video": "http://bit.ly/evolving-fessonia-video",
-          "slides": "http://bit.ly/evolving-fessonia-slides",
-          "library": "https://www.npmjs.com/package/@tedconf/fessonia"
+    "publications": [
+        {
+            "name": "Evolving Fessonia: An update on the Fessonia ffmpeg interface library for Node.js",
+            "publicationType": "lightning-talk",
+            "publisher": "Demuxed",
+            "releaseDate": "2020-10-29",
+            "website": "https://2020.demuxed.com/#schedule",
+            "summary": "In this 3-minute lightning talk, I gave a quick recap of a prior talk and provided some updates on the evolution of the library since its 2019 introduction.",
+            "links": {
+                "video": "http://bit.ly/evolving-fessonia-video",
+                "slides": "http://bit.ly/evolving-fessonia-slides",
+                "library": "https://www.npmjs.com/package/@tedconf/fessonia"
+            }
+        },
+        {
+            "name": "Evolving an API to Match a Conceptual Model: Expressing ffmpeg in JavaScript",
+            "publicationType": "talk",
+            "publisher": "NoFUN: New Orleans Functional Programming",
+            "releaseDate": "2020-02-04",
+            "website": "https://www.meetup.com/no-fun/events/268424936/",
+            "summary": "In this talk, I walked through the evolution of the Fessonia open source library API and how it was driven by the conceptual model of ffmpeg created early on in its development.",
+            "links": {
+                "slides": "https://bit.ly/fessonia-evolving-api",
+                "library": "https://www.npmjs.com/package/@tedconf/fessonia"
+            }
+        },
+        {
+            "name": "Modeling the Conceptual Structure of ffmpeg in JavaScript",
+            "publicationType": "talk",
+            "publisher": "Demuxed",
+            "releaseDate": "2019-10-23",
+            "website": "https://2019.demuxed.com/#schedule",
+            "summary": "In this talk, I introduced a new open source library I built for Node.js to make interfacing with ffmpeg from JavaScript server-side code easier and lessen the learning curve, covering both conceptual structure and motivation, as well as practical examples.",
+            "links": {
+                "video": "https://www.youtube.com/watch?v=1MUgs42_D8I&list=PLkyaYNWEKcOf_C_6W45abNvXMb40xUUqh&index=4&t=2s",
+                "slides": "http://bit.ly/fessonia-intro-slides",
+                "library": "https://www.npmjs.com/package/@tedconf/fessonia"
+            }
+        },
+        {
+            "name": "Modeling the Conceptual Structure of ffmpeg in JavaScript",
+            "publicationType": "talk",
+            "publisher": "Google Developer Group New Orleans",
+            "releaseDate": "2019-10-05",
+            "website": "https://devfest2019.gdgneworleans.com/#ryan",
+            "summary": "In this talk, I introduced a new open source library I built for Node.js to make interfacing with ffmpeg from JavaScript server-side code easier and lessen the learning curve, covering both conceptual structure and motivation, as well as practical examples.",
+            "links": {
+                "slides": "http://bit.ly/fessonia-intro-slides"
+            }
+        },
+        {
+            "name": "Sets, Bags, and Relational Theory: Real-World Interactions with Data",
+            "publicationType": "talk",
+            "publisher": "Loyola University New Orleans, ΠΜΕ LAΘ Chapter",
+            "releaseDate": "2017-01-26",
+            "website": "http://loyno.edu/~pme/",
+            "summary": "I gave a talk on sets and their extension to relational theory of databases to the Pi Mu Epsilon mathematics honor society chapter at Loyola University New Orleans.",
+            "links": {
+                "slides": "https://slides.com/ryanbharvey/sets-bags-relational-theory/live#/"
+            }
+        },
+        {
+            "name": "A Brief Introduction to Web Components and Polymer",
+            "publicationType": "talk",
+            "publisher": "#FrontEndParty",
+            "releaseDate": "2016-10-27",
+            "website": "https://www.meetup.com/FrontEndParty/events/234276694/",
+            "summary": "In this talk to the New Orleans #FrontEndParty meetup, I gave an introduction to web components and their standards, as well as an introduction to Google's Polymer Project, which makes it possible to build web component based sites and apps today. I also briefly reviewed the changes between Polymer 1.x and the 2.0 Preview, and the upgrade path provided by the Polymer team.",
+            "links": {
+                "slides": "https://github.com/nihonjinrxs/frontendparty-oct2016/blob/master/slides/webcomponents.pdf",
+                "materials": "https://github.com/nihonjinrxs/frontendparty-oct2016"
+            }
+        },
+        {
+            "name": "Agile - Where is the Greatest Value",
+            "publicationType": "talk",
+            "publisher": "ACT-IAC Management of Change 2015",
+            "releaseDate": "2015-04-18",
+            "website": "https://actiac.org/events/MOC2015",
+            "summary": "At this conference, organized by the American Council for Technology and Industry Advisory Council (ACT-IAC), I was one of three participants in a \"Learning Lounge\" panel discussion on agile project management methodologies and their fit and value for government technology projects."
+        },
+        {
+            "name": "JSON Processing in the Database using PostgreSQL 9.4",
+            "publicationType": "talk",
+            "publisher": "Data Wranglers DC",
+            "releaseDate": "2015-01-06",
+            "website": "http://www.meetup.com/Data-Wranglers-DC/events/219112410/",
+            "links": {
+                "slides": "http://nihonjinrxs.github.io/dwdc-january2015/DWDC-January2015-RyanHarvey.pdf",
+                "materials": "https://github.com/nihonjinrxs/dwdc-january2015"
+            },
+            "summary": "I gave a talk on getting, processing, and reshaping JSON data for use in data analysis using PostgreSQL 9.4 at the Data Wranglers DC meetup group, a member meetup of the Data Community DC (http://datacommunitydc.org). The talk gave an introduction to JSON data, the JSON data types, operators and functions available in the newly released (December 18, 2014) PostgreSQL version 9.4, as well as two examples of pulling JSON data directly from public APIs into PostgreSQL and processing them in the database into analysis style flat tables."
+        },
+        {
+            "name": "Manipulating Data in Style with SQL",
+            "publicationType": "talk",
+            "publisher": "Polyglot Programming DC",
+            "releaseDate": "2014-10-14",
+            "website": "http://www.meetup.com/Polyglot-Programming-DC/events/208670052/",
+            "links": {
+                "slides": "http://nihonjinrxs.github.io/polyglot-october2014/Polyglot-October2014-RyanHarvey.pdf",
+                "materials": "https://github.com/nihonjinrxs/polyglot-october2014"
+            },
+            "summary": "I gave a talk on SQL to the Polyglot Programming DC meetup group. The talk gave an introduction to SQL and its use for relational databases, as well as some examples of using SQL on DataFrame data structures in R and Python."
+        },
+        {
+            "name": "SQL, the Sequel",
+            "publicationType": "talk",
+            "publisher": "Data Wranglers DC",
+            "releaseDate": "2014-08-06",
+            "website": "http://www.meetup.com/Data-Wranglers-DC/events/177269432/",
+            "links": {
+                "slides": "http://nihonjinrxs.github.io/dwdc-august2014/DWDC-August2014-RyanHarvey.pdf",
+                "materials": "https://github.com/nihonjinrxs/dwdc-august2014"
+            },
+            "summary": "I gave another talk on SQL and its utility for data preprocessing and analysis tasks to Data Wranglers DC meetup group, a member meetup of the Data Community DC (http://datacommunity.org). The talk covered topics such as custom views and functions in databases (with examples using PostgreSQL), performance tuning of queries using explain and indexes, basics of relational algebra, as well as use of SQL statements to manipulate dataframe objects in R and Python."
+        },
+        {
+            "name": "Data Wrangling in SQL and Other Tools",
+            "publicationType": "talk",
+            "publisher": "Data Wranglers DC",
+            "releaseDate": "2014-06-04",
+            "website": "http://www.meetup.com/Data-Wranglers-DC/events/171768162/",
+            "links": {
+                "slides": "https://nihonjinrxs.github.io/dwdc-june2014/DWDC-June2014-RyanHarvey.pdf",
+                "materials": "https://github.com/nihonjinrxs/dwdc-june2014"
+            },
+            "summary": "I gave a talk on the basics SQL and its utility for data preprocessing and analysis tasks to the Data Wrangers DC meetup group, a member meetup of the Data Community DC (http://datacommunitydc.org). The talk covered an introduction to relational data, database tools, and the SQL standard, as well as the basics of SQL select statements, common table expressions and creating views from select statements. In addition, the use of relevant libraries in R and Python to connect to data in relational databases were explained using examples with PostgreSQL, IPython notebooks, and RMarkdown."
+        },
+        {
+            "name": "Creating an API using the OMB's Public Budget Database",
+            "publicationType": "talk",
+            "publisher": "Open Analytics Summit DC",
+            "releaseDate": "2013-03-25",
+            "website": "http://www.openanalyticssummit.com/dc-schedule/",
+            "links": {
+                "slides": "http://www2.math.umd.edu/~rharvey/oadc-budget-api-slides/"
+            },
+            "summary": "At this summit, I gave a talk on some of the work I'd been doing on building a dataset on the OMB Public Budget Database as part my doctoral dissertation. In short, my message was \"If you need an API on government data for something you're doing, build one!\" I tried to provide tools and perspective on how that can be accomplished."
+        },
+        {
+            "name": "Methods of Manifold Learning for Dimension Reduction of Large Data Sets",
+            "publicationType": "talk",
+            "publisher": "University of Maryland",
+            "releaseDate": "2010-05-17",
+            "links": {
+                "slides": "https://sites.google.com/site/ryanbharvey/CandidacyTalk_RBHarvey_20100517_final.pdf"
+            },
+            "summary": "Doctoral Candidacy Exam for the Doctor of Philosophy program in Applied Mathematics, Applied Statistics and Scientific Computing. (I passed.)"
+        },
+        {
+            "name": "A Survey of Research on the Use and Development of Physical Models and Nonlinear Dynamics for Music and Sound Synthesis",
+            "publicationType": "paper",
+            "publisher": "University of Maryland",
+            "releaseDate": "2004-05-20",
+            "links": {
+                "paper": "https://drive.google.com/file/d/1CzzZ4YDmxaYRshbAKUVwbRBZftq9mXFA05mRFfqbw_Kdy-JAiRIauDGiXrzm"
+            },
+            "summary": "The attempt of this paper is to give an overview of previous research in the ﬁeld of sound and music synthesis using physical models of musical instruments and studies of the nonlinear dynamics of those models. Models considered are limited to those instruments producing sustained tones. Chua’s circuit, and its generalization, Chua’s oscillator, are described and detailed, including many of the dynamical phenomena associated with them. Musical concepts important to the models are discussed, as well as the time-delayed Chua’s circuit and its usefulness as a candidate for a synthesizing standard. Prospects for future research are also discussed."
+        },
+        {
+            "name": "Simulation of a Multiprogramming System Using a Multiple Processor Model",
+            "publicationType": "paper",
+            "publisher": "First Southern Symposium on Computing, University of Southern Mississippi",
+            "releaseDate": "1996-12-04",
+            "links": {
+                "paper": "https://drive.google.com/file/d/0B4O3Qws0_CejM0xQcmNlTHpkcUU"
+            },
+            "summary": "The field of multiple processor computer systems has experienced extensive growth in recent years. In order to operate these systems practically, an operating system or extensions must be developed to adequately handle multiple processors. In this paper, several versions of a multiprogramming multiprocessor system are simulated."
         }
-    },{
-    "name": "Evolving an API to Match a Conceptual Model: Expressing ffmpeg in JavaScript",
-    "publicationType": "talk",
-    "publisher": "NoFUN: New Orleans Functional Programming",
-    "releaseDate": "2020-02-04",
-    "website": "https://www.meetup.com/no-fun/events/268424936/",
-    "summary": "In this talk, I walked through the evolution of the Fessonia open source library API and how it was driven by the conceptual model of ffmpeg created early on in its development.",
-    "links": {
-        "slides": "https://bit.ly/fessonia-evolving-api",
-        "library": "https://www.npmjs.com/package/@tedconf/fessonia"
-    }
-    },{
-    "name": "Modeling the Conceptual Structure of ffmpeg in JavaScript",
-    "publicationType": "talk",
-    "publisher": "Demuxed",
-    "releaseDate": "2019-10-23",
-    "website": "https://2019.demuxed.com/#schedule",
-    "summary": "In this talk, I introduced a new open source library I built for Node.js to make interfacing with ffmpeg from JavaScript server-side code easier and lessen the learning curve, covering both conceptual structure and motivation, as well as practical examples.",
-    "links": {
-        "video": "https://www.youtube.com/watch?v=1MUgs42_D8I&list=PLkyaYNWEKcOf_C_6W45abNvXMb40xUUqh&index=4&t=2s",
-        "slides": "http://bit.ly/fessonia-intro-slides",
-        "library": "https://www.npmjs.com/package/@tedconf/fessonia"
-    }
-    },{
-    "name": "Modeling the Conceptual Structure of ffmpeg in JavaScript",
-    "publicationType": "talk",
-    "publisher": "Google Developer Group New Orleans",
-    "releaseDate": "2019-10-05",
-    "website": "https://devfest2019.gdgneworleans.com/#ryan",
-    "summary": "In this talk, I introduced a new open source library I built for Node.js to make interfacing with ffmpeg from JavaScript server-side code easier and lessen the learning curve, covering both conceptual structure and motivation, as well as practical examples.",
-    "links": {
-        "slides": "http://bit.ly/fessonia-intro-slides"
-    }
-    },{
-    "name": "Sets, Bags, and Relational Theory: Real-World Interactions with Data",
-    "publicationType": "talk",
-    "publisher": "Loyola University New Orleans, ΠΜΕ LAΘ Chapter",
-    "releaseDate": "2017-01-26",
-    "website": "http://loyno.edu/~pme/",
-    "summary": "I gave a talk on sets and their extension to relational theory of databases to the Pi Mu Epsilon mathematics honor society chapter at Loyola University New Orleans.",
-    "links": {
-        "slides": "https://slides.com/ryanbharvey/sets-bags-relational-theory/live#/"
-    }
-    },{
-    "name": "A Brief Introduction to Web Components and Polymer",
-    "publicationType": "talk",
-    "publisher": "#FrontEndParty",
-    "releaseDate": "2016-10-27",
-    "website": "https://www.meetup.com/FrontEndParty/events/234276694/",
-    "summary": "In this talk to the New Orleans #FrontEndParty meetup, I gave an introduction to web components and their standards, as well as an introduction to Google's Polymer Project, which makes it possible to build web component based sites and apps today. I also briefly reviewed the changes between Polymer 1.x and the 2.0 Preview, and the upgrade path provided by the Polymer team.",
-    "links": {
-        "slides": "https://github.com/nihonjinrxs/frontendparty-oct2016/blob/master/slides/webcomponents.pdf",
-        "materials": "https://github.com/nihonjinrxs/frontendparty-oct2016"
-    }
-    },{
-    "name": "Agile - Where is the Greatest Value",
-    "publicationType": "talk",
-    "publisher": "ACT-IAC Management of Change 2015",
-    "releaseDate": "2015-04-18",
-    "website": "https://actiac.org/events/MOC2015",
-    "summary": "At this conference, organized by the American Council for Technology and Industry Advisory Council (ACT-IAC), I was one of three participants in a \"Learning Lounge\" panel discussion on agile project management methodologies and their fit and value for government technology projects."
-    },{
-        "name": "JSON Processing in the Database using PostgreSQL 9.4",
-        "publicationType": "talk",
-        "publisher": "Data Wranglers DC",
-        "releaseDate": "2015-01-06",
-        "website": "http://www.meetup.com/Data-Wranglers-DC/events/219112410/",
-        "links": {
-            "slides": "http://nihonjinrxs.github.io/dwdc-january2015/DWDC-January2015-RyanHarvey.pdf",
-            "materials": "https://github.com/nihonjinrxs/dwdc-january2015"
+    ],
+    "languages": [
+        {
+            "language": "English (US)",
+            "fluency": "Native"
         },
-        "summary": "I gave a talk on getting, processing, and reshaping JSON data for use in data analysis using PostgreSQL 9.4 at the Data Wranglers DC meetup group, a member meetup of the Data Community DC (http://datacommunitydc.org). The talk gave an introduction to JSON data, the JSON data types, operators and functions available in the newly released (December 18, 2014) PostgreSQL version 9.4, as well as two examples of pulling JSON data directly from public APIs into PostgreSQL and processing them in the database into analysis style flat tables."
-    },{
-        "name": "Manipulating Data in Style with SQL",
-        "publicationType": "talk",
-        "publisher": "Polyglot Programming DC",
-        "releaseDate": "2014-10-14",
-        "website": "http://www.meetup.com/Polyglot-Programming-DC/events/208670052/",
-        "links": {
-            "slides": "http://nihonjinrxs.github.io/polyglot-october2014/Polyglot-October2014-RyanHarvey.pdf",
-            "materials": "https://github.com/nihonjinrxs/polyglot-october2014"
+        {
+            "language": "Japanese",
+            "fluency": "Basic"
+        }
+    ],
+    "skills": [
+        {
+            "name": "Software Engineering",
+            "level": "mastery",
+            "keywords": [
+                "Web Applications",
+                "Web Development",
+                "Software Development",
+                "Databases",
+                "CI/CD Automation"
+            ]
         },
-        "summary": "I gave a talk on SQL to the Polyglot Programming DC meetup group. The talk gave an introduction to SQL and its use for relational databases, as well as some examples of using SQL on DataFrame data structures in R and Python."
-    },{
-        "name": "SQL, the Sequel",
-        "publicationType": "talk",
-        "publisher": "Data Wranglers DC",
-        "releaseDate": "2014-08-06",
-        "website": "http://www.meetup.com/Data-Wranglers-DC/events/177269432/",
-        "links": {
-            "slides": "http://nihonjinrxs.github.io/dwdc-august2014/DWDC-August2014-RyanHarvey.pdf",
-            "materials": "https://github.com/nihonjinrxs/dwdc-august2014"
+        {
+            "name": "Back-end Software Development",
+            "level": "mastery",
+            "keywords": [
+                "JavaScript",
+                "Node.js",
+                "SQL",
+                "Ruby",
+                "Python",
+                "Golang",
+                "Bash Scripting",
+                "Software Architecture",
+                "Software Design",
+                "Microservices",
+                "Web APIs",
+                "Audio/Video Encoding",
+                "C++",
+                "C",
+                "Java",
+                "Mac OS X",
+                "Linux",
+                "Windows",
+                "Databases",
+                "Data Integration",
+                "ETL"
+            ]
         },
-        "summary": "I gave another talk on SQL and its utility for data preprocessing and analysis tasks to Data Wranglers DC meetup group, a member meetup of the Data Community DC (http://datacommunity.org). The talk covered topics such as custom views and functions in databases (with examples using PostgreSQL), performance tuning of queries using explain and indexes, basics of relational algebra, as well as use of SQL statements to manipulate dataframe objects in R and Python."
-    },{
-        "name": "Data Wrangling in SQL and Other Tools",
-        "publicationType": "talk",
-        "publisher": "Data Wranglers DC",
-        "releaseDate": "2014-06-04",
-        "website": "http://www.meetup.com/Data-Wranglers-DC/events/171768162/",
-        "links": {
-            "slides": "https://nihonjinrxs.github.io/dwdc-june2014/DWDC-June2014-RyanHarvey.pdf",
-            "materials": "https://github.com/nihonjinrxs/dwdc-june2014"
+        {
+            "name": "Web Development",
+            "level": "mastery",
+            "keywords": [
+                "JavaScript",
+                "Express.js",
+                "Ruby on Rails",
+                "React",
+                "HTML",
+                "CSS",
+                "Web Components",
+                "Polymer",
+                "PHP",
+                "Web Design",
+                "Web Analytics",
+                "Web Content Management",
+                "Web 2.0",
+                "Web Accessibility"
+            ]
         },
-        "summary": "I gave a talk on the basics SQL and its utility for data preprocessing and analysis tasks to the Data Wrangers DC meetup group, a member meetup of the Data Community DC (http://datacommunitydc.org). The talk covered an introduction to relational data, database tools, and the SQL standard, as well as the basics of SQL select statements, common table expressions and creating views from select statements. In addition, the use of relevant libraries in R and Python to connect to data in relational databases were explained using examples with PostgreSQL, IPython notebooks, and RMarkdown."
-    },{
-        "name": "Creating an API using the OMB's Public Budget Database",
-        "publicationType": "talk",
-        "publisher": "Open Analytics Summit DC",
-        "releaseDate": "2013-03-25",
-        "website": "http://www.openanalyticssummit.com/dc-schedule/",
-        "links": {
-            "slides": "http://www2.math.umd.edu/~rharvey/oadc-budget-api-slides/"
+        {
+            "name": "Data Science",
+            "level": "mastery",
+            "keywords": [
+                "Data Analysis",
+                "SQL",
+                "R",
+                "Python",
+                "Databases",
+                "Data Cleaning",
+                "Data Transformation",
+                "Applied Mathematics",
+                "Machine Learning",
+                "Statistical Signal Processing",
+                "Numerical Computing",
+                "Statistical Computing",
+                "Data Visualization",
+                "Information Visualization",
+                "Signal Processing",
+                "Matlab",
+                "SAS"
+            ]
         },
-        "summary": "At this summit, I gave a talk on some of the work I'd been doing on building a dataset on the OMB Public Budget Database as part my doctoral dissertation. In short, my message was \"If you need an API on government data for something you're doing, build one!\" I tried to provide tools and perspective on how that can be accomplished."
-    },{
-        "name": "Methods of Manifold Learning for Dimension Reduction of Large Data Sets",
-        "publicationType": "talk",
-        "publisher": "University of Maryland",
-        "releaseDate": "2010-05-17",
-        "links": {
-            "slides": "https://sites.google.com/site/ryanbharvey/CandidacyTalk_RBHarvey_20100517_final.pdf"
+        {
+            "name": "Business, Government and Project Management",
+            "level": "mastery",
+            "keywords": [
+                "Agile Project Management",
+                "Agile Methodologies",
+                "Information Technology Management",
+                "Data Analysis Management",
+                "Public Speaking",
+                "Strategic Planning",
+                "Visioning",
+                "Writing",
+                "Technical Writing",
+                "Presentation Development",
+                "Public Sector",
+                "Federal Government",
+                "Federal Budget",
+                "Open Government Initiative",
+                "Open Data",
+                "Federal Records Management",
+                "Microsoft Office",
+                "Adobe Creative Suite"
+            ]
         },
-        "summary": "Doctoral Candidacy Exam for the Doctor of Philosophy program in Applied Mathematics, Applied Statistics and Scientific Computing. (I passed.)"
-    },{
-        "name": "A Survey of Research on the Use and Development of Physical Models and Nonlinear Dynamics for Music and Sound Synthesis",
-        "publicationType": "paper",
-        "publisher": "University of Maryland",
-        "releaseDate": "2004-05-20",
-        "links": {
-            "paper": "https://drive.google.com/file/d/1CzzZ4YDmxaYRshbAKUVwbRBZftq9mXFA05mRFfqbw_Kdy-JAiRIauDGiXrzm"
+        {
+            "name": "Design",
+            "level": "advanced",
+            "keywords": [
+                "Iterative Design",
+                "User-centered Design",
+                "Information Design",
+                "Information Architecture",
+                "Prototyping",
+                "Web Design",
+                "Information Visualization",
+                "Accessible Design"
+            ]
+        }
+    ],
+    "interests": [
+        {
+            "name": "reading"
         },
-        "summary": "The attempt of this paper is to give an overview of previous research in the ﬁeld of sound and music synthesis using physical models of musical instruments and studies of the nonlinear dynamics of those models. Models considered are limited to those instruments producing sustained tones. Chua’s circuit, and its generalization, Chua’s oscillator, are described and detailed, including many of the dynamical phenomena associated with them. Musical concepts important to the models are discussed, as well as the time-delayed Chua’s circuit and its usefulness as a candidate for a synthesizing standard. Prospects for future research are also discussed."
-    },{
-        "name": "Simulation of a Multiprogramming System Using a Multiple Processor Model",
-        "publicationType": "paper",
-        "publisher": "First Southern Symposium on Computing, University of Southern Mississippi",
-        "releaseDate": "1996-12-04",
-        "links": {
-            "paper": "https://drive.google.com/file/d/0B4O3Qws0_CejM0xQcmNlTHpkcUU"
+        {
+            "name": "mystery literature"
         },
-        "summary": "The field of multiple processor computer systems has experienced extensive growth in recent years. In order to operate these systems practically, an operating system or extensions must be developed to adequately handle multiple processors. In this paper, several versions of a multiprogramming multiprocessor system are simulated."
-    }],
-    "languages": [{
-        "language": "English (US)",
-        "fluency": "Native"
-    },{
-        "language": "Japanese",
-        "fluency": "Basic"
-    }],
-    "skills": [{
-        "name": "Software Engineering",
-        "level": "mastery",
-        "keywords": ["Web Applications", "Web Development", "Software Development", "Databases"]
-    },{
-        "name": "Back-end Software Development",
-        "level": "mastery",
-        "keywords": ["JavaScript", "Node.js", "SQL", "Ruby", "Python", "Golang", "Bash Scripting", "Software Architecture", "Software Design", "Microservices", "Web APIs", "C++", "C", "Java", "Mac OS X", "Linux", "Windows", "Databases", "Data Integration", "ETL"]
-    },{
-        "name": "Web Development",
-        "level": "mastery",
-        "keywords": ["JavaScript", "Express.js", "Ruby on Rails", "React", "HTML", "CSS", "Web Components", "Polymer", "PHP", "Web Design", "Web Analytics", "Web Content Management", "Web 2.0", "Web Accessibility"]
-    },{
-        "name": "Data Science",
-        "level": "mastery",
-        "keywords": ["Data Analysis", "SQL", "R", "Python", "Databases", "Data Cleaning", "Data Transformation", "Applied Mathematics", "Machine Learning", "Statistical Signal Processing", "Numerical Computing", "Statistical Computing", "Data Visualization", "Information Visualization", "Signal Processing", "Matlab", "SAS"]
-    },{
-        "name": "Business, Government and Project Management",
-        "level": "mastery",
-        "keywords": ["Agile Project Management", "Agile Methodologies", "Information Technology Management", "Data Analysis Management", "Public Speaking", "Strategic Planning", "Visioning", "Writing", "Technical Writing", "Presentation Development", "Public Sector", "Federal Government", "Federal Budget", "Open Government Initiative", "Open Data", "Federal Records Management", "Microsoft Office", "Adobe Creative Suite"]
-    },{
-        "name": "Design",
-        "level": "advanced",
-        "keywords": ["Iterative Design", "User-centered Design", "Information Design", "Information Architecture", "Prototyping", "Web Design", "Information Visualization", "Accessible Design"]
-    }],
-    "interests": [{
-        "name": "reading"
-    },{
-        "name": "mystery literature"
-    },{
-        "name": "coding"
-    },{
-        "name": "music"
-    },{
-        "name": "cello"
-    },{
-        "name": "bass guitar"
-    },{
-        "name": "video games"
-    },{
-        "name": "JRPGs"
-    },{
-        "name": "judo"
-    },{
-        "name": "Japan"
-    },{
-        "name": "Japanese literature"
-    },{
-        "name": "Japanese animation"
-    },{
-        "name": "fantasy literature"
-    }],
-    "references": [{
-      "name": "Yungchih Chen",
-      "reference": "Ryan is a technically gifted individual and excellent project manager. As a project manager, he continually promotes creativity, best practice, and overall excellence. His positive personality and attitude toward to anything makes big impact on me and other people work with him. He knows communication is critical to success, so he approaches it almost in a methodological way, always listening to everyone, asking the right questions at the right time.",
-      "profile": "https://www.linkedin.com/in/kara-f-348aa648/",
-      "date": "2017-11-07",
-      "relationship": "reported to Ryan at Executive Office of the President"
-    },{
-      "name": "Kara Farley-Cahill",
-      "reference": "Ryan is one of the most intelligent people I have ever had the pleasure to work for. His leadership skills and capacity to keep all team members on track without the need to micromanage are extraordinary. Ryan's ability to identify and resolve technical issues are incomparable. He can communicate complex ideas to both technical and non-technical team members. Ryan was able to focus on the current state of our tools while keeping an eye to the future via road map that was clearly communicated to the entire team. Perhaps one of his most impressible skills was that he always remained calm under pressure and treated his team with respect.",
-      "profile": "https://www.linkedin.com/in/kara-f-348aa648/",
-      "date": "2017-10-18",
-      "relationship": "reported to Ryan at Executive Office of the President"
-    },{
-      "name": "Ryan Rusnak",
-      "reference": "Ryan Harvey is one of the smartest guys I have ever worked with. We have white boarded and collaborated on machine learning problems, monte carlo simulations and even the application that assembles the federal budget. Just never be on the other end of an interview from him and claim you are an expert at SQL!",
-      "profile": "https://www.linkedin.com/in/ryan-rusnak-b936989/",
-      "date": "2017-04-07",
-      "relationship": "reported to Ryan at Executive Office of the President"
-    },{
-        "name": "Dan Chandler",
-        "reference": "Ryan is without reservation the best IT Architect I have ever known. His vast knowledge of the IT industry is unparalleled and he is able to effectively apply this knowledge to effectively address the business needs of an organization. Ryan's skill, talent, and dedication make him an invaluable asset to any team lucky enough to have him.",
-        "profile": "https://www.linkedin.com/in/dan-chandler-03ab45",
-        "date": "2016-10-08",
-        "relationship": "worked with Ryan at Executive Office of the President"
-    },{
-        "name": "Alexandra Screven",
-        "reference": "Ryan is the best mentor I could ever ask for, not only in programming through Data Wranglers, but also in general time management and prioritizing.\n\nBasically, he's the Beyonce of the data science world. Always remind yourself that you have the same amount of hours in a day as Ryan Harvey... Stop complaining and make stuff happen.",
-        "profile": "https://www.linkedin.com/profile/view?id=241589621",
-        "date": "2015-08-14",
-        "relationship": "mentored by Ryan at Data Wranglers DC"
-    },{
-        "name": "Alen Kirkorian",
-        "reference": "Ryan focuses on the bigger picture -- not just the bandaid. He's a great developer and manager and would be my first choise for implementing a solution that can scale from a small size to supporting an enterprise wide solution.",
-        "profile": "https://www.linkedin.com/in/akirkorian",
-        "date": "2014-11-19",
-        "relationship": "worked with Ryan at Kitchology Inc."
-    },{
-        "name": "Paul Donohue",
-        "reference": "Ryan is an excellent project manager. His personality and enthusiasm make him a great collaborator, his drive and dedication help push projects in good directions, and he is not afraid to get his hands dirty and directly apply his extensive knowledge to get the job done. He consistently amazes me with the number of different things he manages to juggle simultaneously, yet somehow he excels on all of them, and still manages to be detail-oriented.",
-        "profile": "https://www.linkedin.com/in/paulsdonohue",
-        "date": "2013-11-14",
-        "relationship": "worked with Ryan at Executive Office of the President"
-    },{
-        "name": "Alain Briancon",
-        "reference": "Ryan is a key contributor to Kitchology a Maryland based startup providing a web/mobile data platform for families with dietary needs balance between nutrition, time and money.\n\nAt the core of Kitchology is a series of database and ontology library that is used for connecting consumer activities. Because the usage models of this system is not set in stone, we need to architect the platform with the right level of flexibility and foresight for both use by consumer and operation by Kitchology. This is where Ryan shines.\n\nRyan brings a unique blend of engineering and architectural design for data-centric and algorithm-centric systems along real-life experience in deploying and operating systems.\n\nRyan is often the voice of reason when we make decisions that solve short term problems but might create problems in the long term. He does that for analytics, debugging process, design of database, choice of encoding mechanisms, interface to wireless systems, among others.\n\nRyan has a good insight for database complexity and architecture. He has a encycopledic knowledge of services and tools from third parties that should be used as a buy (rather than a make).\n\nRyan has tremendous work ethics, putting long hours to help move design and redesign along. He is willing to take on the dirty non glamorous tasks on behalf of others.",
-        "profile": "https://www.linkedin.com/pub/alain-briancon/0/15a/701",
-        "date": "2013-11-14",
-        "relationship": "managed Ryan at Kitchology Inc."
-    },{
-        "name": "Matthew Dantas-McCutcheon",
-        "reference": "Ryan is fundamentally curious, fiercely fastidious and resourceful in solving real, hard problems, managing talented teams, and building great software. He has a passion for bringing open source, big data and best-in-industry practices to bear on revolutionizing the tools that make the federal government work. His talents encompass architecting software, mentoring, translating user needs into features, and managing time and development resources to ship quality software.\n\nBesides being extremely technically capable, Ryan is genuinely kind and warm human being. He is a pleasure to work for and knows how to inspire his team and allow them to build great things. His many and diverse interests - big data, Japanese, jazz, health, and advanced mathematics to name just a few - not only make him a fascinating and delightful person to talk to, but also inform his broad curiosity for and ability to solve hard business and technical problems.\n\nI recommend Ryan strongly for the IT manager position of his choosing at the front lines of innovation in government, commercial software, or academia. He is a complete, all-around asset to any team fortunate to have him.",
-        "profile": "https://www.linkedin.com/pub/matthew-dantas-mccutcheon/44/315/641",
-        "date": "2013-11-14",
-        "relationship": "reported to Ryan at Executive Office of the President"
-    },{
-        "name": "Janisa LaSalle",
-        "reference": "Ryan has a great deal of knowledge in various areas. This includes Design, Front-end Development, Back-end Development, Database Development, Project Management and Agile Processes (and many more). This level of expertise has been very instrumental in leading a diverse IT team. Not only does it help him to appropriately delegate tasks but he also understands the estimated Level of Effort it will take to complete tasks. If needed, he has no problem writing code or database queries to help the team succeed. He is able to communicate with all members of the team and upper management by \"speaking their language\".\n\nIt is no surprise that Ryan has a passion for education. He is always researching the latest tools as well as studying the historical trends of technology. He also encourages learning to everyone around him. He participates in various technology meet-ups and major conferences to stay ahead of the curve. He has taken on larger tasks by conducting training to colleges and upper management on Web Accessibility and by participating in various presentations, where he informed clients of the web-based tools provided by OMB.",
-        "profile": "https://www.linkedin.com/pub/janisa-lasalle/80/a90/84b",
-        "date": "2014-05-08",
-        "relationship": "reported to Ryan at Executive Office of the President"
-    },{
-        "name": "Robert Mann",
-        "reference": "Ryan has shown himself to be very knowledgeable of many different technologies and practices and is committed to finding the best solution for a given problem. He is willing to shoulder more responsibility to move the project and organization in the right direction. Perhaps most important is his accessibility. Whether work-related or not, I know that I can always approach him for insight into something I am working on.",
-        "profile": "https://www.linkedin.com/pub/robert-mann/29/469/624",
-        "date": "2013-11-03",
-        "relationship": "reported to Ryan at Executive Office of the President"
-    },{
-        "name": "Ephraim Feig",
-        "reference": "Ryan was one of our Hardy-Apfel Fellows at Social Security. That, by itself, says a lot. He is smart, dedicated, fun and somebody you want close when confronting tough challenges. He can think broadly and dig deep into the details. I definitely enjoyed having him around at SSA.",
-        "profile": "https://www.linkedin.com/in/ephraim",
-        "date": "2013-10-28",
-        "relationship": "managed Ryan at Social Security Administration"
-    },{
-        "name": "Haffiz Momodu",
-        "reference": "Ryan is an exceptionally gifted individual complimented with a confident and composed demeanor. In my association with him, he is one of the most perceptive and forward-thinking technical professional I have come across. He is a natural leader whose skills encompass both the technical know how and managerial abilities.\n\nSince Ryan joined Social Security Administration (SSA) - he has been instrumental in planning, reengineering, and developing the Agency's strategic plans. He has worked in numerous complex and mission critical assignments such as strategizing and planning for the health IT initiatives, business process reengineering, and the development of the SSA long-term vision.\n\nAbove all, he has a very pleasant disposition and energetic personality. I highly recommend him.",
-        "profile": "https://www.linkedin.com/pub/haffiz-momodu-mba-pmp-cissp-ocp/8/192/710",
-        "date": "2011-03-17",
-        "relationship": "worked with Ryan at Social Security Administration"
-    },{
-        "name": "John Wan",
-        "reference": "I have the pleasure of knowing Ryan personally in several different capacities, and have always known him to be a confident and intelligent individual. His thirst for knowledge and the keen awareness of the latest technical trends and innovations is rare. I know that both his professional and scholastic experiences will make him an excellent resource for any organization.",
-        "profile": "https://www.linkedin.com/pub/john-wan/4/79a/a65",
-        "date": "2011-03-10",
-        "relationship": "worked with Ryan at Social Security Administration"
-    },{
-        "name": "Karen Palm",
-        "reference": "Ryan has a lot of experience working with executives and explaining very technical issues in ways they understand. His presentation skills to audiences of all levels are superb.",
-        "profile": "https://www.linkedin.com/pub/karen-palm/29/7a3/b6",
-        "date": "2011-03-10",
-        "relationship": "mentored Ryan at Social Security Administration"
-    },{
-        "name": "Sivasankar Kande",
-        "reference": "I worked with Ryan in the same group over two years. I have found him to be a pleasant, generous person who is never afraid to take on a challenging task. He has been one of our most dedicated employees.\n\nRyan is an independent, self directed person who is able to communicate effectively and meet even the most demanding challenges. During his tenure here, he set an unprecedented record in applying the Health IT for streamlining the disability determiniation process. I highly recommend him.",
-        "profile": "https://www.linkedin.com/pub/sivasankar-kande/0/446/6b1",
-        "date": "2011-03-05",
-        "relationship": "worked with Ryan at Social Security Administration"
-    },{
-        "name": "Sonny Hashmi",
-        "reference": "I met Ryan while attending the University of Maryland - Masters Certificate in Innovation Management program. Ryan and I have stayed in touch since our time at UMD. I have found Ryan to be an exceptionally brilliant individual with a passion for making a positive difference through his work. Ryan is motivated and engaging and challenges his colleagues to think outside the box. I would welcome the opportunity to work with Ryan and feel that he would make an excellent and highly valuable addition to any organization.",
-        "profile": "https://www.linkedin.com/in/shashmi",
-        "date": "2011-02-23",
-        "relationship": "attended the University of Maryland Innovation Management program with Ryan"
-    },{
-        "name": "Carlson T",
-        "reference": "Ryan is an intelligent and dedicated professional. Something of a polymath, he is well-versed in a variety of subjects and proficient at many activities: mathematics, computing, systems engineering, Japanese culture and history, music, and more. His intense engagement in the problem at hand and his tendency to dig for the broader or deeper view makes him invaluable in problem solving sessions. When brainstorming, Ryan's many and varied ideas ensure a divergent collection of potential solutions. He is a proficient speaker and communicates well in writing. He is able to craft his language to audiences from front line individuals to academics to top-level executives. As an added benefit, Ryan is fun to work with and sure to lighten the atmosphere during crunch times. I highly recommend him for his work.",
-        "profile": "https://www.linkedin.com/pub/carlson-t/18/768/753",
-        "date": "2011-02-23",
-        "relationship": "worked with Ryan at Social Security Administration"
-    },{
-        "name": "Steven Young",
-        "reference": "Ryan has an infectious enthusiastic attitude and a laser focus on strategic and innovative thinking.\n\nDuring my time in the Hardy-Apfel IT Fellows program, Ryan lead a program to bring individuals from the fellows program together with executive decision makers to present ideas and foster innovation.\n\nHe carefully engineered a nurturing academic environment that encouraged the exploration of creative new ideas while providing a direct communications channel to C-level decision makers.",
-        "profile": "https://www.linkedin.com/in/stevendyoung",
-        "date": "2011-02-13",
-        "relationship": "worked with Ryan at Social Security Administration"
-    },{
-        "name": "Jason Fichtner",
-        "reference": "Ryan is a smart and dedicated professional with the ability to think creatively and constructively to solve large-scale IT challenges.\n\nThe Social Security Administration has less than 10 slots per year for the prestigious Hardy-Apfel IT Fellowship. The program is designed to fill a gap in government information technology hiring by targeting the top IT schools in the country. Selected candidates are provided rotational leadership experiences throughout the Social Security Administration and have access to the Agency's upper-level executive leadership team. The candidates are selected based on their overall IT skills, ability to think differently and creatively about how to solve large-scale government information technology challenges, as well as demonstrate a commitment to service.\n\nActing as the #2 official for the Agency, I was on the selection committee that offered Ryan a Fellowship. Ryan exhibits all of these characteristics and is an excellent IT professional. We developed a professional relationship that continues to this day. While Ryan will surely excel in any career path he chooses, I personally hope he stays in public service. The government needs people like Ryan Harvey.",
-        "profile": "https://www.linkedin.com/in/jasonfichtner",
-        "date": "2011-02-13",
-        "relationship": "managed Ryan at Social Security Administration"
-    },{
-        "name": "Sharon Roushdy",
-        "reference": "I am very happy to recommend Ryan. During the two years he worked for us as a GA, he was extremely capable and very motivated to learn, explore, and tackle every challenge given to him. In addition, he was dependable and, simply, lots of fun to work with.",
-        "profile": "https://www.linkedin.com/in/sharonroushdy",
-        "date": "2008-11-18",
-        "relationship": "worked with Ryan at University of Maryland"
-    },{
-        "name": "James Tanis",
-        "reference": "Ryan is an expert computer scientist and is doing very interesting work for his PhD thesis on dimensionality reduction. He is also a talented teacher, which I know from first-hand experience. I am happy to recommend him for his graduate work.",
-        "profile": "https://www.linkedin.com/pub/james-tanis/10/28b/34b",
-        "date": "2008-12-07",
-        "relationship": "attended University of Maryland PhD program with Ryan"
-    },{
-        "name": "Maria Calzada",
-        "reference": "Ryan was on top of the class. He is bright, engaged and hard working. His work was always first class. He is one of those people you do not hesitate to recommend for anything.",
-        "profile": "https://www.linkedin.com/pub/maria-calzada/b/984/667",
-        "date": "2008-11-16",
-        "relationship": "taught Ryan at Loyola University New Orleans"
-    }],
+        {
+            "name": "coding"
+        },
+        {
+            "name": "music"
+        },
+        {
+            "name": "cello"
+        },
+        {
+            "name": "bass guitar"
+        },
+        {
+            "name": "video games"
+        },
+        {
+            "name": "JRPGs"
+        },
+        {
+            "name": "judo"
+        },
+        {
+            "name": "Japan"
+        },
+        {
+            "name": "Japanese literature"
+        },
+        {
+            "name": "Japanese animation"
+        },
+        {
+            "name": "fantasy literature"
+        }
+    ],
+    "references": [
+        {
+            "name": "Yungchih Chen",
+            "reference": "Ryan is a technically gifted individual and excellent project manager. As a project manager, he continually promotes creativity, best practice, and overall excellence. His positive personality and attitude toward to anything makes big impact on me and other people work with him. He knows communication is critical to success, so he approaches it almost in a methodological way, always listening to everyone, asking the right questions at the right time.",
+            "profile": "https://www.linkedin.com/in/kara-f-348aa648/",
+            "date": "2017-11-07",
+            "relationship": "reported to Ryan at Executive Office of the President"
+        },
+        {
+            "name": "Kara Farley-Cahill",
+            "reference": "Ryan is one of the most intelligent people I have ever had the pleasure to work for. His leadership skills and capacity to keep all team members on track without the need to micromanage are extraordinary. Ryan's ability to identify and resolve technical issues are incomparable. He can communicate complex ideas to both technical and non-technical team members. Ryan was able to focus on the current state of our tools while keeping an eye to the future via road map that was clearly communicated to the entire team. Perhaps one of his most impressible skills was that he always remained calm under pressure and treated his team with respect.",
+            "profile": "https://www.linkedin.com/in/kara-f-348aa648/",
+            "date": "2017-10-18",
+            "relationship": "reported to Ryan at Executive Office of the President"
+        },
+        {
+            "name": "Ryan Rusnak",
+            "reference": "Ryan Harvey is one of the smartest guys I have ever worked with. We have white boarded and collaborated on machine learning problems, monte carlo simulations and even the application that assembles the federal budget. Just never be on the other end of an interview from him and claim you are an expert at SQL!",
+            "profile": "https://www.linkedin.com/in/ryan-rusnak-b936989/",
+            "date": "2017-04-07",
+            "relationship": "reported to Ryan at Executive Office of the President"
+        },
+        {
+            "name": "Dan Chandler",
+            "reference": "Ryan is without reservation the best IT Architect I have ever known. His vast knowledge of the IT industry is unparalleled and he is able to effectively apply this knowledge to effectively address the business needs of an organization. Ryan's skill, talent, and dedication make him an invaluable asset to any team lucky enough to have him.",
+            "profile": "https://www.linkedin.com/in/dan-chandler-03ab45",
+            "date": "2016-10-08",
+            "relationship": "worked with Ryan at Executive Office of the President"
+        },
+        {
+            "name": "Alexandra Screven",
+            "reference": "Ryan is the best mentor I could ever ask for, not only in programming through Data Wranglers, but also in general time management and prioritizing.\n\nBasically, he's the Beyonce of the data science world. Always remind yourself that you have the same amount of hours in a day as Ryan Harvey... Stop complaining and make stuff happen.",
+            "profile": "https://www.linkedin.com/profile/view?id=241589621",
+            "date": "2015-08-14",
+            "relationship": "mentored by Ryan at Data Wranglers DC"
+        },
+        {
+            "name": "Alen Kirkorian",
+            "reference": "Ryan focuses on the bigger picture -- not just the bandaid. He's a great developer and manager and would be my first choise for implementing a solution that can scale from a small size to supporting an enterprise wide solution.",
+            "profile": "https://www.linkedin.com/in/akirkorian",
+            "date": "2014-11-19",
+            "relationship": "worked with Ryan at Kitchology Inc."
+        },
+        {
+            "name": "Paul Donohue",
+            "reference": "Ryan is an excellent project manager. His personality and enthusiasm make him a great collaborator, his drive and dedication help push projects in good directions, and he is not afraid to get his hands dirty and directly apply his extensive knowledge to get the job done. He consistently amazes me with the number of different things he manages to juggle simultaneously, yet somehow he excels on all of them, and still manages to be detail-oriented.",
+            "profile": "https://www.linkedin.com/in/paulsdonohue",
+            "date": "2013-11-14",
+            "relationship": "worked with Ryan at Executive Office of the President"
+        },
+        {
+            "name": "Alain Briancon",
+            "reference": "Ryan is a key contributor to Kitchology a Maryland based startup providing a web/mobile data platform for families with dietary needs balance between nutrition, time and money.\n\nAt the core of Kitchology is a series of database and ontology library that is used for connecting consumer activities. Because the usage models of this system is not set in stone, we need to architect the platform with the right level of flexibility and foresight for both use by consumer and operation by Kitchology. This is where Ryan shines.\n\nRyan brings a unique blend of engineering and architectural design for data-centric and algorithm-centric systems along real-life experience in deploying and operating systems.\n\nRyan is often the voice of reason when we make decisions that solve short term problems but might create problems in the long term. He does that for analytics, debugging process, design of database, choice of encoding mechanisms, interface to wireless systems, among others.\n\nRyan has a good insight for database complexity and architecture. He has a encycopledic knowledge of services and tools from third parties that should be used as a buy (rather than a make).\n\nRyan has tremendous work ethics, putting long hours to help move design and redesign along. He is willing to take on the dirty non glamorous tasks on behalf of others.",
+            "profile": "https://www.linkedin.com/pub/alain-briancon/0/15a/701",
+            "date": "2013-11-14",
+            "relationship": "managed Ryan at Kitchology Inc."
+        },
+        {
+            "name": "Matthew Dantas-McCutcheon",
+            "reference": "Ryan is fundamentally curious, fiercely fastidious and resourceful in solving real, hard problems, managing talented teams, and building great software. He has a passion for bringing open source, big data and best-in-industry practices to bear on revolutionizing the tools that make the federal government work. His talents encompass architecting software, mentoring, translating user needs into features, and managing time and development resources to ship quality software.\n\nBesides being extremely technically capable, Ryan is genuinely kind and warm human being. He is a pleasure to work for and knows how to inspire his team and allow them to build great things. His many and diverse interests - big data, Japanese, jazz, health, and advanced mathematics to name just a few - not only make him a fascinating and delightful person to talk to, but also inform his broad curiosity for and ability to solve hard business and technical problems.\n\nI recommend Ryan strongly for the IT manager position of his choosing at the front lines of innovation in government, commercial software, or academia. He is a complete, all-around asset to any team fortunate to have him.",
+            "profile": "https://www.linkedin.com/pub/matthew-dantas-mccutcheon/44/315/641",
+            "date": "2013-11-14",
+            "relationship": "reported to Ryan at Executive Office of the President"
+        },
+        {
+            "name": "Janisa LaSalle",
+            "reference": "Ryan has a great deal of knowledge in various areas. This includes Design, Front-end Development, Back-end Development, Database Development, Project Management and Agile Processes (and many more). This level of expertise has been very instrumental in leading a diverse IT team. Not only does it help him to appropriately delegate tasks but he also understands the estimated Level of Effort it will take to complete tasks. If needed, he has no problem writing code or database queries to help the team succeed. He is able to communicate with all members of the team and upper management by \"speaking their language\".\n\nIt is no surprise that Ryan has a passion for education. He is always researching the latest tools as well as studying the historical trends of technology. He also encourages learning to everyone around him. He participates in various technology meet-ups and major conferences to stay ahead of the curve. He has taken on larger tasks by conducting training to colleges and upper management on Web Accessibility and by participating in various presentations, where he informed clients of the web-based tools provided by OMB.",
+            "profile": "https://www.linkedin.com/pub/janisa-lasalle/80/a90/84b",
+            "date": "2014-05-08",
+            "relationship": "reported to Ryan at Executive Office of the President"
+        },
+        {
+            "name": "Robert Mann",
+            "reference": "Ryan has shown himself to be very knowledgeable of many different technologies and practices and is committed to finding the best solution for a given problem. He is willing to shoulder more responsibility to move the project and organization in the right direction. Perhaps most important is his accessibility. Whether work-related or not, I know that I can always approach him for insight into something I am working on.",
+            "profile": "https://www.linkedin.com/pub/robert-mann/29/469/624",
+            "date": "2013-11-03",
+            "relationship": "reported to Ryan at Executive Office of the President"
+        },
+        {
+            "name": "Ephraim Feig",
+            "reference": "Ryan was one of our Hardy-Apfel Fellows at Social Security. That, by itself, says a lot. He is smart, dedicated, fun and somebody you want close when confronting tough challenges. He can think broadly and dig deep into the details. I definitely enjoyed having him around at SSA.",
+            "profile": "https://www.linkedin.com/in/ephraim",
+            "date": "2013-10-28",
+            "relationship": "managed Ryan at Social Security Administration"
+        },
+        {
+            "name": "Haffiz Momodu",
+            "reference": "Ryan is an exceptionally gifted individual complimented with a confident and composed demeanor. In my association with him, he is one of the most perceptive and forward-thinking technical professional I have come across. He is a natural leader whose skills encompass both the technical know how and managerial abilities.\n\nSince Ryan joined Social Security Administration (SSA) - he has been instrumental in planning, reengineering, and developing the Agency's strategic plans. He has worked in numerous complex and mission critical assignments such as strategizing and planning for the health IT initiatives, business process reengineering, and the development of the SSA long-term vision.\n\nAbove all, he has a very pleasant disposition and energetic personality. I highly recommend him.",
+            "profile": "https://www.linkedin.com/pub/haffiz-momodu-mba-pmp-cissp-ocp/8/192/710",
+            "date": "2011-03-17",
+            "relationship": "worked with Ryan at Social Security Administration"
+        },
+        {
+            "name": "John Wan",
+            "reference": "I have the pleasure of knowing Ryan personally in several different capacities, and have always known him to be a confident and intelligent individual. His thirst for knowledge and the keen awareness of the latest technical trends and innovations is rare. I know that both his professional and scholastic experiences will make him an excellent resource for any organization.",
+            "profile": "https://www.linkedin.com/pub/john-wan/4/79a/a65",
+            "date": "2011-03-10",
+            "relationship": "worked with Ryan at Social Security Administration"
+        },
+        {
+            "name": "Karen Palm",
+            "reference": "Ryan has a lot of experience working with executives and explaining very technical issues in ways they understand. His presentation skills to audiences of all levels are superb.",
+            "profile": "https://www.linkedin.com/pub/karen-palm/29/7a3/b6",
+            "date": "2011-03-10",
+            "relationship": "mentored Ryan at Social Security Administration"
+        },
+        {
+            "name": "Sivasankar Kande",
+            "reference": "I worked with Ryan in the same group over two years. I have found him to be a pleasant, generous person who is never afraid to take on a challenging task. He has been one of our most dedicated employees.\n\nRyan is an independent, self directed person who is able to communicate effectively and meet even the most demanding challenges. During his tenure here, he set an unprecedented record in applying the Health IT for streamlining the disability determiniation process. I highly recommend him.",
+            "profile": "https://www.linkedin.com/pub/sivasankar-kande/0/446/6b1",
+            "date": "2011-03-05",
+            "relationship": "worked with Ryan at Social Security Administration"
+        },
+        {
+            "name": "Sonny Hashmi",
+            "reference": "I met Ryan while attending the University of Maryland - Masters Certificate in Innovation Management program. Ryan and I have stayed in touch since our time at UMD. I have found Ryan to be an exceptionally brilliant individual with a passion for making a positive difference through his work. Ryan is motivated and engaging and challenges his colleagues to think outside the box. I would welcome the opportunity to work with Ryan and feel that he would make an excellent and highly valuable addition to any organization.",
+            "profile": "https://www.linkedin.com/in/shashmi",
+            "date": "2011-02-23",
+            "relationship": "attended the University of Maryland Innovation Management program with Ryan"
+        },
+        {
+            "name": "Carlson T",
+            "reference": "Ryan is an intelligent and dedicated professional. Something of a polymath, he is well-versed in a variety of subjects and proficient at many activities: mathematics, computing, systems engineering, Japanese culture and history, music, and more. His intense engagement in the problem at hand and his tendency to dig for the broader or deeper view makes him invaluable in problem solving sessions. When brainstorming, Ryan's many and varied ideas ensure a divergent collection of potential solutions. He is a proficient speaker and communicates well in writing. He is able to craft his language to audiences from front line individuals to academics to top-level executives. As an added benefit, Ryan is fun to work with and sure to lighten the atmosphere during crunch times. I highly recommend him for his work.",
+            "profile": "https://www.linkedin.com/pub/carlson-t/18/768/753",
+            "date": "2011-02-23",
+            "relationship": "worked with Ryan at Social Security Administration"
+        },
+        {
+            "name": "Steven Young",
+            "reference": "Ryan has an infectious enthusiastic attitude and a laser focus on strategic and innovative thinking.\n\nDuring my time in the Hardy-Apfel IT Fellows program, Ryan lead a program to bring individuals from the fellows program together with executive decision makers to present ideas and foster innovation.\n\nHe carefully engineered a nurturing academic environment that encouraged the exploration of creative new ideas while providing a direct communications channel to C-level decision makers.",
+            "profile": "https://www.linkedin.com/in/stevendyoung",
+            "date": "2011-02-13",
+            "relationship": "worked with Ryan at Social Security Administration"
+        },
+        {
+            "name": "Jason Fichtner",
+            "reference": "Ryan is a smart and dedicated professional with the ability to think creatively and constructively to solve large-scale IT challenges.\n\nThe Social Security Administration has less than 10 slots per year for the prestigious Hardy-Apfel IT Fellowship. The program is designed to fill a gap in government information technology hiring by targeting the top IT schools in the country. Selected candidates are provided rotational leadership experiences throughout the Social Security Administration and have access to the Agency's upper-level executive leadership team. The candidates are selected based on their overall IT skills, ability to think differently and creatively about how to solve large-scale government information technology challenges, as well as demonstrate a commitment to service.\n\nActing as the #2 official for the Agency, I was on the selection committee that offered Ryan a Fellowship. Ryan exhibits all of these characteristics and is an excellent IT professional. We developed a professional relationship that continues to this day. While Ryan will surely excel in any career path he chooses, I personally hope he stays in public service. The government needs people like Ryan Harvey.",
+            "profile": "https://www.linkedin.com/in/jasonfichtner",
+            "date": "2011-02-13",
+            "relationship": "managed Ryan at Social Security Administration"
+        },
+        {
+            "name": "Sharon Roushdy",
+            "reference": "I am very happy to recommend Ryan. During the two years he worked for us as a GA, he was extremely capable and very motivated to learn, explore, and tackle every challenge given to him. In addition, he was dependable and, simply, lots of fun to work with.",
+            "profile": "https://www.linkedin.com/in/sharonroushdy",
+            "date": "2008-11-18",
+            "relationship": "worked with Ryan at University of Maryland"
+        },
+        {
+            "name": "James Tanis",
+            "reference": "Ryan is an expert computer scientist and is doing very interesting work for his PhD thesis on dimensionality reduction. He is also a talented teacher, which I know from first-hand experience. I am happy to recommend him for his graduate work.",
+            "profile": "https://www.linkedin.com/pub/james-tanis/10/28b/34b",
+            "date": "2008-12-07",
+            "relationship": "attended University of Maryland PhD program with Ryan"
+        },
+        {
+            "name": "Maria Calzada",
+            "reference": "Ryan was on top of the class. He is bright, engaged and hard working. His work was always first class. He is one of those people you do not hesitate to recommend for anything.",
+            "profile": "https://www.linkedin.com/pub/maria-calzada/b/984/667",
+            "date": "2008-11-16",
+            "relationship": "taught Ryan at Loyola University New Orleans"
+        }
+    ],
     "meta": {
         "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
         "version": "v1.0.0",
