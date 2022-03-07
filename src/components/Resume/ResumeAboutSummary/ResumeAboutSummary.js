@@ -1,5 +1,5 @@
 import React from 'react';
-import marked from 'marked';
+import { marked } from 'marked';
 import { sanitize } from 'dompurify';
 
 import ResumeSection from '../ResumeSection/ResumeSection';
