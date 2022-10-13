@@ -121,8 +121,13 @@
             "startDate": "2022-01-18",
             "type": "primary",
             "schedule": "full-time",
-            "summary": "I’m a member of the Engineering Department at Screencastify, a startup providing a simple way to record, edit, and share video, with a special focus on enabling video as a medium for K-12 teachers.",
-            "highlights": []
+            "summary": "I'm a Staff Software Engineer with the amazing team at Screencastify, a startup helping to make video-based instruction easy for teachers and school districts by providing a suite of tools for creation and editing of videos and assignment creation and tracking based on those videos. In that role, I do a variety of work to help the team operate effectively and the company be successful, including de-risking and prototyping new ideas and approaches, breaking down and planning engineering work, architecting large-scale changes to the code bases, identifying patterns and technologies that we can build on, coaching and mentoring colleagues, building software and supporting systems, and pairing and mobbing with fellow engineers to solve problems.",
+            "highlights": [
+                "De-risked, identified, and scoped work for opportunities to maintain current revenue streams while building new products",
+                "Built features in our React/TypeScript browser-based video capture and editing applcation to support just-in-time processing of video and generation of manifests",
+                "Built several asynchronous task sets to support out-of-band video processing",
+                "Optimized CI pipeline for better visibility of individual steps and refactored containerization to move common dependencies to base image"
+            ]
         },
         {
             "name": "Loyola University New Orleans",
