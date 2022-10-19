@@ -1,5 +1,6 @@
 .quote {
   display: grid;
+  font-style: italic;
   grid-template-columns: 3em 1fr;
   grid-template-rows: auto;
   margin-left: 0;

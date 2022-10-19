@@ -1,4 +1,6 @@
 import React from 'react';
+import { marked } from 'marked';
+import { sanitize } from 'dompurify';
 
 import ResumeSection from '../ResumeSection/ResumeSection';
 import { displayDate } from '../../../lib/date_utils';
@@ -35,7 +37,8 @@ function ReferenceCard ({
       </p>
       <blockquote className="quote">
         <i className="fad fa-lg fa-quote-left"></i>
-        <p className="clear-margin">{reference}</p>
+        <span className="clear-margin" dangerouslySetInnerHTML={{ __html: sanitize(marked(reference)) }}></span>
+        {/* <p className="clear-margin">{reference}</p> */}
       </blockquote>
     </li>
   )
