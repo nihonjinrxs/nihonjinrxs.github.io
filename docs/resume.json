@@ -646,6 +646,8 @@
             "name": "Software Engineering",
             "level": "mastery",
             "keywords": [
+                "Software Patterns",
+                "Software Architecture",
                 "Web Applications",
                 "Web Development",
                 "Software Development",
@@ -657,6 +659,7 @@
             "name": "Back-end Software Development",
             "level": "mastery",
             "keywords": [
+                "TypeScript",
                 "JavaScript",
                 "Node.js",
                 "SQL",
@@ -684,6 +687,7 @@
             "name": "Web Development",
             "level": "mastery",
             "keywords": [
+                "TypeScript",
                 "JavaScript",
                 "Express.js",
                 "Ruby on Rails",
@@ -691,7 +695,6 @@
                 "HTML",
                 "CSS",
                 "Web Components",
-                "Polymer",
                 "PHP",
                 "Web Design",
                 "Web Analytics",
@@ -785,6 +788,9 @@
             "name": "video games"
         },
         {
+            "name": "video game randomizers"
+        },
+        {
             "name": "JRPGs"
         },
         {
@@ -805,9 +811,30 @@
     ],
     "references": [
         {
+            "name": "Collin Miller",
+            "reference": "Ryan is a seasoned engineer. As in, has worked through many seasons, and has seen many things.\n\nI got the opportunity to pair program through many challenging and crucial problems with Ryan. Through that experience I grew to look forward to the work we would do in those sessions.\n\nAny Engineer will probably say they want to build something with quality, but it's easier said than done. But as luck has it, Ryan not only has a good idea for how to get something done, he's already done it the wrong way more than ten years ago.\n\nI also got to see Ryan's effectiveness in mentoring, and working to raise up the other engineers in the department. We were all better for having him on our side.\n\nIf you're in the position to have gotten to know Ryan and are considering adding him to your team, I suggest you listen to your intuitions that must already be telling you it'll be a good decision.",
+            "profile": "https://www.linkedin.com/in/collintmiller/",
+            "date": "2022-10-18",
+            "relationship": "worked with Ryan at Screencastify"
+        },
+        {
+            "name": "Jon Kurinsky",
+            "reference": "Ryan joined Screencastify as a staff-level hire midway through a major effort to re-platform the company's product--a screen recorder and browser-based video editor--to prepare the company for a new stage of growth. Within a few months, he made major impacts in a number of areas:\n\n* He advocated for and drove adoption of an RFC/ADR-based decision-making and documentation process\n* He drove the adoption of a whole-stack testing strategy that, when put in practice, gave us the confidence to deploy frequently\n* He led an effort to conform our media assets to CMAF standards, helping the team deepen its understanding of the best way to ingest and deliver video at scale\n* He led the implementation of a matrix-based CI/CD pipeline in Github actions that Dockerized and deployed a monorepository's worth of applications to a combination of k8s and cloud-native GCP infra\n* He wrote a syllabus to help developers new to the world of video engineering learn their way around fundamental concepts and tools like ffmpeg\n* He led the department in adopting an approach toward planning and estimation focused on the quantification of uncertainty and task prioritization based on risk-reduction\n\nAside from these major, notable contributions, he made himself available as a resource for engineers, holding office hours, pairing and mobbing to help solve tricky bugs, and providing design-stage advice that helped us arrive at simpler, more decoupled, more observable, and more maintainable code.\n\nRyan is a formidable engineer and a kind and patient mentor who would immediately add value to a team looking for a staff+ contributor. He's someone I look forward to working with again.",
+            "profile": "https://www.linkedin.com/in/krnsk0/",
+            "date": "2022-10-14",
+            "relationship": "worked with Ryan at Screencastify"
+        },
+        {
+            "name": "Kali",
+            "reference": "I first met Ryan as his assigned engineering onboarding buddy at Screencastify. Me, a fresh out of bootcamp, first-time Software Engineer with Ryan, a seasoned Staff. I can only imagine what he thought, but on my end, I felt his attention on everything I walked him through in a way that made me feel like all my knowledge was important. Since that point, Ryan and I have worked together on solving perplexing bugs, building complex tasks systems (well, I watched and learned while he built!) and improving the process of our department. I have felt supported by him every step of the way, he is welcoming of my thoughts and opinions and artfully steers me in the right direction when I am missing the mark. On a personal level, we have bonded in our shared commitment to an equitable workplace that respects and accommodates the needs of everyone. I will always look forward to any opportunity I have to work with Ryan.",
+            "profile": "https://www.linkedin.com/in/kali-nfn/",
+            "date": "2022-10-03",
+            "relationship": "worked with Ryan at Screencastify"
+        },
+        {
             "name": "Yungchih Chen",
             "reference": "Ryan is a technically gifted individual and excellent project manager. As a project manager, he continually promotes creativity, best practice, and overall excellence. His positive personality and attitude toward to anything makes big impact on me and other people work with him. He knows communication is critical to success, so he approaches it almost in a methodological way, always listening to everyone, asking the right questions at the right time.",
-            "profile": "https://www.linkedin.com/in/kara-f-348aa648/",
+            "profile": "https://www.linkedin.com/in/yungchih-chen-a954107/",
             "date": "2017-11-07",
             "relationship": "reported to Ryan at Executive Office of the President"
         },
