@@ -1,4 +1,6 @@
 import React from 'react';
+import { marked } from 'marked';
+import { sanitize } from 'dompurify';
 
 import ProfilePicture from '../ProfilePicture/ProfilePicture'
 
@@ -15,7 +17,8 @@ export default function ProfileHeader ({ name, label, imageUrl }) {
         <h5
           className="text-muted text-center"
           itemProp="jobTitle"
-        >{label}</h5>
+          dangerouslySetInnerHTML={{ __html: sanitize(marked(label)) }}
+        ></h5>
       </div>
     </span>
   )  
