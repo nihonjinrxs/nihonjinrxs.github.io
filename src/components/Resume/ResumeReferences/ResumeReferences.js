@@ -38,7 +38,6 @@ function ReferenceCard ({
       <blockquote className="quote">
         <i className="fad fa-lg fa-quote-left"></i>
         <span className="clear-margin" dangerouslySetInnerHTML={{ __html: sanitize(marked(reference)) }}></span>
-        {/* <p className="clear-margin">{reference}</p> */}
       </blockquote>
     </li>
   )
