@@ -2,9 +2,9 @@
     "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
     "basics": {
         "name": "Ryan Bensussan Harvey",
-        "label": "Coder, Datahead, Educator, Wonk, Dad.",
+        "label": "Coder, Datahead, Educator, Wonk, Dad.\n\nOpen source contributor and maintainer.",
         "image": "http://www.gravatar.com/avatar/fdca5fdaa9db660b42d4a49557f3dd94.png",
-        "summary": "I'm a fun-loving geek who is driven to create useful things (mostly with code) almost as much as I am called to teach others how to do it themselves. I enjoy diving into data and have been known to get lost in SQL at times. I'm passionate about clean, purposeful interfaces and joyous user experiences. I read lots of books, but never seem to get through my reading list. I'm a happy husband and father of two.",
+        "summary": "I'm a fun-loving geek who is driven to create useful things (mostly with code) almost as much as I am called to teach others how to do it themselves. I enjoy diving into data and have been known to get lost in SQL at times. I'm driven to solve tough problems, from distributed systems to machine learning to video engineering. I read lots of books, but never seem to get through my reading list. I'm a happy husband and father of two.",
         "email": "ryan.b.harvey@gmail.com",
         "phone": "301-375-0678",
         "url": "http://codeanddata.codes",
