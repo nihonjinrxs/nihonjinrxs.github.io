@@ -4,7 +4,7 @@
         "name": "Ryan Bensussan Harvey",
         "label": "Coder, Datahead, Educator, Wonk, Dad.\n\nOpen source contributor and maintainer.",
         "image": "http://www.gravatar.com/avatar/fdca5fdaa9db660b42d4a49557f3dd94.png",
-        "summary": "I'm a fun-loving geek who is driven to create useful things (mostly with code) almost as much as I am called to teach others how to do it themselves. I enjoy diving into data and have been known to get lost in SQL at times. I'm driven to solve tough problems, from distributed systems to machine learning to video engineering. I read lots of books, but never seem to get through my reading list. I'm a happy husband and father of two.",
+        "summary": "I'm a fun-loving geek who is driven to create useful things (mostly with code) almost as much as I am called to teach others how to do it themselves. I enjoy diving into data and have been known to get lost in SQL at times. I'm driven to solve tough problems, from distributed systems to machine learning to video engineering. I work hard to improve the lives of others in my free time and want to do so at work too. I read lots of books, but never seem to get through my reading list. I'm a happy husband and father of two.",
         "email": "ryan.b.harvey@gmail.com",
         "phone": "301-375-0678",
         "url": "http://codeanddata.codes",
@@ -21,7 +21,7 @@
             },
             {
                 "network": "loyno",
-                "url": "http://people.loyno.edu/~rharvey/",
+                "url": "https://codeanddata.codes/loyno-faculty-site",
                 "for-print": true
             },
             {
@@ -124,8 +124,8 @@
             "summary": "I'm a Staff Software Engineer with the amazing team at Screencastify, a startup helping to make video-based instruction easy for teachers and school districts by providing a suite of tools for creation and editing of videos and assignment creation and tracking based on those videos. In that role, I do a variety of work to help the team operate effectively and the company be successful, including de-risking and prototyping new ideas and approaches, breaking down and planning engineering work, architecting large-scale changes to the code bases, identifying patterns and technologies that we can build on, coaching and mentoring colleagues, building software and supporting systems, and pairing and mobbing with fellow engineers to solve problems.",
             "highlights": [
                 "De-risked, identified, and scoped work for opportunities to maintain current revenue streams while building new products",
-                "Built features in our React/TypeScript browser-based video capture and editing applcation to support just-in-time processing of video and generation of manifests",
-                "Built several asynchronous task sets to support out-of-band video processing",
+                "Built features in our React/TypeScript browser-based video capture and editing application to support just-in-time video processing and manifest generation and async out-of-band video processing",
+                "Led and implemented large portions of a project to migrate critical legacy data to new systems",
                 "Optimized CI pipeline for better visibility of individual steps and refactored containerization to move common dependencies to base image"
             ]
         },
@@ -139,9 +139,9 @@
             "schedule": "part-time",
             "summary": "As an Adjunct Instructor, I teach upper level undergraduate computer science courses. In my volunteer capacity, I assist the Department of Mathematics & Computer Sciences with computer science curriculum development, project ideas, community partnerships, and research.",
             "highlights": [
-                "Developed and taught [COSC A451 Software Engineering program capstone course](http://people.loyno.edu/~rharvey/teaching/cosc-a451/) in a service learning mode, engaging students with real-world projects for government and non-profit partners",
-                "Developed and taught [COSC A319 Internet Technologies elective course](http://people.loyno.edu/~rharvey/teaching/cosc-a319/) covering Internet fundamentals, protocols and Internet-based software development",
-                "Developed and taught [COSC A499 Open Source](http://people.loyno.edu/~rharvey/teaching/cosc-a499-oss/), a hands-on guided study course covering open source project structures, contribution approaches, roles and team structures, licenses, and communities"
+                "Developed and taught [COSC A451 Software Engineering program capstone course](https://codeanddata.codes/loyno-faculty-site/teaching/cosc-a451/) in a service learning mode, engaging students with real-world projects for government and non-profit partners",
+                "Developed and taught [COSC A319 Internet Technologies elective course](https://codeanddata.codes/loyno-faculty-site/teaching/cosc-a319/) covering Internet fundamentals, network protocols, and Internet-based software development",
+                "Developed and taught [COSC A499 Open Source Software](https://codeanddata.codes/loyno-faculty-site/teaching/cosc-a499-oss/), a hands-on guided study course covering open source project structures, contribution approaches, roles and team structures, licenses, and communities"
             ]
         },
         {
@@ -429,6 +429,13 @@
         }
     ],
     "volunteer": [
+        {
+            "organization": "Mandeville HS Robotics Team (FRC Team 2992)",
+            "position": "Mentor",
+            "url": "https://mandevillerobotics.org",
+            "startDate": "2022-08-22",
+            "summary": "I mentor and teach students software development with Java to support their work building and programming complex industrial robots to compete in the [FIRST Robotics Competition](https://www.firstinspires.org/robotics/frc)."
+        },
         {
             "organization": "St. Charles Center for Faith + Action",
             "position": "Board Member",
