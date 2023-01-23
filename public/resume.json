@@ -434,15 +434,23 @@
             "position": "Mentor",
             "url": "https://mandevillerobotics.org",
             "startDate": "2022-08-22",
-            "summary": "I mentor and teach students software development with Java to support their work building and programming complex industrial robots to compete in the [FIRST Robotics Competition](https://www.firstinspires.org/robotics/frc)."
+            "summary": "I mentor and teach students software development with Java to support their work building and programming complex industrial robots to compete in the [FIRST Robotics Competition](https://www.firstinspires.org/robotics/frc).",
+            "highlights": [
+                "Led training sessions on software developent, Java, and git/version control fundamentals",
+                "Supported students on solving problems in new and existing robot code bases",
+                "Supported students in testing and evaluating technologies and library upgrades with and without hardware in the loop",
+                "Assisted student leadership on setting up code bases and development management for a new competition season"
+            ]
         },
         {
             "organization": "St. Charles Center for Faith + Action",
             "position": "Board Member",
             "url": "https://stcharles.center",
             "startDate": "2020-07-01",
-            "summary": "Serve on the non-profit's Board of Directors, as well as the Program Committee therein. Assist with technology asset management and product delivery.",
+            "summary": "Serve on the non-profit's Board of Directors, as well as the Governance Committee therein. Previously served on the Board's Program Committee. Assist with technology asset management and product delivery.",
             "highlights": [
+                "Assisted with mission definition, program development, and board definition and recruiting",
+                "Setup and assisted with administration of the organization's Google Apps environment",
                 "Created, edited and published [programs page](https://stcharlesave.center/programs) and [session videos](https://www.youtube.com/watch?list=PLXya5pDOly5QGxxUtZQiQUC7NtDvcgyuM&v=DYBLFsSZJJs&feature=emb_logo) for Center program _Policing New Orleans: Past, Present and Future_"
             ]
         },
