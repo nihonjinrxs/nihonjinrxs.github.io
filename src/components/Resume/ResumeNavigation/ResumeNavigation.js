@@ -47,6 +47,7 @@ function NavigationMenu ({
           return (
             <NavigationLink
               title={item.title}
+              subtitle={item.subtitle}
               icon={item.icon}
               slug={item.slug}
               navOpen={navOpen}
@@ -60,13 +61,13 @@ function NavigationMenu ({
   )
 }
 
-function NavigationLink ({ title, icon, slug, navOpen, updateNavOpen }) {
+function NavigationLink ({ title, subtitle, icon, slug, navOpen, updateNavOpen }) {
   return (
     <li key={slug}>
       <a href={`#${slug}`} onClick={(_ev) => {
         updateNavOpen(!navOpen);
       }}>
-        <i className={`fa fa-${icon} navigation-icon`}></i>{title}
+        <i className={`fa fa-${icon} navigation-icon`}></i>{title} <small>{subtitle}</small>
       </a>
     </li>
   )

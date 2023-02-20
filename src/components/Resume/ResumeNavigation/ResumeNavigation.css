@@ -79,7 +79,7 @@
   top: 10px;
   background-color: white;
   width: 90%;
-  max-width: 400px;
+  max-width: 450px;
   visibility: hidden;
   overflow: hidden;
 }
@@ -118,4 +118,9 @@
   -o-transition: transform 0.3s, visibility 0s 0s;
   transition: transform 0.3s, visibility 0s 0s;
   visibility: visible;
+}
+small {
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 0.8rem;
 }
