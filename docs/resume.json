@@ -447,11 +447,11 @@
     ],
     "volunteer": [
         {
-            "organization": "FIRST Robotics Competition Team 2992 (Mandeville HS Robotics Team)",
-            "position": "Mentor",
+            "organization": "FIRST Robotics Competition (Team 2992, Mandeville HS Robotics Team)",
+            "position": "Mentor & CSA",
             "url": "https://mandevillerobotics.org",
             "startDate": "2022-08-22",
-            "summary": "As a Volunteer Mentor for FRC Team 2992, I provide guidance and leadership to the Code/Programming group and the student Programming Lead. I mentor and teach students software development with Java to support their work building and programming complex industrial robots to compete in the [FIRST Robotics Competition](https://www.firstinspires.org/robotics/frc).",
+            "summary": "As a Volunteer Mentor for FRC Team 2992, I provide guidance and leadership to the Code/Programming group and the student Programming Lead. I mentor and teach students software development with Java and control systems principles and approaches to support their work building and programming complex industrial robots to compete in the [FIRST Robotics Competition](https://www.firstinspires.org/robotics/frc). In addition, as a competition volunteer, I serve as a Control Systems Advisor, supporting teams with code and controls issues during the competitions.",
             "highlights": [
                 "Teach students software development in Java using git and GitHub for code management and WPIlib to interface with the robot hardware",
                 "Support students in problem solving to program and debug robot code during the intense competition season, including during and inbetween competition match play, ensuring that problems impacting our ability to compete effectively are resolved quickly",
