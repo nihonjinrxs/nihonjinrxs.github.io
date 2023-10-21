@@ -477,7 +477,8 @@
             "position": "Co-Organizer & Chief Data Wrangler",
             "url": "http://codeforneworleans.org",
             "startDate": "2016-10-13",
-            "summary": "I help organize the New Orleans brigade of Code for America, where we try to create solutions to the problems we see in the city and make life better for New Orleanians.",
+            "endDate": "2023-06-30",
+            "summary": "I helped organize the New Orleans brigade of Code for America, where we try to create solutions to the problems we see in the city and make life better for New Orleanians. This only ended because Code for America disbanded the brigade program; however, the work continues by independent volunteers locally.",
             "highlights": [
                 "Organized a team [to assist](https://github.com/codefornola/211-data-wrangling) New Orleans area 2-1-1 services operator VIA LINK with [data dashboard delivery during COVID-19 pandemic](https://app.powerbi.com/view?r=eyJrIjoiZTQ0OGYwYTEtYWFmNS00YjM2LWI2NTQtZGE3Nzg4YmEzYmVjIiwidCI6IjNlNDEwNjM1LWI1MmMtNGE4Zi1hOTlmLTM5YTViOGVjNzc5YiJ9)",
                 "Led a project [delivering shelter and distribution point information services](https://www.hurricane-response.org/about/) during hurricane disaster response scenarios, including partnering with FEMA's Crowdsourcing Unit, American Red Cross, and others"
@@ -692,6 +693,7 @@
             "name": "Back-end Software Development",
             "level": "mastery",
             "keywords": [
+                "Elixir",
                 "TypeScript",
                 "JavaScript",
                 "Node.js",
@@ -714,14 +716,14 @@
                 "Databases",
                 "Data Integration",
                 "ETL",
-                "Rust",
-                "Elixir"
+                "Rust"
             ]
         },
         {
             "name": "Web Development",
             "level": "mastery",
             "keywords": [
+                "Phoenix LiveView",
                 "TypeScript",
                 "JavaScript",
                 "Express.js",
