@@ -116,7 +116,7 @@
         {
             "name": "MBTA (Technology Innovation Dept.)",
             "location": "Boston, MA / Remote",
-            "position": "Sr Software Engineer",
+            "position": "Sr Software Engineer (contract)",
             "url": "http://ctd.mbta.com",
             "startDate": "2023-06-26",
             "type": "primary",
@@ -124,8 +124,9 @@
             "summary": "I'm a Sr Software Engineer with the rider-focused team at the Massachusetts Bay Transportation Authority's Technology Innovation Department (formerly Customer Technology Dept.), a group working to ensure that riders of MBTA's transit options have the best possible experience getting where they need to go. In that role, I am working as a member of the Fares Technology team on Elixir/Phoenix-based apps and services that enable easier customer-side management and back-office distribution of fare products: CharlieCards, passes, and reduced fares programs.",
             "highlights": [
                 "Worked with our team using Elixir and Phoenix LiveView to bring a new rider-focused re-imagining of the MyCharlie CharlieCard management website to MVP launch on time",
-                "Built infrastructure, data migration, asynchronous task support and more to enable systems to support rider use and back-office processes effectively",
-                "Wrote Terraform and Github Actions scripting to setup new app repos for Elixir/Phoenix applications"
+                "Built features in Elixir and Phoenix LiveView to integrate with various backend services, including workflow, payment, SSO and other platforms",
+                "Designed, specified, and implemented role-based authorization and features for a backend adminstrative side of the MyCharlie Elixir/Phoenix LiveView application",
+                "Built infrastructure, data migration, asynchronous task support and more using Terraform, AWS, and Github Actions to enable systems to support rider use and back-office processes effectively"
             ]
         },
         {
@@ -138,9 +139,9 @@
             "schedule": "part-time",
             "summary": "As an Adjunct Instructor, I teach upper level undergraduate computer science courses. In my volunteer capacity, I assist the Department of Mathematics & Computer Sciences with computer science curriculum development, project ideas, community partnerships, and research.",
             "highlights": [
-                "Developed and taught [COSC A451 Software Engineering program capstone course](https://codeanddata.codes/loyno-faculty-site/teaching/cosc-a451/) in a service learning mode, engaging students with real-world projects for government and non-profit partners",
                 "Developed and taught [COSC A319 Internet Technologies elective course](https://codeanddata.codes/loyno-faculty-site/teaching/cosc-a319/) covering Internet fundamentals, network protocols, and Internet-based software development",
-                "Developed and taught [COSC A499 Open Source Software](https://codeanddata.codes/loyno-faculty-site/teaching/cosc-a499-oss/), a hands-on guided study course covering open source project structures, contribution approaches, roles and team structures, licenses, and communities"
+                "Developed and taught [COSC A499 Open Source Software](https://codeanddata.codes/loyno-faculty-site/teaching/cosc-a499-oss/), a hands-on guided study course covering open source project structures, contribution approaches, roles and team structures, licenses, and communities",
+                "Developed and taught [COSC A451 Software Engineering program capstone course](https://codeanddata.codes/loyno-faculty-site/teaching/cosc-a451/) in a service learning mode, engaging students with real-world projects for government and non-profit partners"
             ]
         },
         {
@@ -152,7 +153,7 @@
             "endDate": "2023-06-23",
             "type": "primary",
             "schedule": "full-time",
-            "summary": "I'm a Staff Software Engineer with the amazing team at Screencastify, a startup helping to make video-based instruction easy for teachers and school districts by providing a suite of tools for creation and editing of videos and assignment creation and tracking based on those videos. In that role, I do a variety of work to help the team operate effectively and the company be successful, including de-risking and prototyping new ideas and approaches, breaking down and planning engineering work, architecting large-scale changes to the code bases, identifying patterns and technologies that we can build on, coaching and mentoring colleagues, building software and supporting systems, and pairing and mobbing with fellow engineers to solve problems.",
+            "summary": "I was a Staff Software Engineer with the amazing team at Screencastify, a startup helping to make video-based instruction easy for teachers and school districts by providing a suite of tools for creation and editing of videos and assignment creation and tracking based on those videos. In that role, I did a variety of work to help the team operate effectively and the company be successful, including de-risking and prototyping new ideas and approaches, breaking down and planning engineering work, architecting large-scale changes to the code bases, identifying patterns and technologies that we can build on, coaching and mentoring colleagues, building software and supporting systems, and pairing and mobbing with fellow engineers to solve problems.",
             "highlights": [
                 "De-risked, identified, and scoped work for opportunities to maintain current revenue streams while building new products",
                 "Built features in our React/TypeScript browser-based video capture and editing application to support just-in-time video processing and manifest generation and async out-of-band video processing",
@@ -169,7 +170,7 @@
             "endDate": "2023-03-10",
             "type": "secondary",
             "schedule": "part-time",
-            "summary": "As part of the tech team at this small startup, I develop machine learning and data analysis algorithms for food and recipe science. I also wear any other hat needed, from server and database management to launch planning to business process and software architecture.",
+            "summary": "As part of the tech team at this small startup, I developed machine learning and data analysis algorithms for food and recipe science. I also wore any other hat needed, from server and database management to launch planning to business process and software architecture.",
             "highlights": [
                 "Built out AWS deployment infrastructure for application services",
                 "Developed and proved database schema supporting multiple applications and data analysis services",
