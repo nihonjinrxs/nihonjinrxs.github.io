@@ -88,6 +88,13 @@ a.social-link .print-only {
 .link-loyno:focus {
   color: #f4aa00;
 }
+.link-loynodir {
+  color: #660000;
+}
+.link-loynodir:hover,
+.link-loynodir:focus {
+  color: #f4aa00;
+}
 .link-pluralsight {
   color: #0052a3;
 }
@@ -187,11 +194,11 @@ a.social-link .print-only {
   color: #3b3b3b;
 }
 .link-spotify {
-  color: #acd200;
+  color: #1ed760;
 }
 .link-spotify:hover,
 .link-spotify:focus {
-  color: #829f00;
+  color: #0eff56;
 }
 .link-tumblr {
   color: #2d4661;
@@ -227,4 +234,11 @@ a.social-link .print-only {
 .link-bitbucket:hover,
 .link-bitbucket:focus {
   color: #163758;
+}
+.link-goodreads {
+  color: #372213
+}
+.link-goodreads:hover,
+.link-goodreads:focus {
+  color: #4f301a;
 }

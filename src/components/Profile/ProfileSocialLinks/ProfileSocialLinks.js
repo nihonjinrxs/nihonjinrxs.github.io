@@ -6,6 +6,7 @@ import './ProfileSocialLinks.css';
 
 const ICONS = {
   website: "globe",
+  loynodir: "chalkboard",
   loyno: "user-graduate",
   blog: "rss",
   github: "github",
@@ -20,7 +21,7 @@ const ICONS = {
   youtube: "youtube",
   soundcloud: "soundcloud",
   pinterest: "pinterest",
-  pluralsight: "globe",
+  pluralsight: "file-certificate",
   vimeo: "vimeo-square",
   behance: "behance",
   foursquare: "foursquare",
@@ -29,10 +30,12 @@ const ICONS = {
   tumblr: "tumblr-square",
   dribbble: "dribbble",
   angellist: "angellist",
-  bountysource: "globe"
+  bountysource: "globe",
+  goodreads: "books"
 };
 const STYLES = {
   website: "fad",
+  loynodir: "fad",
   loyno: "fad",
   blog: "fal",
   github: "fab",
@@ -56,7 +59,8 @@ const STYLES = {
   tumblr: "fab",
   dribbble: "fab",
   angellist: "fab",
-  bountysource: "fad"
+  bountysource: "fad",
+  goodreads: "fad"
 };
 
 export default function ProfileSocialLinks ({ profiles }) {

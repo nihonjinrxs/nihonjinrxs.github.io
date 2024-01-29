@@ -2,7 +2,7 @@
     "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
     "basics": {
         "name": "Ryan Bensussan Harvey",
-        "label": "Coder, Datahead, Educator, Wonk, Dad.\n\nOpen source contributor and maintainer.",
+        "label": "Coder, Datahead, Educator, Wonk, Dad.\n\nStaff+ Software Engineer.\n\nOpen source contributor and maintainer.",
         "image": "http://www.gravatar.com/avatar/fdca5fdaa9db660b42d4a49557f3dd94.png",
         "summary": "I'm a fun-loving geek who is driven to create useful things (mostly with code) almost as much as I am called to teach others how to do it themselves. I enjoy diving into data and have been known to get lost in SQL at times. I'm driven to solve tough problems, from distributed systems to machine learning to video engineering. I work hard to improve the lives of others in my free time and want to do so at work too. I read lots of books, but never seem to get through my reading list. I'm a happy husband and father of two.",
         "email": "ryan.b.harvey@gmail.com",
@@ -20,6 +20,11 @@
                 "for-print": true
             },
             {
+                "network": "loynodir",
+                "url": "https://www.loyno.edu/academics/faculty-and-staff-directory/mr-ryan-harvey",
+                "for-print": true
+            },
+            {
                 "network": "loyno",
                 "url": "https://codeanddata.codes/loyno-faculty-site",
                 "for-print": true
@@ -31,33 +36,9 @@
                 "for-print": true
             },
             {
-                "network": "github2",
-                "username": "ryanbharvey",
-                "url": "https://github.com/ryanbharvey",
-                "for-print": false
-            },
-            {
-                "network": "twitter",
-                "username": "CodeAndData",
-                "url": "https://twitter.com/CodeAndData",
-                "for-print": true
-            },
-            {
                 "network": "linkedin",
                 "username": "ryan.b.harvey",
                 "url": "https://www.linkedin.com/in/ryanbharvey",
-                "for-print": false
-            },
-            {
-                "network": "youtube",
-                "username": "nihonjinrxs",
-                "url": "https://www.youtube.com/user/nihonjinrxs",
-                "for-print": false
-            },
-            {
-                "network": "skype",
-                "username": "nihonjinrxs",
-                "url": "skype:nihonjinrxs",
                 "for-print": false
             },
             {
@@ -67,9 +48,9 @@
                 "for-print": false
             },
             {
-                "network": "codepen",
-                "username": "nihonjinrxs",
-                "url": "http://codepen.io/nihonjinrxs/",
+                "network": "github2",
+                "username": "ryanbharvey",
+                "url": "https://github.com/ryanbharvey",
                 "for-print": false
             },
             {
@@ -79,9 +60,21 @@
                 "for-print": false
             },
             {
-                "network": "bountysource",
-                "username": "31120-codeanddata",
-                "url": "https://www.bountysource.com/people/31120-codeanddata",
+                "network": "goodreads",
+                "username": "ryanbharvey",
+                "url": "https://www.goodreads.com/ryanbharvey",
+                "for-print": false
+            },
+            {
+                "network": "spotify",
+                "username": "nihonjinrxs",
+                "url": "https://open.spotify.com/user/nihonjinrxs",
+                "for-print": false
+            },
+            {
+                "network": "youtube",
+                "username": "nihonjinrxs",
+                "url": "https://www.youtube.com/user/nihonjinrxs",
                 "for-print": false
             }
         ],
