@@ -107,20 +107,15 @@
     },
     "work": [
         {
-            "name": "MBTA (Technology Innovation Dept.)",
-            "location": "Boston, MA / Remote",
-            "position": "Sr Software Engineer (contract)",
-            "url": "http://ctd.mbta.com",
-            "startDate": "2023-06-26",
+            "name": "FEMA (Digital Customer Experience/OCIO)",
+            "location": "Washington, DC / Remote Mandeville, LA",
+            "position": "IT Specialist (Application Software)",
+            "url": "https://fema.gov",
+            "startDate": "2024-08-26",
             "type": "primary",
             "schedule": "full-time",
-            "summary": "I'm a Sr Software Engineer with the rider-focused team at the Massachusetts Bay Transportation Authority's Technology Innovation Department (formerly Customer Technology Dept.), a group working to ensure that riders of MBTA's transit options have the best possible experience getting where they need to go. In that role, I am working as a member of the Fares Technology team on Elixir/Phoenix-based apps and services that enable easier customer-side management and back-office distribution of fare products: CharlieCards, passes, and reduced fares programs.",
-            "highlights": [
-                "Worked with our team using Elixir and Phoenix LiveView to bring a new rider-focused re-imagining of the MyCharlie CharlieCard management website to MVP launch on time",
-                "Built features in Elixir and Phoenix LiveView to integrate with various backend services, including workflow, payment, SSO and other platforms",
-                "Designed, specified, and implemented role-based authorization and features for a backend adminstrative side of the MyCharlie Elixir/Phoenix LiveView application",
-                "Built infrastructure, data migration, asynchronous task support and more using Terraform, AWS, and Github Actions to enable systems to support rider use and back-office processes effectively"
-            ]
+            "summary": "I've recently returned to federal public service and joined the Digital Customer Experience team in the Office of the CIO at the Federal Emergency Management Agency. In that role, I'll be applying my software engineering skills to help deliver better digital experiences to support citizens in their interactions with FEMA.",
+            "highlights": []
         },
         {
             "name": "Loyola University New Orleans",
@@ -135,6 +130,24 @@
                 "Developed and taught [COSC A319 Internet Technologies elective course](https://codeanddata.codes/loyno-faculty-site/teaching/cosc-a319/) covering Internet fundamentals, network protocols, and Internet-based software development",
                 "Developed and taught [COSC A499 Open Source Software](https://codeanddata.codes/loyno-faculty-site/teaching/cosc-a499-oss/), a hands-on guided study course covering open source project structures, contribution approaches, roles and team structures, licenses, and communities",
                 "Developed and taught [COSC A451 Software Engineering program capstone course](https://codeanddata.codes/loyno-faculty-site/teaching/cosc-a451/) in a service learning mode, engaging students with real-world projects for government and non-profit partners"
+            ]
+        },
+        {
+            "name": "MBTA (Technology Innovation Dept.)",
+            "location": "Boston, MA / Remote",
+            "position": "Sr Software Engineer (contract)",
+            "url": "http://ctd.mbta.com",
+            "startDate": "2023-06-26",
+            "endDate": "2024-08-23",
+            "type": "primary",
+            "schedule": "full-time",
+            "summary": "I was a Sr Software Engineer with the rider-focused team at the Massachusetts Bay Transportation Authority's Technology Innovation Department (formerly Customer Technology Dept.), a group working to ensure that riders of MBTA's transit options have the best possible experience getting where they need to go. In that role, I worked as a member of the Fares Technology team on Elixir/Phoenix-based apps and services that enable easier customer-side management and back-office distribution of fare products: CharlieCards, passes, and reduced fares programs.",
+            "highlights": [
+                "Worked with our team using Elixir and Phoenix LiveView to bring a new rider-focused re-imagining of the MyCharlie CharlieCard management website to MVP launch on time",
+                "Delivered an MVP launch of the new, vastly improved Income-Eligible Reduced Fares application to users on time",
+                "Built features in Elixir and Phoenix LiveView to integrate with various backend services, including workflow, payment, SSO and other platforms",
+                "Designed, specified, and implemented role-based authorization and features for a backend adminstrative side of the MyCharlie Elixir/Phoenix LiveView application",
+                "Built infrastructure, data migration, asynchronous task support and more using Terraform, AWS, and Github Actions to enable systems to support rider use and back-office processes effectively"
             ]
         },
         {
@@ -441,17 +454,18 @@
     ],
     "volunteer": [
         {
-            "organization": "FIRST Robotics Competition (Team 2992, Mandeville HS Robotics Team)",
+            "organization": "FIRST",
             "position": "Mentor & CSA",
             "url": "https://mandevillerobotics.org",
             "startDate": "2022-08-22",
-            "summary": "As a Volunteer Mentor for FRC Team 2992, I provide guidance and leadership to the Code/Programming group and the student Programming Lead. I mentor and teach students software development with Java and control systems principles and approaches to support their work building and programming complex industrial robots to compete in the [FIRST Robotics Competition](https://www.firstinspires.org/robotics/frc). In addition, as a competition volunteer, I serve as a Control Systems Advisor, supporting teams with code and controls issues during the competitions.",
+            "summary": "As a Volunteer Mentor, I provide guidance and leadership to the teams, the Code/Programming groups and the student Programming Leads for each team. I mentor and teach students software development with Java and control systems principles and approaches to support their work building and programming complex industrial robots to compete in the [FIRST Robotics Competition](https://www.firstinspires.org/robotics/frc) and [FIRST Tech Challenge](https://www.firstinspires.org/robotics/ftc) programs. In addition, as a competition volunteer, I serve as a Control Systems Advisor, supporting teams with code and controls issues during the competitions and as a Field Technical Advisor Assistant, supporting the Field Technical Advisor in keeping the competition running and getting teams connected to the field.",
             "highlights": [
-                "Teach students software development in Java using git and GitHub for code management and WPIlib to interface with the robot hardware",
+                "Teach high school [FRC Team 2992 (Mandeville HS)](http://mandevillerobotics.org) students software development in Java using git and GitHub for code management and [WPIlib](https://docs.wpilib.org/en/stable/) to interface with the robot hardware",
+                "Teach junior high FTC Team 25619 (Mandeville JHS) and FTC Team 22032 (Madisonville JHS) students software development in Java with [FTClib](https://docs.ftclib.org/ftclib) and robot wiring and control concepts",
                 "Support students in problem solving to program and debug robot code during the intense competition season, including during and inbetween competition match play, ensuring that problems impacting our ability to compete effectively are resolved quickly",
                 "Review code changes from students and provide feedback to ensure a working, readable, well-structured and well-organized code base, and help students to test and evaluate robot code both on the robot and otherwise",
                 "Support students in testing and evaluating new robot computing technologies and library upgrades with and without hardware in the loop",
-                "Support the team with other adjacent needs, including match scouting tools, web-based tools for team management, and more"
+                "Serve as a volunteer Control Systems Advisor and Field Technical Advisor Assistant at FRC competition events"
             ]
         },
         {
