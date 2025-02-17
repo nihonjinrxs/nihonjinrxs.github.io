@@ -462,18 +462,20 @@
     ],
     "volunteer": [
         {
-            "organization": "FIRST Robotics FRC Team 2992 & FTC Team 25619",
-            "position": "Mentor & Control Systems Advisor",
-            "url": "https://mandevillerobotics.org",
+            "organization": "FIRST Robotics, FRC Team 2992 & FTC Team 25619",
+            "position": "Mentor, CSA & FTAA",
+            "url": "https://www.firstinspires.org",
             "startDate": "2022-08-22",
-            "summary": "As a Volunteer Mentor for FRC Team 2992, I provide guidance and leadership to the Code/Programming group and the student Programming Lead as well as advise on control electronics and wiring from design through performance and maintenance. I mentor and teach students software development with Java, control systems principles and approaches, and hands-on wiring and troubleshooting techniques to support their work creating complex industrial robots to compete in the [FIRST Robotics Competition](https://www.firstinspires.org/robotics/frc) and [FIRST Tech Challenge](https://www.firstinspires.org/robotics/ftc). In addition, as a competition volunteer, I serve as a Control Systems Advisor, supporting teams with code and controls issues during the competitions.",
+            "summary": "As a Volunteer Mentor for [FRC Team 2992](https://mandevillerobotics.org) and [FTC Team 25619](https://novapyra.org), I provide guidance and leadership to the Code/Programming group and the student Programming Lead as well as advise on control electronics and wiring from design through performance and maintenance. I mentor and teach students software development with Java, control systems principles and approaches, and hands-on wiring and troubleshooting techniques to support their work creating complex industrial robots to compete in the [FIRST Robotics Competition](https://www.firstinspires.org/robotics/frc) and [FIRST Tech Challenge](https://www.firstinspires.org/robotics/ftc). In addition, as a competition volunteer, I serve as a Control Systems Advisor (CSA), supporting teams with code and controls issues during the competitions and as a Field Technical Advisor Assistant (FTAA), supporting the Field Technical Advisor in keeping the competition running and getting teams connected to the field.",
             "highlights": [
-                "Teach students software development in Java using git and GitHub for code management and WPIlib to interface with the robot hardware",
+                "Teach high school [FRC Team 2992 (Mandeville HS)](http://mandevillerobotics.org) students software development in Java using git and GitHub for code management and [WPIlib](https://docs.wpilib.org/en/stable/) to interface with the robot hardware",
+                "Teach junior high FTC Team 25619 (Mandeville JHS) and FTC Team 22032 (Madisonville JHS) students software development in Java with [FTClib](https://docs.ftclib.org/ftclib) and robot wiring and control concepts",
                 "Support students in problem solving to program and debug robot code during the intense competition season, including during and inbetween competition match play, ensuring that problems impacting our ability to compete effectively are resolved quickly",
                 "Review code changes from students and provide feedback to ensure a working, readable, well-structured and well-organized code base, and help students to test and evaluate robot code both on the robot and otherwise",
                 "Support students in testing and evaluating new robot computing technologies and library upgrades with and without hardware in the loop",
                 "Teach students motion and feedback control concepts and mathematics, as well as practical wiring and troubleshooting techniques",
-                "Support the team with other adjacent needs, including match scouting tools, web-based tools for team management, and more"
+                "Support the team with other adjacent needs, including match scouting tools, web-based tools for team management, and more",
+                "Serve as a volunteer Control Systems Advisor and Field Technical Advisor Assistant at FRC competition events"
             ]
         },
         {
