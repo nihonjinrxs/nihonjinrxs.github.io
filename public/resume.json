@@ -686,7 +686,8 @@
                 "Web Development",
                 "Software Development",
                 "Databases",
-                "CI/CD Automation"
+                "CI/CD Automation",
+                "Cloud Infrastructure"
             ]
         },
         {
@@ -706,10 +707,16 @@
                 "Software Design",
                 "Microservices",
                 "Web APIs",
+                "Amazon Web Services",
+                "Google Cloud Platform",
+                "Microsoft Azure",
                 "Audio/Video Encoding",
                 "C++",
                 "C",
                 "Java",
+                "Terraform",
+                "Kubernetes",
+                "Helm",
                 "Mac OS X",
                 "Linux",
                 "Windows",
@@ -736,7 +743,6 @@
                 "Web Design",
                 "Web Analytics",
                 "Web Content Management",
-                "Web 2.0",
                 "Web Accessibility"
             ]
         },
@@ -785,6 +791,24 @@
                 "Federal Records Management",
                 "Microsoft Office",
                 "Adobe Creative Suite"
+            ]
+        },
+        {
+            "name": "Robotics & Control Systems",
+            "level": "advanced",
+            "keywords": [
+                "Feedback Control Systems",
+                "Motion Control",
+                "Position Control",
+                "PID",
+                "PIDF",
+                "Mobile Robots",
+                "WPILib",
+                "NI RoboRIO",
+                "Wiring",
+                "Electronic Systems",
+                "CAN Bus",
+                "PWM Control"
             ]
         },
         {
