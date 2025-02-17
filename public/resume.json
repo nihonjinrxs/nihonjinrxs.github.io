@@ -42,6 +42,12 @@
                 "for-print": false
             },
             {
+                "network": "bluesky",
+                "username": "codeanddata.bsky.social",
+                "url": "https://bsky.app/profile/codeanddata.bsky.social",
+                "for-print": false
+            },
+            {
                 "network": "pluralsight",
                 "username": "ryanbharvey",
                 "url": "https://app.pluralsight.com/profile/ryanbharvey",
